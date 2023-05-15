@@ -64,14 +64,16 @@ Partial Class Formsplash
         '
         Me.RectangleShape2.BackColor = System.Drawing.Color.Green
         Me.RectangleShape2.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
+        Me.RectangleShape2.CornerRadius = 6
         Me.RectangleShape2.FillColor = System.Drawing.Color.White
+        Me.RectangleShape2.FillGradientColor = System.Drawing.SystemColors.Info
         Me.RectangleShape2.Location = New System.Drawing.Point(50, 340)
         Me.RectangleShape2.Name = "RectangleShape2"
-        Me.RectangleShape2.Size = New System.Drawing.Size(12, 14)
+        Me.RectangleShape2.Size = New System.Drawing.Size(12, 15)
         '
         'RectangleShape1
         '
-        Me.RectangleShape1.BorderWidth = 2
+        Me.RectangleShape1.CornerRadius = 7
         Me.RectangleShape1.Location = New System.Drawing.Point(50, 340)
         Me.RectangleShape1.Name = "RectangleShape1"
         Me.RectangleShape1.Size = New System.Drawing.Size(300, 15)
