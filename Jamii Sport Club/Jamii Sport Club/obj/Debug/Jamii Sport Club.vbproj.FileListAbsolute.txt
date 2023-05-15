@@ -1,0 +1,2 @@
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sport Club\bin\Debug\Jamii Sport Club.exe.config
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\bin\Debug\Jamii Sport Club.exe.config
