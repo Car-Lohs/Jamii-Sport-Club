@@ -23,25 +23,16 @@ Partial Class Formsplash
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.Lblwelcome = New System.Windows.Forms.Label()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.RectangleShape2 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.Lblloading = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Jamii_Sport_Club.My.Resources.Resources.Project_Logo
-        Me.PictureBox1.Location = New System.Drawing.Point(90, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(220, 229)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
         '
         'GunaElipse1
         '
@@ -69,20 +60,21 @@ Partial Class Formsplash
         Me.ShapeContainer1.TabIndex = 2
         Me.ShapeContainer1.TabStop = False
         '
+        'RectangleShape2
+        '
+        Me.RectangleShape2.BackColor = System.Drawing.Color.Green
+        Me.RectangleShape2.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
+        Me.RectangleShape2.FillColor = System.Drawing.Color.White
+        Me.RectangleShape2.Location = New System.Drawing.Point(50, 340)
+        Me.RectangleShape2.Name = "RectangleShape2"
+        Me.RectangleShape2.Size = New System.Drawing.Size(12, 14)
+        '
         'RectangleShape1
         '
         Me.RectangleShape1.BorderWidth = 2
         Me.RectangleShape1.Location = New System.Drawing.Point(50, 340)
         Me.RectangleShape1.Name = "RectangleShape1"
         Me.RectangleShape1.Size = New System.Drawing.Size(300, 15)
-        '
-        'RectangleShape2
-        '
-        Me.RectangleShape2.BorderWidth = 2
-        Me.RectangleShape2.FillColor = System.Drawing.Color.White
-        Me.RectangleShape2.Location = New System.Drawing.Point(54, 344)
-        Me.RectangleShape2.Name = "RectangleShape2"
-        Me.RectangleShape2.Size = New System.Drawing.Size(15, 7)
         '
         'Lblloading
         '
@@ -93,6 +85,20 @@ Partial Class Formsplash
         Me.Lblloading.Size = New System.Drawing.Size(61, 17)
         Me.Lblloading.TabIndex = 3
         Me.Lblloading.Text = "Loading.."
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Jamii_Sport_Club.My.Resources.Resources.Project_Logo
+        Me.PictureBox1.Location = New System.Drawing.Point(90, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(220, 229)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
         '
         'Formsplash
         '
@@ -120,5 +126,6 @@ Partial Class Formsplash
     Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
     Friend WithEvents RectangleShape2 As Microsoft.VisualBasic.PowerPacks.RectangleShape
     Friend WithEvents RectangleShape1 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 
 End Class
