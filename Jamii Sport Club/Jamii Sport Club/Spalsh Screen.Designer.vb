@@ -62,7 +62,7 @@ Partial Class Formsplash
         '
         'RectangleShape2
         '
-        Me.RectangleShape2.BackColor = System.Drawing.Color.Green
+        Me.RectangleShape2.BackColor = System.Drawing.Color.DodgerBlue
         Me.RectangleShape2.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
         Me.RectangleShape2.CornerRadius = 6
         Me.RectangleShape2.FillColor = System.Drawing.Color.White

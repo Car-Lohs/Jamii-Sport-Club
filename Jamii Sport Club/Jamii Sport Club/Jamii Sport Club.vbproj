@@ -148,6 +148,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo.ico" />
+    <None Include="Resources\icons8-report-100.png" />
+    <None Include="Resources\icons8-helping-hand-100.png" />
+    <None Include="Resources\icons8-wallet-100.png" />
+    <None Include="Resources\icons8-shop-60.png" />
+    <None Include="Resources\icons8-trophy-50.png" />
+    <None Include="Resources\icons8-group-50.png" />
     <None Include="Resources\Text Logo.png" />
     <None Include="Resources\LogoOnly.png" />
   </ItemGroup>
