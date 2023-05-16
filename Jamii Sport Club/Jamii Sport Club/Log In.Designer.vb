@@ -36,7 +36,7 @@ Partial Class FormLogIn
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(93, 116)
+        Me.Label1.Location = New System.Drawing.Point(93, 108)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(104, 28)
         Me.Label1.TabIndex = 0
@@ -46,7 +46,7 @@ Partial Class FormLogIn
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(100, 171)
+        Me.Label2.Location = New System.Drawing.Point(100, 163)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(97, 28)
         Me.Label2.TabIndex = 1
@@ -60,7 +60,7 @@ Partial Class FormLogIn
         Me.GunaTextBox1.BorderSize = 1
         Me.GunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.GunaTextBox1.FocusedBaseColor = System.Drawing.Color.White
-        Me.GunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaTextBox1.FocusedBorderColor = System.Drawing.Color.Black
         Me.GunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.GunaTextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.GunaTextBox1.Location = New System.Drawing.Point(203, 108)
@@ -70,7 +70,6 @@ Partial Class FormLogIn
         Me.GunaTextBox1.SelectedText = ""
         Me.GunaTextBox1.Size = New System.Drawing.Size(204, 36)
         Me.GunaTextBox1.TabIndex = 2
-        Me.GunaTextBox1.Text = "Enter Username"
         '
         'GunaTextBox2
         '
@@ -80,17 +79,16 @@ Partial Class FormLogIn
         Me.GunaTextBox2.BorderSize = 1
         Me.GunaTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.GunaTextBox2.FocusedBaseColor = System.Drawing.Color.White
-        Me.GunaTextBox2.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaTextBox2.FocusedBorderColor = System.Drawing.Color.Black
         Me.GunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.GunaTextBox2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.GunaTextBox2.Location = New System.Drawing.Point(203, 163)
         Me.GunaTextBox2.Name = "GunaTextBox2"
-        Me.GunaTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.GunaTextBox2.Radius = 10
         Me.GunaTextBox2.SelectedText = ""
         Me.GunaTextBox2.Size = New System.Drawing.Size(204, 36)
         Me.GunaTextBox2.TabIndex = 3
-        Me.GunaTextBox2.Text = "Enter Password"
         '
         'GunaAdvenceButton1
         '
