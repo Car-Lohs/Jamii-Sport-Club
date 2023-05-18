@@ -714,6 +714,7 @@ Partial Class Formhome
         Me.GunaButton15.Radius = 10
         Me.GunaButton15.Size = New System.Drawing.Size(165, 50)
         Me.GunaButton15.TabIndex = 21
+        Me.GunaButton15.Text = "Events"
         '
         'GunaButton14
         '
@@ -973,7 +974,7 @@ Partial Class Formhome
         Me.GunaButton7.Radius = 20
         Me.GunaButton7.Size = New System.Drawing.Size(152, 50)
         Me.GunaButton7.TabIndex = 6
-        Me.GunaButton7.Text = "Record Purchase"
+        Me.GunaButton7.Text = "Add Purchase"
         Me.GunaButton7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GunaGroupBox4
