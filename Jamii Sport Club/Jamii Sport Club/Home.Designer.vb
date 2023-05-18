@@ -55,17 +55,21 @@ Partial Class Formhome
         Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
         Me.GunaGroupBox1 = New Guna.UI.WinForms.GunaGroupBox()
         Me.GunaGroupBox2 = New Guna.UI.WinForms.GunaGroupBox()
+        Me.GunaButton15 = New Guna.UI.WinForms.GunaButton()
+        Me.GunaButton14 = New Guna.UI.WinForms.GunaButton()
+        Me.GunaButton13 = New Guna.UI.WinForms.GunaButton()
         Me.GunaLabel10 = New Guna.UI.WinForms.GunaLabel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.GunaGroupBox3 = New Guna.UI.WinForms.GunaGroupBox()
+        Me.GunaButton12 = New Guna.UI.WinForms.GunaButton()
+        Me.GunaButton11 = New Guna.UI.WinForms.GunaButton()
+        Me.GunaButton10 = New Guna.UI.WinForms.GunaButton()
+        Me.GunaButton9 = New Guna.UI.WinForms.GunaButton()
+        Me.GunaButton8 = New Guna.UI.WinForms.GunaButton()
+        Me.GunaButton7 = New Guna.UI.WinForms.GunaButton()
         Me.GunaGroupBox4 = New Guna.UI.WinForms.GunaGroupBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.GunaButton7 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton8 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton9 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton10 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton11 = New Guna.UI.WinForms.GunaButton()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GunaGroupBox1.SuspendLayout()
         Me.GunaGroupBox2.SuspendLayout()
@@ -78,7 +82,7 @@ Partial Class Formhome
         Me.Lbltextlogo.AutoSize = True
         Me.Lbltextlogo.BackColor = System.Drawing.Color.Transparent
         Me.Lbltextlogo.Font = New System.Drawing.Font("Germania One", 50.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbltextlogo.Location = New System.Drawing.Point(176, 9)
+        Me.Lbltextlogo.Location = New System.Drawing.Point(170, 9)
         Me.Lbltextlogo.Name = "Lbltextlogo"
         Me.Lbltextlogo.Size = New System.Drawing.Size(1019, 78)
         Me.Lbltextlogo.TabIndex = 1
@@ -430,7 +434,7 @@ Partial Class Formhome
         Me.btnexit.ForeColor = System.Drawing.Color.White
         Me.btnexit.Image = Nothing
         Me.btnexit.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnexit.Location = New System.Drawing.Point(25, 356)
+        Me.btnexit.Location = New System.Drawing.Point(23, 381)
         Me.btnexit.Name = "btnexit"
         Me.btnexit.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
         Me.btnexit.OnHoverBorderColor = System.Drawing.Color.Black
@@ -476,7 +480,7 @@ Partial Class Formhome
         Me.GunaButton6.ForeColor = System.Drawing.Color.White
         Me.GunaButton6.Image = Global.Jamii_Sport_Club.My.Resources.Resources.icons8_helping_hand_100
         Me.GunaButton6.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton6.Location = New System.Drawing.Point(762, 43)
+        Me.GunaButton6.Location = New System.Drawing.Point(725, 31)
         Me.GunaButton6.Name = "GunaButton6"
         Me.GunaButton6.OnHoverBaseColor = System.Drawing.Color.DodgerBlue
         Me.GunaButton6.OnHoverBorderColor = System.Drawing.Color.Black
@@ -484,7 +488,7 @@ Partial Class Formhome
         Me.GunaButton6.OnHoverImage = Nothing
         Me.GunaButton6.OnPressedColor = System.Drawing.Color.Black
         Me.GunaButton6.Radius = 10
-        Me.GunaButton6.Size = New System.Drawing.Size(180, 50)
+        Me.GunaButton6.Size = New System.Drawing.Size(165, 50)
         Me.GunaButton6.TabIndex = 22
         Me.GunaButton6.Text = "Facilitation Fee"
         '
@@ -502,7 +506,7 @@ Partial Class Formhome
         Me.GunaButton5.ForeColor = System.Drawing.Color.White
         Me.GunaButton5.Image = Global.Jamii_Sport_Club.My.Resources.Resources.icons8_wallet_100
         Me.GunaButton5.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton5.Location = New System.Drawing.Point(576, 43)
+        Me.GunaButton5.Location = New System.Drawing.Point(554, 31)
         Me.GunaButton5.Name = "GunaButton5"
         Me.GunaButton5.OnHoverBaseColor = System.Drawing.Color.DodgerBlue
         Me.GunaButton5.OnHoverBorderColor = System.Drawing.Color.Black
@@ -510,7 +514,7 @@ Partial Class Formhome
         Me.GunaButton5.OnHoverImage = Nothing
         Me.GunaButton5.OnPressedColor = System.Drawing.Color.Black
         Me.GunaButton5.Radius = 10
-        Me.GunaButton5.Size = New System.Drawing.Size(180, 50)
+        Me.GunaButton5.Size = New System.Drawing.Size(165, 50)
         Me.GunaButton5.TabIndex = 21
         Me.GunaButton5.Text = "Purchases"
         '
@@ -528,7 +532,7 @@ Partial Class Formhome
         Me.GunaButton4.ForeColor = System.Drawing.Color.White
         Me.GunaButton4.Image = Global.Jamii_Sport_Club.My.Resources.Resources.icons8_report_100
         Me.GunaButton4.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton4.Location = New System.Drawing.Point(948, 43)
+        Me.GunaButton4.Location = New System.Drawing.Point(133, 87)
         Me.GunaButton4.Name = "GunaButton4"
         Me.GunaButton4.OnHoverBaseColor = System.Drawing.Color.DodgerBlue
         Me.GunaButton4.OnHoverBorderColor = System.Drawing.Color.Black
@@ -536,7 +540,7 @@ Partial Class Formhome
         Me.GunaButton4.OnHoverImage = Nothing
         Me.GunaButton4.OnPressedColor = System.Drawing.Color.Black
         Me.GunaButton4.Radius = 10
-        Me.GunaButton4.Size = New System.Drawing.Size(180, 50)
+        Me.GunaButton4.Size = New System.Drawing.Size(165, 50)
         Me.GunaButton4.TabIndex = 20
         Me.GunaButton4.Text = "Reports"
         '
@@ -554,7 +558,7 @@ Partial Class Formhome
         Me.GunaButton3.ForeColor = System.Drawing.Color.White
         Me.GunaButton3.Image = Global.Jamii_Sport_Club.My.Resources.Resources.icons8_shop_60
         Me.GunaButton3.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton3.Location = New System.Drawing.Point(390, 43)
+        Me.GunaButton3.Location = New System.Drawing.Point(383, 31)
         Me.GunaButton3.Name = "GunaButton3"
         Me.GunaButton3.OnHoverBaseColor = System.Drawing.Color.DodgerBlue
         Me.GunaButton3.OnHoverBorderColor = System.Drawing.Color.Black
@@ -562,7 +566,7 @@ Partial Class Formhome
         Me.GunaButton3.OnHoverImage = Nothing
         Me.GunaButton3.OnPressedColor = System.Drawing.Color.Black
         Me.GunaButton3.Radius = 10
-        Me.GunaButton3.Size = New System.Drawing.Size(180, 50)
+        Me.GunaButton3.Size = New System.Drawing.Size(165, 50)
         Me.GunaButton3.TabIndex = 19
         Me.GunaButton3.Text = "Store Managment"
         '
@@ -580,7 +584,7 @@ Partial Class Formhome
         Me.GunaButton2.ForeColor = System.Drawing.Color.White
         Me.GunaButton2.Image = Global.Jamii_Sport_Club.My.Resources.Resources.icons8_trophy_50
         Me.GunaButton2.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton2.Location = New System.Drawing.Point(204, 43)
+        Me.GunaButton2.Location = New System.Drawing.Point(212, 31)
         Me.GunaButton2.Name = "GunaButton2"
         Me.GunaButton2.OnHoverBaseColor = System.Drawing.Color.DodgerBlue
         Me.GunaButton2.OnHoverBorderColor = System.Drawing.Color.Black
@@ -588,7 +592,7 @@ Partial Class Formhome
         Me.GunaButton2.OnHoverImage = Nothing
         Me.GunaButton2.OnPressedColor = System.Drawing.Color.Black
         Me.GunaButton2.Radius = 10
-        Me.GunaButton2.Size = New System.Drawing.Size(180, 50)
+        Me.GunaButton2.Size = New System.Drawing.Size(165, 50)
         Me.GunaButton2.TabIndex = 18
         Me.GunaButton2.Text = "Sports Details"
         '
@@ -606,7 +610,7 @@ Partial Class Formhome
         Me.GunaButton1.ForeColor = System.Drawing.Color.White
         Me.GunaButton1.Image = Global.Jamii_Sport_Club.My.Resources.Resources.icons8_group_50
         Me.GunaButton1.ImageSize = New System.Drawing.Size(30, 30)
-        Me.GunaButton1.Location = New System.Drawing.Point(18, 43)
+        Me.GunaButton1.Location = New System.Drawing.Point(41, 31)
         Me.GunaButton1.Name = "GunaButton1"
         Me.GunaButton1.OnHoverBaseColor = System.Drawing.Color.DodgerBlue
         Me.GunaButton1.OnHoverBorderColor = System.Drawing.Color.Black
@@ -614,13 +618,13 @@ Partial Class Formhome
         Me.GunaButton1.OnHoverImage = Nothing
         Me.GunaButton1.OnPressedColor = System.Drawing.Color.Black
         Me.GunaButton1.Radius = 10
-        Me.GunaButton1.Size = New System.Drawing.Size(180, 50)
+        Me.GunaButton1.Size = New System.Drawing.Size(165, 50)
         Me.GunaButton1.TabIndex = 17
         Me.GunaButton1.Text = "Manage Members"
         '
         'GunaGroupBox1
         '
-        Me.GunaGroupBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.GunaGroupBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GunaGroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GunaGroupBox1.BaseColor = System.Drawing.Color.Gray
         Me.GunaGroupBox1.BorderColor = System.Drawing.Color.Gainsboro
@@ -649,7 +653,7 @@ Partial Class Formhome
         Me.GunaGroupBox1.Font = New System.Drawing.Font("Segoe UI", 17.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaGroupBox1.LineColor = System.Drawing.Color.Silver
         Me.GunaGroupBox1.LineTop = 0
-        Me.GunaGroupBox1.Location = New System.Drawing.Point(45, 231)
+        Me.GunaGroupBox1.Location = New System.Drawing.Point(56, 270)
         Me.GunaGroupBox1.Name = "GunaGroupBox1"
         Me.GunaGroupBox1.Radius = 20
         Me.GunaGroupBox1.Size = New System.Drawing.Size(518, 446)
@@ -659,10 +663,16 @@ Partial Class Formhome
         '
         'GunaGroupBox2
         '
+        Me.GunaGroupBox2.AutoScroll = True
+        Me.GunaGroupBox2.AutoScrollMargin = New System.Drawing.Size(10, 10)
+        Me.GunaGroupBox2.AutoScrollMinSize = New System.Drawing.Size(10, 10)
         Me.GunaGroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.GunaGroupBox2.BaseColor = System.Drawing.Color.Gray
         Me.GunaGroupBox2.BorderColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox2.BorderSize = 1
+        Me.GunaGroupBox2.Controls.Add(Me.GunaButton15)
+        Me.GunaGroupBox2.Controls.Add(Me.GunaButton14)
+        Me.GunaGroupBox2.Controls.Add(Me.GunaButton13)
         Me.GunaGroupBox2.Controls.Add(Me.GunaButton1)
         Me.GunaGroupBox2.Controls.Add(Me.GunaButton2)
         Me.GunaGroupBox2.Controls.Add(Me.GunaButton3)
@@ -672,19 +682,96 @@ Partial Class Formhome
         Me.GunaGroupBox2.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaGroupBox2.LineColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox2.LineTop = 0
-        Me.GunaGroupBox2.Location = New System.Drawing.Point(66, 90)
+        Me.GunaGroupBox2.Location = New System.Drawing.Point(220, 90)
         Me.GunaGroupBox2.Name = "GunaGroupBox2"
         Me.GunaGroupBox2.Radius = 20
-        Me.GunaGroupBox2.Size = New System.Drawing.Size(1143, 108)
+        Me.GunaGroupBox2.Size = New System.Drawing.Size(930, 156)
         Me.GunaGroupBox2.TabIndex = 25
         Me.GunaGroupBox2.Text = "Menu"
-        Me.GunaGroupBox2.TextLocation = New System.Drawing.Point(10, 8)
+        Me.GunaGroupBox2.TextLocation = New System.Drawing.Point(30, 0)
+        '
+        'GunaButton15
+        '
+        Me.GunaButton15.AnimationHoverSpeed = 0.07!
+        Me.GunaButton15.AnimationSpeed = 0.03!
+        Me.GunaButton15.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton15.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton15.BorderColor = System.Drawing.Color.White
+        Me.GunaButton15.BorderSize = 1
+        Me.GunaButton15.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton15.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton15.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.GunaButton15.ForeColor = System.Drawing.Color.White
+        Me.GunaButton15.Image = Nothing
+        Me.GunaButton15.ImageSize = New System.Drawing.Size(30, 30)
+        Me.GunaButton15.Location = New System.Drawing.Point(646, 87)
+        Me.GunaButton15.Name = "GunaButton15"
+        Me.GunaButton15.OnHoverBaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton15.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton15.OnHoverForeColor = System.Drawing.Color.Black
+        Me.GunaButton15.OnHoverImage = Nothing
+        Me.GunaButton15.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton15.Radius = 10
+        Me.GunaButton15.Size = New System.Drawing.Size(165, 50)
+        Me.GunaButton15.TabIndex = 21
+        '
+        'GunaButton14
+        '
+        Me.GunaButton14.AnimationHoverSpeed = 0.07!
+        Me.GunaButton14.AnimationSpeed = 0.03!
+        Me.GunaButton14.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton14.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton14.BorderColor = System.Drawing.Color.White
+        Me.GunaButton14.BorderSize = 1
+        Me.GunaButton14.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton14.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton14.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.GunaButton14.ForeColor = System.Drawing.Color.White
+        Me.GunaButton14.Image = Nothing
+        Me.GunaButton14.ImageSize = New System.Drawing.Size(30, 30)
+        Me.GunaButton14.Location = New System.Drawing.Point(304, 87)
+        Me.GunaButton14.Name = "GunaButton14"
+        Me.GunaButton14.OnHoverBaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton14.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton14.OnHoverForeColor = System.Drawing.Color.Black
+        Me.GunaButton14.OnHoverImage = Nothing
+        Me.GunaButton14.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton14.Radius = 10
+        Me.GunaButton14.Size = New System.Drawing.Size(165, 50)
+        Me.GunaButton14.TabIndex = 32
+        Me.GunaButton14.Text = "Patrons"
+        '
+        'GunaButton13
+        '
+        Me.GunaButton13.AnimationHoverSpeed = 0.07!
+        Me.GunaButton13.AnimationSpeed = 0.03!
+        Me.GunaButton13.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton13.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton13.BorderColor = System.Drawing.Color.White
+        Me.GunaButton13.BorderSize = 1
+        Me.GunaButton13.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton13.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton13.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.GunaButton13.ForeColor = System.Drawing.Color.White
+        Me.GunaButton13.Image = Nothing
+        Me.GunaButton13.ImageSize = New System.Drawing.Size(30, 30)
+        Me.GunaButton13.Location = New System.Drawing.Point(475, 87)
+        Me.GunaButton13.Name = "GunaButton13"
+        Me.GunaButton13.OnHoverBaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton13.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton13.OnHoverForeColor = System.Drawing.Color.Black
+        Me.GunaButton13.OnHoverImage = Nothing
+        Me.GunaButton13.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton13.Radius = 10
+        Me.GunaButton13.Size = New System.Drawing.Size(165, 50)
+        Me.GunaButton13.TabIndex = 23
+        Me.GunaButton13.Text = "Surchages"
         '
         'GunaLabel10
         '
         Me.GunaLabel10.AutoSize = True
         Me.GunaLabel10.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.GunaLabel10.Location = New System.Drawing.Point(545, 722)
+        Me.GunaLabel10.Location = New System.Drawing.Point(580, 719)
         Me.GunaLabel10.Name = "GunaLabel10"
         Me.GunaLabel10.Size = New System.Drawing.Size(0, 15)
         Me.GunaLabel10.TabIndex = 26
@@ -693,7 +780,7 @@ Partial Class Formhome
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 683)
+        Me.Label1.Location = New System.Drawing.Point(12, 722)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(102, 19)
         Me.Label1.TabIndex = 27
@@ -704,10 +791,12 @@ Partial Class Formhome
         '
         'GunaGroupBox3
         '
+        Me.GunaGroupBox3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GunaGroupBox3.BackColor = System.Drawing.Color.Transparent
         Me.GunaGroupBox3.BaseColor = System.Drawing.Color.Gray
         Me.GunaGroupBox3.BorderColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox3.BorderSize = 2
+        Me.GunaGroupBox3.Controls.Add(Me.GunaButton12)
         Me.GunaGroupBox3.Controls.Add(Me.GunaButton11)
         Me.GunaGroupBox3.Controls.Add(Me.GunaButton10)
         Me.GunaGroupBox3.Controls.Add(Me.GunaButton9)
@@ -717,7 +806,7 @@ Partial Class Formhome
         Me.GunaGroupBox3.Font = New System.Drawing.Font("Segoe UI", 17.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaGroupBox3.LineColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox3.LineTop = 0
-        Me.GunaGroupBox3.Location = New System.Drawing.Point(1125, 232)
+        Me.GunaGroupBox3.Location = New System.Drawing.Point(1114, 270)
         Me.GunaGroupBox3.Name = "GunaGroupBox3"
         Me.GunaGroupBox3.Radius = 20
         Me.GunaGroupBox3.Size = New System.Drawing.Size(200, 446)
@@ -725,138 +814,32 @@ Partial Class Formhome
         Me.GunaGroupBox3.Text = "Quick Actions"
         Me.GunaGroupBox3.TextLocation = New System.Drawing.Point(10, 8)
         '
-        'GunaGroupBox4
+        'GunaButton12
         '
-        Me.GunaGroupBox4.BackColor = System.Drawing.Color.Transparent
-        Me.GunaGroupBox4.BaseColor = System.Drawing.Color.Gray
-        Me.GunaGroupBox4.BorderColor = System.Drawing.Color.Gainsboro
-        Me.GunaGroupBox4.BorderSize = 2
-        Me.GunaGroupBox4.LineColor = System.Drawing.Color.Gainsboro
-        Me.GunaGroupBox4.LineTop = 0
-        Me.GunaGroupBox4.Location = New System.Drawing.Point(585, 231)
-        Me.GunaGroupBox4.Name = "GunaGroupBox4"
-        Me.GunaGroupBox4.Radius = 20
-        Me.GunaGroupBox4.Size = New System.Drawing.Size(518, 446)
-        Me.GunaGroupBox4.TabIndex = 29
-        Me.GunaGroupBox4.TextLocation = New System.Drawing.Point(10, 8)
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Kalam", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(1269, 679)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(79, 27)
-        Me.Label2.TabIndex = 30
-        Me.Label2.Text = "by Carlos"
-        '
-        'GunaButton7
-        '
-        Me.GunaButton7.AnimationHoverSpeed = 0.07!
-        Me.GunaButton7.AnimationSpeed = 0.03!
-        Me.GunaButton7.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton7.BaseColor = System.Drawing.Color.DodgerBlue
-        Me.GunaButton7.BorderColor = System.Drawing.Color.White
-        Me.GunaButton7.BorderSize = 1
-        Me.GunaButton7.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton7.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton7.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.GunaButton7.ForeColor = System.Drawing.Color.White
-        Me.GunaButton7.Image = Nothing
-        Me.GunaButton7.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton7.Location = New System.Drawing.Point(25, 240)
-        Me.GunaButton7.Name = "GunaButton7"
-        Me.GunaButton7.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
-        Me.GunaButton7.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.GunaButton7.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton7.OnHoverImage = Nothing
-        Me.GunaButton7.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton7.Radius = 20
-        Me.GunaButton7.Size = New System.Drawing.Size(152, 50)
-        Me.GunaButton7.TabIndex = 6
-        Me.GunaButton7.Text = "Record Purchase"
-        Me.GunaButton7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'GunaButton8
-        '
-        Me.GunaButton8.AnimationHoverSpeed = 0.07!
-        Me.GunaButton8.AnimationSpeed = 0.03!
-        Me.GunaButton8.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton8.BaseColor = System.Drawing.Color.DodgerBlue
-        Me.GunaButton8.BorderColor = System.Drawing.Color.White
-        Me.GunaButton8.BorderSize = 1
-        Me.GunaButton8.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton8.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton8.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.GunaButton8.ForeColor = System.Drawing.Color.White
-        Me.GunaButton8.Image = Nothing
-        Me.GunaButton8.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton8.Location = New System.Drawing.Point(25, 182)
-        Me.GunaButton8.Name = "GunaButton8"
-        Me.GunaButton8.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
-        Me.GunaButton8.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.GunaButton8.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton8.OnHoverImage = Nothing
-        Me.GunaButton8.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton8.Radius = 20
-        Me.GunaButton8.Size = New System.Drawing.Size(152, 50)
-        Me.GunaButton8.TabIndex = 7
-        Me.GunaButton8.Text = "Record Game"
-        Me.GunaButton8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'GunaButton9
-        '
-        Me.GunaButton9.AnimationHoverSpeed = 0.07!
-        Me.GunaButton9.AnimationSpeed = 0.03!
-        Me.GunaButton9.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton9.BaseColor = System.Drawing.Color.DodgerBlue
-        Me.GunaButton9.BorderColor = System.Drawing.Color.White
-        Me.GunaButton9.BorderSize = 1
-        Me.GunaButton9.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton9.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton9.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.GunaButton9.ForeColor = System.Drawing.Color.White
-        Me.GunaButton9.Image = Nothing
-        Me.GunaButton9.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton9.Location = New System.Drawing.Point(25, 298)
-        Me.GunaButton9.Name = "GunaButton9"
-        Me.GunaButton9.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
-        Me.GunaButton9.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.GunaButton9.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton9.OnHoverImage = Nothing
-        Me.GunaButton9.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton9.Radius = 20
-        Me.GunaButton9.Size = New System.Drawing.Size(152, 50)
-        Me.GunaButton9.TabIndex = 8
-        Me.GunaButton9.Text = "Add Sport"
-        Me.GunaButton9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'GunaButton10
-        '
-        Me.GunaButton10.AnimationHoverSpeed = 0.07!
-        Me.GunaButton10.AnimationSpeed = 0.03!
-        Me.GunaButton10.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton10.BaseColor = System.Drawing.Color.DodgerBlue
-        Me.GunaButton10.BorderColor = System.Drawing.Color.White
-        Me.GunaButton10.BorderSize = 1
-        Me.GunaButton10.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton10.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton10.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.GunaButton10.ForeColor = System.Drawing.Color.White
-        Me.GunaButton10.Image = Nothing
-        Me.GunaButton10.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton10.Location = New System.Drawing.Point(25, 126)
-        Me.GunaButton10.Name = "GunaButton10"
-        Me.GunaButton10.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
-        Me.GunaButton10.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.GunaButton10.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton10.OnHoverImage = Nothing
-        Me.GunaButton10.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton10.Radius = 20
-        Me.GunaButton10.Size = New System.Drawing.Size(152, 50)
-        Me.GunaButton10.TabIndex = 9
-        Me.GunaButton10.Text = "Manage Patrons"
-        Me.GunaButton10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.GunaButton12.AnimationHoverSpeed = 0.07!
+        Me.GunaButton12.AnimationSpeed = 0.03!
+        Me.GunaButton12.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton12.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton12.BorderColor = System.Drawing.Color.White
+        Me.GunaButton12.BorderSize = 1
+        Me.GunaButton12.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton12.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton12.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.GunaButton12.ForeColor = System.Drawing.Color.White
+        Me.GunaButton12.Image = Nothing
+        Me.GunaButton12.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton12.Location = New System.Drawing.Point(23, 39)
+        Me.GunaButton12.Name = "GunaButton12"
+        Me.GunaButton12.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
+        Me.GunaButton12.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton12.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton12.OnHoverImage = Nothing
+        Me.GunaButton12.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton12.Radius = 20
+        Me.GunaButton12.Size = New System.Drawing.Size(152, 50)
+        Me.GunaButton12.TabIndex = 11
+        Me.GunaButton12.Text = "Add Member"
+        Me.GunaButton12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GunaButton11
         '
@@ -872,7 +855,7 @@ Partial Class Formhome
         Me.GunaButton11.ForeColor = System.Drawing.Color.White
         Me.GunaButton11.Image = Nothing
         Me.GunaButton11.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton11.Location = New System.Drawing.Point(25, 70)
+        Me.GunaButton11.Location = New System.Drawing.Point(23, 95)
         Me.GunaButton11.Name = "GunaButton11"
         Me.GunaButton11.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
         Me.GunaButton11.OnHoverBorderColor = System.Drawing.Color.Black
@@ -882,14 +865,148 @@ Partial Class Formhome
         Me.GunaButton11.Radius = 20
         Me.GunaButton11.Size = New System.Drawing.Size(152, 50)
         Me.GunaButton11.TabIndex = 10
-        Me.GunaButton11.Text = "Add Member"
+        Me.GunaButton11.Text = "Add Patron"
         Me.GunaButton11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GunaButton10
+        '
+        Me.GunaButton10.AnimationHoverSpeed = 0.07!
+        Me.GunaButton10.AnimationSpeed = 0.03!
+        Me.GunaButton10.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton10.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton10.BorderColor = System.Drawing.Color.White
+        Me.GunaButton10.BorderSize = 1
+        Me.GunaButton10.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton10.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton10.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.GunaButton10.ForeColor = System.Drawing.Color.White
+        Me.GunaButton10.Image = Nothing
+        Me.GunaButton10.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton10.Location = New System.Drawing.Point(23, 151)
+        Me.GunaButton10.Name = "GunaButton10"
+        Me.GunaButton10.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
+        Me.GunaButton10.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton10.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton10.OnHoverImage = Nothing
+        Me.GunaButton10.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton10.Radius = 20
+        Me.GunaButton10.Size = New System.Drawing.Size(152, 50)
+        Me.GunaButton10.TabIndex = 9
+        Me.GunaButton10.Text = "Add Event"
+        Me.GunaButton10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GunaButton9
+        '
+        Me.GunaButton9.AnimationHoverSpeed = 0.07!
+        Me.GunaButton9.AnimationSpeed = 0.03!
+        Me.GunaButton9.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton9.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton9.BorderColor = System.Drawing.Color.White
+        Me.GunaButton9.BorderSize = 1
+        Me.GunaButton9.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton9.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton9.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.GunaButton9.ForeColor = System.Drawing.Color.White
+        Me.GunaButton9.Image = Nothing
+        Me.GunaButton9.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton9.Location = New System.Drawing.Point(23, 323)
+        Me.GunaButton9.Name = "GunaButton9"
+        Me.GunaButton9.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
+        Me.GunaButton9.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton9.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton9.OnHoverImage = Nothing
+        Me.GunaButton9.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton9.Radius = 20
+        Me.GunaButton9.Size = New System.Drawing.Size(152, 50)
+        Me.GunaButton9.TabIndex = 8
+        Me.GunaButton9.Text = "Add Sport"
+        Me.GunaButton9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GunaButton8
+        '
+        Me.GunaButton8.AnimationHoverSpeed = 0.07!
+        Me.GunaButton8.AnimationSpeed = 0.03!
+        Me.GunaButton8.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton8.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton8.BorderColor = System.Drawing.Color.White
+        Me.GunaButton8.BorderSize = 1
+        Me.GunaButton8.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton8.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton8.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.GunaButton8.ForeColor = System.Drawing.Color.White
+        Me.GunaButton8.Image = Nothing
+        Me.GunaButton8.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton8.Location = New System.Drawing.Point(23, 207)
+        Me.GunaButton8.Name = "GunaButton8"
+        Me.GunaButton8.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
+        Me.GunaButton8.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton8.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton8.OnHoverImage = Nothing
+        Me.GunaButton8.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton8.Radius = 20
+        Me.GunaButton8.Size = New System.Drawing.Size(152, 50)
+        Me.GunaButton8.TabIndex = 7
+        Me.GunaButton8.Text = "Add Game"
+        Me.GunaButton8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GunaButton7
+        '
+        Me.GunaButton7.AnimationHoverSpeed = 0.07!
+        Me.GunaButton7.AnimationSpeed = 0.03!
+        Me.GunaButton7.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton7.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.GunaButton7.BorderColor = System.Drawing.Color.White
+        Me.GunaButton7.BorderSize = 1
+        Me.GunaButton7.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton7.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton7.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.GunaButton7.ForeColor = System.Drawing.Color.White
+        Me.GunaButton7.Image = Nothing
+        Me.GunaButton7.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton7.Location = New System.Drawing.Point(23, 265)
+        Me.GunaButton7.Name = "GunaButton7"
+        Me.GunaButton7.OnHoverBaseColor = System.Drawing.Color.RoyalBlue
+        Me.GunaButton7.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton7.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton7.OnHoverImage = Nothing
+        Me.GunaButton7.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton7.Radius = 20
+        Me.GunaButton7.Size = New System.Drawing.Size(152, 50)
+        Me.GunaButton7.TabIndex = 6
+        Me.GunaButton7.Text = "Record Purchase"
+        Me.GunaButton7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GunaGroupBox4
+        '
+        Me.GunaGroupBox4.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.GunaGroupBox4.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGroupBox4.BaseColor = System.Drawing.Color.Gray
+        Me.GunaGroupBox4.BorderColor = System.Drawing.Color.Gainsboro
+        Me.GunaGroupBox4.BorderSize = 2
+        Me.GunaGroupBox4.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaGroupBox4.LineTop = 0
+        Me.GunaGroupBox4.Location = New System.Drawing.Point(586, 270)
+        Me.GunaGroupBox4.Name = "GunaGroupBox4"
+        Me.GunaGroupBox4.Radius = 20
+        Me.GunaGroupBox4.Size = New System.Drawing.Size(518, 446)
+        Me.GunaGroupBox4.TabIndex = 29
+        Me.GunaGroupBox4.TextLocation = New System.Drawing.Point(10, 8)
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Kalam", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(1269, 718)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(79, 27)
+        Me.Label2.TabIndex = 30
+        Me.Label2.Text = "by Carlos"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(624, 683)
+        Me.Label3.Location = New System.Drawing.Point(668, 722)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(123, 19)
         Me.Label3.TabIndex = 31
@@ -969,4 +1086,8 @@ Partial Class Formhome
     Friend WithEvents GunaButton11 As Guna.UI.WinForms.GunaButton
     Friend WithEvents GunaButton10 As Guna.UI.WinForms.GunaButton
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents GunaButton12 As Guna.UI.WinForms.GunaButton
+    Friend WithEvents GunaButton14 As Guna.UI.WinForms.GunaButton
+    Friend WithEvents GunaButton13 As Guna.UI.WinForms.GunaButton
+    Friend WithEvents GunaButton15 As Guna.UI.WinForms.GunaButton
 End Class

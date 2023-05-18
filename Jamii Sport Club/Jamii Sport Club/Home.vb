@@ -44,4 +44,12 @@
     Private Sub GunaButton8_Click(sender As Object, e As EventArgs) Handles GunaButton8.Click
 
     End Sub
+
+    Private Sub GunaButton3_Click(sender As Object, e As EventArgs) Handles GunaButton3.Click
+
+    End Sub
+
+    Private Sub GunaGroupBox4_Click(sender As Object, e As EventArgs) Handles GunaGroupBox4.Click
+
+    End Sub
 End Class
