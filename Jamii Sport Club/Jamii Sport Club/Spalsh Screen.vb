@@ -10,7 +10,7 @@
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         RectangleShape2.Width += 5
-        If RectangleShape2.Width >= 301 Then
+        If RectangleShape2.Width >= 220 Then
             FormLogIn.Show()
             Me.Close()
 

@@ -23,107 +23,111 @@ Partial Class FormLogIn
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.GunaTextBox1 = New Guna.UI.WinForms.GunaTextBox()
-        Me.GunaTextBox2 = New Guna.UI.WinForms.GunaTextBox()
-        Me.GunaAdvenceButton1 = New Guna.UI.WinForms.GunaAdvenceButton()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormLogIn))
+        Me.Lblusername = New System.Windows.Forms.Label()
+        Me.Lblpassword = New System.Windows.Forms.Label()
+        Me.Txtusername = New Guna.UI.WinForms.GunaTextBox()
+        Me.Txtpassword = New Guna.UI.WinForms.GunaTextBox()
+        Me.Btnlogin = New Guna.UI.WinForms.GunaAdvenceButton()
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.Lbllogin = New Guna.UI.WinForms.GunaLabel()
+        Me.Btncancel = New Guna.UI.WinForms.GunaAdvenceButton()
         Me.SuspendLayout()
         '
-        'Label1
+        'Lblusername
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(93, 108)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(104, 28)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Username"
+        Me.Lblusername.AutoSize = True
+        Me.Lblusername.BackColor = System.Drawing.Color.Transparent
+        Me.Lblusername.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblusername.Location = New System.Drawing.Point(50, 86)
+        Me.Lblusername.Name = "Lblusername"
+        Me.Lblusername.Size = New System.Drawing.Size(104, 28)
+        Me.Lblusername.TabIndex = 0
+        Me.Lblusername.Text = "Username"
         '
-        'Label2
+        'Lblpassword
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(100, 163)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(97, 28)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Password"
+        Me.Lblpassword.AutoSize = True
+        Me.Lblpassword.BackColor = System.Drawing.Color.Transparent
+        Me.Lblpassword.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblpassword.Location = New System.Drawing.Point(57, 141)
+        Me.Lblpassword.Name = "Lblpassword"
+        Me.Lblpassword.Size = New System.Drawing.Size(97, 28)
+        Me.Lblpassword.TabIndex = 1
+        Me.Lblpassword.Text = "Password"
         '
-        'GunaTextBox1
+        'Txtusername
         '
-        Me.GunaTextBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaTextBox1.BaseColor = System.Drawing.Color.White
-        Me.GunaTextBox1.BorderColor = System.Drawing.Color.Black
-        Me.GunaTextBox1.BorderSize = 1
-        Me.GunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.GunaTextBox1.FocusedBaseColor = System.Drawing.Color.White
-        Me.GunaTextBox1.FocusedBorderColor = System.Drawing.Color.Black
-        Me.GunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.GunaTextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.GunaTextBox1.Location = New System.Drawing.Point(203, 108)
-        Me.GunaTextBox1.Name = "GunaTextBox1"
-        Me.GunaTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.GunaTextBox1.Radius = 10
-        Me.GunaTextBox1.SelectedText = ""
-        Me.GunaTextBox1.Size = New System.Drawing.Size(204, 36)
-        Me.GunaTextBox1.TabIndex = 2
+        Me.Txtusername.BackColor = System.Drawing.Color.Transparent
+        Me.Txtusername.BaseColor = System.Drawing.Color.White
+        Me.Txtusername.BorderColor = System.Drawing.Color.Black
+        Me.Txtusername.BorderSize = 1
+        Me.Txtusername.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Txtusername.FocusedBaseColor = System.Drawing.Color.White
+        Me.Txtusername.FocusedBorderColor = System.Drawing.Color.Black
+        Me.Txtusername.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.Txtusername.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.Txtusername.Location = New System.Drawing.Point(160, 86)
+        Me.Txtusername.Name = "Txtusername"
+        Me.Txtusername.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Txtusername.Radius = 10
+        Me.Txtusername.SelectedText = ""
+        Me.Txtusername.Size = New System.Drawing.Size(204, 37)
+        Me.Txtusername.TabIndex = 2
         '
-        'GunaTextBox2
+        'Txtpassword
         '
-        Me.GunaTextBox2.BackColor = System.Drawing.Color.Transparent
-        Me.GunaTextBox2.BaseColor = System.Drawing.Color.White
-        Me.GunaTextBox2.BorderColor = System.Drawing.Color.Black
-        Me.GunaTextBox2.BorderSize = 1
-        Me.GunaTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.GunaTextBox2.FocusedBaseColor = System.Drawing.Color.White
-        Me.GunaTextBox2.FocusedBorderColor = System.Drawing.Color.Black
-        Me.GunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.GunaTextBox2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.GunaTextBox2.Location = New System.Drawing.Point(203, 163)
-        Me.GunaTextBox2.Name = "GunaTextBox2"
-        Me.GunaTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.GunaTextBox2.Radius = 10
-        Me.GunaTextBox2.SelectedText = ""
-        Me.GunaTextBox2.Size = New System.Drawing.Size(204, 36)
-        Me.GunaTextBox2.TabIndex = 3
+        Me.Txtpassword.BackColor = System.Drawing.Color.Transparent
+        Me.Txtpassword.BaseColor = System.Drawing.Color.White
+        Me.Txtpassword.BorderColor = System.Drawing.Color.Black
+        Me.Txtpassword.BorderSize = 1
+        Me.Txtpassword.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Txtpassword.FocusedBaseColor = System.Drawing.Color.White
+        Me.Txtpassword.FocusedBorderColor = System.Drawing.Color.Black
+        Me.Txtpassword.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.Txtpassword.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.Txtpassword.Location = New System.Drawing.Point(160, 141)
+        Me.Txtpassword.Name = "Txtpassword"
+        Me.Txtpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.Txtpassword.Radius = 10
+        Me.Txtpassword.SelectedText = ""
+        Me.Txtpassword.Size = New System.Drawing.Size(204, 36)
+        Me.Txtpassword.TabIndex = 3
         '
-        'GunaAdvenceButton1
+        'Btnlogin
         '
-        Me.GunaAdvenceButton1.AnimationHoverSpeed = 0.07!
-        Me.GunaAdvenceButton1.AnimationSpeed = 0.03!
-        Me.GunaAdvenceButton1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaAdvenceButton1.BaseColor = System.Drawing.Color.DodgerBlue
-        Me.GunaAdvenceButton1.BorderColor = System.Drawing.Color.Black
-        Me.GunaAdvenceButton1.BorderSize = 1
-        Me.GunaAdvenceButton1.CheckedBaseColor = System.Drawing.Color.DodgerBlue
-        Me.GunaAdvenceButton1.CheckedBorderColor = System.Drawing.Color.Black
-        Me.GunaAdvenceButton1.CheckedForeColor = System.Drawing.Color.White
-        Me.GunaAdvenceButton1.CheckedImage = Nothing
-        Me.GunaAdvenceButton1.CheckedLineColor = System.Drawing.Color.DimGray
-        Me.GunaAdvenceButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaAdvenceButton1.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaAdvenceButton1.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaAdvenceButton1.Font = New System.Drawing.Font("Segoe UI", 10.0!)
-        Me.GunaAdvenceButton1.ForeColor = System.Drawing.Color.Black
-        Me.GunaAdvenceButton1.Image = Nothing
-        Me.GunaAdvenceButton1.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaAdvenceButton1.LineColor = System.Drawing.Color.Transparent
-        Me.GunaAdvenceButton1.Location = New System.Drawing.Point(203, 218)
-        Me.GunaAdvenceButton1.Name = "GunaAdvenceButton1"
-        Me.GunaAdvenceButton1.OnHoverBaseColor = System.Drawing.Color.Silver
-        Me.GunaAdvenceButton1.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
-        Me.GunaAdvenceButton1.OnHoverForeColor = System.Drawing.Color.Black
-        Me.GunaAdvenceButton1.OnHoverImage = Nothing
-        Me.GunaAdvenceButton1.OnHoverLineColor = System.Drawing.Color.Transparent
-        Me.GunaAdvenceButton1.OnPressedColor = System.Drawing.Color.Transparent
-        Me.GunaAdvenceButton1.Radius = 18
-        Me.GunaAdvenceButton1.Size = New System.Drawing.Size(75, 40)
-        Me.GunaAdvenceButton1.TabIndex = 4
-        Me.GunaAdvenceButton1.Text = "Log In"
-        Me.GunaAdvenceButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Btnlogin.AnimationHoverSpeed = 0.07!
+        Me.Btnlogin.AnimationSpeed = 0.03!
+        Me.Btnlogin.BackColor = System.Drawing.Color.Transparent
+        Me.Btnlogin.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.Btnlogin.BorderColor = System.Drawing.Color.Black
+        Me.Btnlogin.BorderSize = 1
+        Me.Btnlogin.CheckedBaseColor = System.Drawing.Color.DodgerBlue
+        Me.Btnlogin.CheckedBorderColor = System.Drawing.Color.Black
+        Me.Btnlogin.CheckedForeColor = System.Drawing.Color.White
+        Me.Btnlogin.CheckedImage = Nothing
+        Me.Btnlogin.CheckedLineColor = System.Drawing.Color.DimGray
+        Me.Btnlogin.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Btnlogin.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.Btnlogin.FocusedColor = System.Drawing.Color.Empty
+        Me.Btnlogin.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Btnlogin.ForeColor = System.Drawing.Color.Black
+        Me.Btnlogin.Image = Nothing
+        Me.Btnlogin.ImageSize = New System.Drawing.Size(20, 20)
+        Me.Btnlogin.LineColor = System.Drawing.Color.Transparent
+        Me.Btnlogin.Location = New System.Drawing.Point(160, 196)
+        Me.Btnlogin.Name = "Btnlogin"
+        Me.Btnlogin.OnHoverBaseColor = System.Drawing.Color.Silver
+        Me.Btnlogin.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
+        Me.Btnlogin.OnHoverForeColor = System.Drawing.Color.Black
+        Me.Btnlogin.OnHoverImage = Nothing
+        Me.Btnlogin.OnHoverLineColor = System.Drawing.Color.Transparent
+        Me.Btnlogin.OnPressedColor = System.Drawing.Color.Transparent
+        Me.Btnlogin.Radius = 18
+        Me.Btnlogin.Size = New System.Drawing.Size(75, 40)
+        Me.Btnlogin.TabIndex = 4
+        Me.Btnlogin.Text = "Log In"
+        Me.Btnlogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GunaElipse1
         '
@@ -133,26 +137,66 @@ Partial Class FormLogIn
         'Lbllogin
         '
         Me.Lbllogin.AutoSize = True
+        Me.Lbllogin.BackColor = System.Drawing.Color.Transparent
         Me.Lbllogin.Font = New System.Drawing.Font("Segoe UI Semibold", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbllogin.Location = New System.Drawing.Point(196, 42)
+        Me.Lbllogin.Location = New System.Drawing.Point(161, 20)
         Me.Lbllogin.Name = "Lbllogin"
         Me.Lbllogin.Size = New System.Drawing.Size(93, 37)
         Me.Lbllogin.TabIndex = 5
         Me.Lbllogin.Text = "Log In"
+        '
+        'Btncancel
+        '
+        Me.Btncancel.AnimationHoverSpeed = 0.07!
+        Me.Btncancel.AnimationSpeed = 0.03!
+        Me.Btncancel.BackColor = System.Drawing.Color.Transparent
+        Me.Btncancel.BaseColor = System.Drawing.Color.Red
+        Me.Btncancel.BorderColor = System.Drawing.Color.Black
+        Me.Btncancel.BorderSize = 1
+        Me.Btncancel.CheckedBaseColor = System.Drawing.Color.DodgerBlue
+        Me.Btncancel.CheckedBorderColor = System.Drawing.Color.Black
+        Me.Btncancel.CheckedForeColor = System.Drawing.Color.White
+        Me.Btncancel.CheckedImage = Nothing
+        Me.Btncancel.CheckedLineColor = System.Drawing.Color.DimGray
+        Me.Btncancel.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Btncancel.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.Btncancel.FocusedColor = System.Drawing.Color.Empty
+        Me.Btncancel.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Btncancel.ForeColor = System.Drawing.Color.Black
+        Me.Btncancel.Image = Nothing
+        Me.Btncancel.ImageSize = New System.Drawing.Size(20, 20)
+        Me.Btncancel.LineColor = System.Drawing.Color.Transparent
+        Me.Btncancel.Location = New System.Drawing.Point(252, 196)
+        Me.Btncancel.Name = "Btncancel"
+        Me.Btncancel.OnHoverBaseColor = System.Drawing.Color.Silver
+        Me.Btncancel.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
+        Me.Btncancel.OnHoverForeColor = System.Drawing.Color.Black
+        Me.Btncancel.OnHoverImage = Nothing
+        Me.Btncancel.OnHoverLineColor = System.Drawing.Color.Transparent
+        Me.Btncancel.OnPressedColor = System.Drawing.Color.Transparent
+        Me.Btncancel.Radius = 18
+        Me.Btncancel.Size = New System.Drawing.Size(75, 40)
+        Me.Btncancel.TabIndex = 6
+        Me.Btncancel.Text = "Cancel"
+        Me.Btncancel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'FormLogIn
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.ClientSize = New System.Drawing.Size(500, 300)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.ClientSize = New System.Drawing.Size(415, 263)
+        Me.Controls.Add(Me.Btncancel)
         Me.Controls.Add(Me.Lbllogin)
-        Me.Controls.Add(Me.GunaAdvenceButton1)
-        Me.Controls.Add(Me.GunaTextBox2)
-        Me.Controls.Add(Me.GunaTextBox1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Btnlogin)
+        Me.Controls.Add(Me.Txtpassword)
+        Me.Controls.Add(Me.Txtusername)
+        Me.Controls.Add(Me.Lblpassword)
+        Me.Controls.Add(Me.Lblusername)
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FormLogIn"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Log In"
@@ -160,11 +204,12 @@ Partial Class FormLogIn
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents GunaTextBox1 As Guna.UI.WinForms.GunaTextBox
-    Friend WithEvents GunaTextBox2 As Guna.UI.WinForms.GunaTextBox
-    Friend WithEvents GunaAdvenceButton1 As Guna.UI.WinForms.GunaAdvenceButton
+    Friend WithEvents Lblusername As System.Windows.Forms.Label
+    Friend WithEvents Lblpassword As System.Windows.Forms.Label
+    Friend WithEvents Txtusername As Guna.UI.WinForms.GunaTextBox
+    Friend WithEvents Txtpassword As Guna.UI.WinForms.GunaTextBox
+    Friend WithEvents Btnlogin As Guna.UI.WinForms.GunaAdvenceButton
     Friend WithEvents GunaElipse1 As Guna.UI.WinForms.GunaElipse
     Friend WithEvents Lbllogin As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents Btncancel As Guna.UI.WinForms.GunaAdvenceButton
 End Class

@@ -23,6 +23,7 @@ Partial Class Formsplash
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Formsplash))
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.Lblwelcome = New System.Windows.Forms.Label()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
@@ -36,7 +37,7 @@ Partial Class Formsplash
         '
         'GunaElipse1
         '
-        Me.GunaElipse1.Radius = 30
+        Me.GunaElipse1.Radius = 190
         Me.GunaElipse1.TargetControl = Me
         '
         'Lblwelcome
@@ -64,25 +65,25 @@ Partial Class Formsplash
         '
         Me.RectangleShape2.BackColor = System.Drawing.Color.DodgerBlue
         Me.RectangleShape2.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
-        Me.RectangleShape2.CornerRadius = 6
+        Me.RectangleShape2.CornerRadius = 2
         Me.RectangleShape2.FillColor = System.Drawing.Color.White
         Me.RectangleShape2.FillGradientColor = System.Drawing.SystemColors.Info
-        Me.RectangleShape2.Location = New System.Drawing.Point(50, 340)
+        Me.RectangleShape2.Location = New System.Drawing.Point(90, 309)
         Me.RectangleShape2.Name = "RectangleShape2"
-        Me.RectangleShape2.Size = New System.Drawing.Size(12, 15)
+        Me.RectangleShape2.Size = New System.Drawing.Size(4, 9)
         '
         'RectangleShape1
         '
-        Me.RectangleShape1.CornerRadius = 7
-        Me.RectangleShape1.Location = New System.Drawing.Point(50, 340)
+        Me.RectangleShape1.CornerRadius = 4
+        Me.RectangleShape1.Location = New System.Drawing.Point(90, 309)
         Me.RectangleShape1.Name = "RectangleShape1"
-        Me.RectangleShape1.Size = New System.Drawing.Size(300, 15)
+        Me.RectangleShape1.Size = New System.Drawing.Size(220, 9)
         '
         'Lblloading
         '
         Me.Lblloading.AutoSize = True
         Me.Lblloading.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblloading.Location = New System.Drawing.Point(170, 358)
+        Me.Lblloading.Location = New System.Drawing.Point(170, 320)
         Me.Lblloading.Name = "Lblloading"
         Me.Lblloading.Size = New System.Drawing.Size(61, 17)
         Me.Lblloading.TabIndex = 3
@@ -113,6 +114,7 @@ Partial Class Formsplash
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ShapeContainer1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Formsplash"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Splash Form"
