@@ -49,7 +49,11 @@
 
     End Sub
 
-    Private Sub GunaGroupBox4_Click(sender As Object, e As EventArgs) Handles GunaGroupBox4.Click
+    Private Sub GunaGroupBox4_Click(sender As Object, e As EventArgs)
 
+    End Sub
+
+    Private Sub GunaButton12_Click(sender As Object, e As EventArgs) Handles GunaButton12.Click
+        Formaddmember.Show()
     End Sub
 End Class

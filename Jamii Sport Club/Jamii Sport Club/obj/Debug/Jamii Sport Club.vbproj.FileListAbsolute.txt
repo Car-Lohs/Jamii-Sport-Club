@@ -12,3 +12,4 @@ C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii Sport Club.pdb
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.FormLogIn.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formhome.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formaddmember.resources

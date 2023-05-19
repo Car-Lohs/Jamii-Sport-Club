@@ -78,6 +78,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add Member.Designer.vb">
+      <DependentUpon>Add Member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Member.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Home.Designer.vb">
       <DependentUpon>Home.vb</DependentUpon>
@@ -115,6 +121,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Add Member.resx">
+      <DependentUpon>Add Member.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +157,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo.ico" />
+    <None Include="Resources\icons8-event-96.png" />
+    <None Include="Resources\icons8-warning-100.png" />
+    <None Include="Resources\icons8-leader-96.png" />
     <None Include="Resources\icons8-report-100.png" />
     <None Include="Resources\icons8-helping-hand-100.png" />
     <None Include="Resources\icons8-wallet-100.png" />
