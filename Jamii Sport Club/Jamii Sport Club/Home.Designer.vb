@@ -81,6 +81,7 @@ Partial Class Formhome
         Me.Lbltextlogo.AutoSize = True
         Me.Lbltextlogo.BackColor = System.Drawing.Color.Transparent
         Me.Lbltextlogo.Font = New System.Drawing.Font("Germania One", 50.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lbltextlogo.ForeColor = System.Drawing.Color.White
         Me.Lbltextlogo.Location = New System.Drawing.Point(170, 9)
         Me.Lbltextlogo.Name = "Lbltextlogo"
         Me.Lbltextlogo.Size = New System.Drawing.Size(1019, 78)
@@ -469,7 +470,7 @@ Partial Class Formhome
         '
         Me.GunaGroupBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GunaGroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaGroupBox1.BaseColor = System.Drawing.Color.Gray
+        Me.GunaGroupBox1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.GunaGroupBox1.BorderColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox1.BorderSize = 2
         Me.GunaGroupBox1.Controls.Add(Me.GunaTextBox9)
@@ -509,7 +510,7 @@ Partial Class Formhome
         Me.Grpmenu.AutoScrollMargin = New System.Drawing.Size(10, 10)
         Me.Grpmenu.AutoScrollMinSize = New System.Drawing.Size(10, 10)
         Me.Grpmenu.BackColor = System.Drawing.Color.Transparent
-        Me.Grpmenu.BaseColor = System.Drawing.Color.Gray
+        Me.Grpmenu.BaseColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Grpmenu.BorderColor = System.Drawing.Color.Gainsboro
         Me.Grpmenu.BorderSize = 1
         Me.Grpmenu.Controls.Add(Me.Btnevents)
@@ -779,6 +780,7 @@ Partial Class Formhome
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(12, 722)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(102, 19)
@@ -792,7 +794,7 @@ Partial Class Formhome
         '
         Me.GunaGroupBox3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GunaGroupBox3.BackColor = System.Drawing.Color.Transparent
-        Me.GunaGroupBox3.BaseColor = System.Drawing.Color.Gray
+        Me.GunaGroupBox3.BaseColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.GunaGroupBox3.BorderColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox3.BorderSize = 2
         Me.GunaGroupBox3.Controls.Add(Me.GunaButton9)
@@ -979,6 +981,7 @@ Partial Class Formhome
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Kalam", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(1269, 718)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(79, 27)
@@ -988,7 +991,9 @@ Partial Class Formhome
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(668, 722)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(123, 19)
@@ -1000,7 +1005,7 @@ Partial Class Formhome
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.AutoSize = True
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1370, 749)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
