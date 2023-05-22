@@ -120,10 +120,10 @@ Partial Class Formhome
         'Lblclubincome
         '
         Me.Lblclubincome.AutoSize = True
-        Me.Lblclubincome.BackColor = System.Drawing.Color.Gray
+        Me.Lblclubincome.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Lblclubincome.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Lblclubincome.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblclubincome.ForeColor = System.Drawing.Color.Black
+        Me.Lblclubincome.ForeColor = System.Drawing.Color.White
         Me.Lblclubincome.Location = New System.Drawing.Point(170, 389)
         Me.Lblclubincome.Name = "Lblclubincome"
         Me.Lblclubincome.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -154,10 +154,10 @@ Partial Class Formhome
         'Lblpatronscommission
         '
         Me.Lblpatronscommission.AutoSize = True
-        Me.Lblpatronscommission.BackColor = System.Drawing.Color.Gray
+        Me.Lblpatronscommission.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Lblpatronscommission.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Lblpatronscommission.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblpatronscommission.ForeColor = System.Drawing.Color.Black
+        Me.Lblpatronscommission.ForeColor = System.Drawing.Color.White
         Me.Lblpatronscommission.Location = New System.Drawing.Point(154, 352)
         Me.Lblpatronscommission.Name = "Lblpatronscommission"
         Me.Lblpatronscommission.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -264,10 +264,10 @@ Partial Class Formhome
         'lbltotalsurchargefee
         '
         Me.lbltotalsurchargefee.AutoSize = True
-        Me.lbltotalsurchargefee.BackColor = System.Drawing.Color.Gray
+        Me.lbltotalsurchargefee.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.lbltotalsurchargefee.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.lbltotalsurchargefee.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbltotalsurchargefee.ForeColor = System.Drawing.Color.Black
+        Me.lbltotalsurchargefee.ForeColor = System.Drawing.Color.White
         Me.lbltotalsurchargefee.Location = New System.Drawing.Point(5, 241)
         Me.lbltotalsurchargefee.Margin = New System.Windows.Forms.Padding(0)
         Me.lbltotalsurchargefee.Name = "lbltotalsurchargefee"
@@ -299,10 +299,10 @@ Partial Class Formhome
         'Lbltotalitemsbought
         '
         Me.Lbltotalitemsbought.AutoSize = True
-        Me.Lbltotalitemsbought.BackColor = System.Drawing.Color.Gray
+        Me.Lbltotalitemsbought.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Lbltotalitemsbought.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Lbltotalitemsbought.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbltotalitemsbought.ForeColor = System.Drawing.Color.Black
+        Me.Lbltotalitemsbought.ForeColor = System.Drawing.Color.White
         Me.Lbltotalitemsbought.Location = New System.Drawing.Point(167, 204)
         Me.Lbltotalitemsbought.Name = "Lbltotalitemsbought"
         Me.Lbltotalitemsbought.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -314,10 +314,10 @@ Partial Class Formhome
         'Lblfacilitationfee
         '
         Me.Lblfacilitationfee.AutoSize = True
-        Me.Lblfacilitationfee.BackColor = System.Drawing.Color.Gray
+        Me.Lblfacilitationfee.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Lblfacilitationfee.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Lblfacilitationfee.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblfacilitationfee.ForeColor = System.Drawing.Color.Black
+        Me.Lblfacilitationfee.ForeColor = System.Drawing.Color.White
         Me.Lblfacilitationfee.Location = New System.Drawing.Point(200, 315)
         Me.Lblfacilitationfee.Name = "Lblfacilitationfee"
         Me.Lblfacilitationfee.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -329,10 +329,10 @@ Partial Class Formhome
         'Lbldiscountedprices
         '
         Me.Lbldiscountedprices.AutoSize = True
-        Me.Lbldiscountedprices.BackColor = System.Drawing.Color.Gray
+        Me.Lbldiscountedprices.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Lbldiscountedprices.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Lbldiscountedprices.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbldiscountedprices.ForeColor = System.Drawing.Color.Black
+        Me.Lbldiscountedprices.ForeColor = System.Drawing.Color.White
         Me.Lbldiscountedprices.Location = New System.Drawing.Point(175, 130)
         Me.Lbldiscountedprices.Name = "Lbldiscountedprices"
         Me.Lbldiscountedprices.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -344,10 +344,10 @@ Partial Class Formhome
         'Lblsurchageitems
         '
         Me.Lblsurchageitems.AutoSize = True
-        Me.Lblsurchageitems.BackColor = System.Drawing.Color.Gray
+        Me.Lblsurchageitems.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Lblsurchageitems.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Lblsurchageitems.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblsurchageitems.ForeColor = System.Drawing.Color.Black
+        Me.Lblsurchageitems.ForeColor = System.Drawing.Color.White
         Me.Lblsurchageitems.Location = New System.Drawing.Point(118, 278)
         Me.Lblsurchageitems.Name = "Lblsurchageitems"
         Me.Lblsurchageitems.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -378,10 +378,10 @@ Partial Class Formhome
         'Lbltotalamountofitemsbought
         '
         Me.Lbltotalamountofitemsbought.AutoSize = True
-        Me.Lbltotalamountofitemsbought.BackColor = System.Drawing.Color.Gray
+        Me.Lbltotalamountofitemsbought.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Lbltotalamountofitemsbought.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Lbltotalamountofitemsbought.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbltotalamountofitemsbought.ForeColor = System.Drawing.Color.Black
+        Me.Lbltotalamountofitemsbought.ForeColor = System.Drawing.Color.White
         Me.Lbltotalamountofitemsbought.Location = New System.Drawing.Point(72, 168)
         Me.Lbltotalamountofitemsbought.Name = "Lbltotalamountofitemsbought"
         Me.Lbltotalamountofitemsbought.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -393,10 +393,10 @@ Partial Class Formhome
         'Lbltotalmembershipfee
         '
         Me.Lbltotalmembershipfee.AutoSize = True
-        Me.Lbltotalmembershipfee.BackColor = System.Drawing.Color.Gray
+        Me.Lbltotalmembershipfee.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Lbltotalmembershipfee.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Lbltotalmembershipfee.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbltotalmembershipfee.ForeColor = System.Drawing.Color.Black
+        Me.Lbltotalmembershipfee.ForeColor = System.Drawing.Color.White
         Me.Lbltotalmembershipfee.Location = New System.Drawing.Point(156, 60)
         Me.Lbltotalmembershipfee.Name = "Lbltotalmembershipfee"
         Me.Lbltotalmembershipfee.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -408,10 +408,10 @@ Partial Class Formhome
         'Lbltotalmembers
         '
         Me.Lbltotalmembers.AutoSize = True
-        Me.Lbltotalmembers.BackColor = System.Drawing.Color.Gray
+        Me.Lbltotalmembers.BackColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.Lbltotalmembers.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Lbltotalmembers.Font = New System.Drawing.Font("Segoe UI Semibold", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbltotalmembers.ForeColor = System.Drawing.Color.Black
+        Me.Lbltotalmembers.ForeColor = System.Drawing.Color.White
         Me.Lbltotalmembers.Location = New System.Drawing.Point(191, 91)
         Me.Lbltotalmembers.Name = "Lbltotalmembers"
         Me.Lbltotalmembers.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -523,6 +523,7 @@ Partial Class Formhome
         Me.Grpmenu.Controls.Add(Me.Btnfacilitationfee)
         Me.Grpmenu.Controls.Add(Me.Btnpurchases)
         Me.Grpmenu.Font = New System.Drawing.Font("Segoe UI Semibold", 17.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Grpmenu.ForeColor = System.Drawing.Color.White
         Me.Grpmenu.LineColor = System.Drawing.Color.Gainsboro
         Me.Grpmenu.LineTop = 0
         Me.Grpmenu.Location = New System.Drawing.Point(220, 90)
@@ -805,6 +806,7 @@ Partial Class Formhome
         Me.GunaGroupBox3.Controls.Add(Me.GunaButton7)
         Me.GunaGroupBox3.Controls.Add(Me.btnexit)
         Me.GunaGroupBox3.Font = New System.Drawing.Font("Segoe UI", 17.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGroupBox3.ForeColor = System.Drawing.Color.White
         Me.GunaGroupBox3.LineColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox3.LineTop = 0
         Me.GunaGroupBox3.Location = New System.Drawing.Point(1137, 269)
