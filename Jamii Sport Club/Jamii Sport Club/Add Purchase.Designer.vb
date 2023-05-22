@@ -383,6 +383,7 @@ Partial Class Formaddpurchase
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Formaddpurchase"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Add Purchase"
         Me.GunaGroupBox2.ResumeLayout(False)
         Me.GunaGroupBox2.PerformLayout()

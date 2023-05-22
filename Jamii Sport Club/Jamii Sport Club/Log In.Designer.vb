@@ -32,16 +32,20 @@ Partial Class FormLogIn
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.Lbllogin = New Guna.UI.WinForms.GunaLabel()
         Me.Btncancel = New Guna.UI.WinForms.GunaAdvenceButton()
+        Me.GunaTransfarantPictureBox1 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
+        Me.GunaGroupBox1 = New Guna.UI.WinForms.GunaGroupBox()
+        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GunaGroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Lblusername
         '
         Me.Lblusername.AutoSize = True
         Me.Lblusername.BackColor = System.Drawing.Color.Transparent
-        Me.Lblusername.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblusername.Location = New System.Drawing.Point(50, 86)
+        Me.Lblusername.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblusername.Location = New System.Drawing.Point(29, 214)
         Me.Lblusername.Name = "Lblusername"
-        Me.Lblusername.Size = New System.Drawing.Size(104, 28)
+        Me.Lblusername.Size = New System.Drawing.Size(99, 28)
         Me.Lblusername.TabIndex = 0
         Me.Lblusername.Text = "Username"
         '
@@ -49,10 +53,10 @@ Partial Class FormLogIn
         '
         Me.Lblpassword.AutoSize = True
         Me.Lblpassword.BackColor = System.Drawing.Color.Transparent
-        Me.Lblpassword.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblpassword.Location = New System.Drawing.Point(57, 141)
+        Me.Lblpassword.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblpassword.Location = New System.Drawing.Point(35, 269)
         Me.Lblpassword.Name = "Lblpassword"
-        Me.Lblpassword.Size = New System.Drawing.Size(97, 28)
+        Me.Lblpassword.Size = New System.Drawing.Size(93, 28)
         Me.Lblpassword.TabIndex = 1
         Me.Lblpassword.Text = "Password"
         '
@@ -61,38 +65,38 @@ Partial Class FormLogIn
         Me.Txtusername.BackColor = System.Drawing.Color.Transparent
         Me.Txtusername.BaseColor = System.Drawing.Color.White
         Me.Txtusername.BorderColor = System.Drawing.Color.Black
-        Me.Txtusername.BorderSize = 1
+        Me.Txtusername.BorderSize = 0
         Me.Txtusername.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Txtusername.FocusedBaseColor = System.Drawing.Color.White
         Me.Txtusername.FocusedBorderColor = System.Drawing.Color.Black
         Me.Txtusername.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.Txtusername.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.Txtusername.Location = New System.Drawing.Point(160, 86)
+        Me.Txtusername.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Txtusername.Location = New System.Drawing.Point(139, 214)
         Me.Txtusername.Name = "Txtusername"
         Me.Txtusername.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Txtusername.Radius = 10
         Me.Txtusername.SelectedText = ""
         Me.Txtusername.Size = New System.Drawing.Size(204, 37)
         Me.Txtusername.TabIndex = 2
+        Me.Txtusername.Text = "username"
         '
         'Txtpassword
         '
         Me.Txtpassword.BackColor = System.Drawing.Color.Transparent
         Me.Txtpassword.BaseColor = System.Drawing.Color.White
         Me.Txtpassword.BorderColor = System.Drawing.Color.Black
-        Me.Txtpassword.BorderSize = 1
+        Me.Txtpassword.BorderSize = 0
         Me.Txtpassword.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.Txtpassword.FocusedBaseColor = System.Drawing.Color.White
         Me.Txtpassword.FocusedBorderColor = System.Drawing.Color.Black
         Me.Txtpassword.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.Txtpassword.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.Txtpassword.Location = New System.Drawing.Point(160, 141)
+        Me.Txtpassword.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Txtpassword.Location = New System.Drawing.Point(139, 269)
         Me.Txtpassword.Name = "Txtpassword"
         Me.Txtpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.Txtpassword.Radius = 10
         Me.Txtpassword.SelectedText = ""
         Me.Txtpassword.Size = New System.Drawing.Size(204, 36)
         Me.Txtpassword.TabIndex = 3
+        Me.Txtpassword.Text = "password"
         '
         'Btnlogin
         '
@@ -101,7 +105,6 @@ Partial Class FormLogIn
         Me.Btnlogin.BackColor = System.Drawing.Color.Transparent
         Me.Btnlogin.BaseColor = System.Drawing.Color.DodgerBlue
         Me.Btnlogin.BorderColor = System.Drawing.Color.Black
-        Me.Btnlogin.BorderSize = 1
         Me.Btnlogin.CheckedBaseColor = System.Drawing.Color.DodgerBlue
         Me.Btnlogin.CheckedBorderColor = System.Drawing.Color.Black
         Me.Btnlogin.CheckedForeColor = System.Drawing.Color.White
@@ -110,12 +113,12 @@ Partial Class FormLogIn
         Me.Btnlogin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btnlogin.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Btnlogin.FocusedColor = System.Drawing.Color.Empty
-        Me.Btnlogin.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Btnlogin.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
         Me.Btnlogin.ForeColor = System.Drawing.Color.Black
         Me.Btnlogin.Image = Nothing
         Me.Btnlogin.ImageSize = New System.Drawing.Size(20, 20)
         Me.Btnlogin.LineColor = System.Drawing.Color.Transparent
-        Me.Btnlogin.Location = New System.Drawing.Point(160, 196)
+        Me.Btnlogin.Location = New System.Drawing.Point(147, 323)
         Me.Btnlogin.Name = "Btnlogin"
         Me.Btnlogin.OnHoverBaseColor = System.Drawing.Color.Silver
         Me.Btnlogin.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
@@ -123,7 +126,6 @@ Partial Class FormLogIn
         Me.Btnlogin.OnHoverImage = Nothing
         Me.Btnlogin.OnHoverLineColor = System.Drawing.Color.Transparent
         Me.Btnlogin.OnPressedColor = System.Drawing.Color.Transparent
-        Me.Btnlogin.Radius = 18
         Me.Btnlogin.Size = New System.Drawing.Size(75, 40)
         Me.Btnlogin.TabIndex = 4
         Me.Btnlogin.Text = "Log In"
@@ -139,7 +141,7 @@ Partial Class FormLogIn
         Me.Lbllogin.AutoSize = True
         Me.Lbllogin.BackColor = System.Drawing.Color.Transparent
         Me.Lbllogin.Font = New System.Drawing.Font("Segoe UI Semibold", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbllogin.Location = New System.Drawing.Point(161, 20)
+        Me.Lbllogin.Location = New System.Drawing.Point(140, 148)
         Me.Lbllogin.Name = "Lbllogin"
         Me.Lbllogin.Size = New System.Drawing.Size(93, 37)
         Me.Lbllogin.TabIndex = 5
@@ -152,7 +154,6 @@ Partial Class FormLogIn
         Me.Btncancel.BackColor = System.Drawing.Color.Transparent
         Me.Btncancel.BaseColor = System.Drawing.Color.Red
         Me.Btncancel.BorderColor = System.Drawing.Color.Black
-        Me.Btncancel.BorderSize = 1
         Me.Btncancel.CheckedBaseColor = System.Drawing.Color.DodgerBlue
         Me.Btncancel.CheckedBorderColor = System.Drawing.Color.Black
         Me.Btncancel.CheckedForeColor = System.Drawing.Color.White
@@ -161,12 +162,12 @@ Partial Class FormLogIn
         Me.Btncancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btncancel.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Btncancel.FocusedColor = System.Drawing.Color.Empty
-        Me.Btncancel.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Btncancel.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
         Me.Btncancel.ForeColor = System.Drawing.Color.Black
         Me.Btncancel.Image = Nothing
         Me.Btncancel.ImageSize = New System.Drawing.Size(20, 20)
         Me.Btncancel.LineColor = System.Drawing.Color.Transparent
-        Me.Btncancel.Location = New System.Drawing.Point(252, 196)
+        Me.Btncancel.Location = New System.Drawing.Point(253, 323)
         Me.Btncancel.Name = "Btncancel"
         Me.Btncancel.OnHoverBaseColor = System.Drawing.Color.Silver
         Me.Btncancel.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
@@ -174,11 +175,42 @@ Partial Class FormLogIn
         Me.Btncancel.OnHoverImage = Nothing
         Me.Btncancel.OnHoverLineColor = System.Drawing.Color.Transparent
         Me.Btncancel.OnPressedColor = System.Drawing.Color.Transparent
-        Me.Btncancel.Radius = 18
         Me.Btncancel.Size = New System.Drawing.Size(75, 40)
         Me.Btncancel.TabIndex = 6
         Me.Btncancel.Text = "Cancel"
         Me.Btncancel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GunaTransfarantPictureBox1
+        '
+        Me.GunaTransfarantPictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black
+        Me.GunaTransfarantPictureBox1.Image = Global.Jamii_Sport_Club.My.Resources.Resources.Asset_1
+        Me.GunaTransfarantPictureBox1.Location = New System.Drawing.Point(-13, -14)
+        Me.GunaTransfarantPictureBox1.Name = "GunaTransfarantPictureBox1"
+        Me.GunaTransfarantPictureBox1.Size = New System.Drawing.Size(537, 576)
+        Me.GunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.GunaTransfarantPictureBox1.TabIndex = 8
+        Me.GunaTransfarantPictureBox1.TabStop = False
+        '
+        'GunaGroupBox1
+        '
+        Me.GunaGroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGroupBox1.BaseColor = System.Drawing.Color.Gray
+        Me.GunaGroupBox1.BorderColor = System.Drawing.Color.Gainsboro
+        Me.GunaGroupBox1.Controls.Add(Me.Btncancel)
+        Me.GunaGroupBox1.Controls.Add(Me.Lblusername)
+        Me.GunaGroupBox1.Controls.Add(Me.Lbllogin)
+        Me.GunaGroupBox1.Controls.Add(Me.Lblpassword)
+        Me.GunaGroupBox1.Controls.Add(Me.Btnlogin)
+        Me.GunaGroupBox1.Controls.Add(Me.Txtusername)
+        Me.GunaGroupBox1.Controls.Add(Me.Txtpassword)
+        Me.GunaGroupBox1.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaGroupBox1.LineTop = 0
+        Me.GunaGroupBox1.Location = New System.Drawing.Point(494, -1)
+        Me.GunaGroupBox1.Name = "GunaGroupBox1"
+        Me.GunaGroupBox1.Size = New System.Drawing.Size(373, 513)
+        Me.GunaGroupBox1.TabIndex = 7
+        Me.GunaGroupBox1.TextLocation = New System.Drawing.Point(10, 8)
         '
         'FormLogIn
         '
@@ -186,22 +218,19 @@ Partial Class FormLogIn
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.WindowFrame
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(415, 263)
-        Me.Controls.Add(Me.Btncancel)
-        Me.Controls.Add(Me.Lbllogin)
-        Me.Controls.Add(Me.Btnlogin)
-        Me.Controls.Add(Me.Txtpassword)
-        Me.Controls.Add(Me.Txtusername)
-        Me.Controls.Add(Me.Lblpassword)
-        Me.Controls.Add(Me.Lblusername)
+        Me.ClientSize = New System.Drawing.Size(865, 511)
+        Me.Controls.Add(Me.GunaTransfarantPictureBox1)
+        Me.Controls.Add(Me.GunaGroupBox1)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FormLogIn"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Log In"
+        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GunaGroupBox1.ResumeLayout(False)
+        Me.GunaGroupBox1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Lblusername As System.Windows.Forms.Label
@@ -212,4 +241,6 @@ Partial Class FormLogIn
     Friend WithEvents GunaElipse1 As Guna.UI.WinForms.GunaElipse
     Friend WithEvents Lbllogin As Guna.UI.WinForms.GunaLabel
     Friend WithEvents Btncancel As Guna.UI.WinForms.GunaAdvenceButton
+    Friend WithEvents GunaTransfarantPictureBox1 As Guna.UI.WinForms.GunaTransfarantPictureBox
+    Friend WithEvents GunaGroupBox1 As Guna.UI.WinForms.GunaGroupBox
 End Class

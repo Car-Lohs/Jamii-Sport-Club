@@ -37,14 +37,14 @@ Partial Class Formsplash
         '
         'GunaElipse1
         '
-        Me.GunaElipse1.Radius = 190
+        Me.GunaElipse1.Radius = 40
         Me.GunaElipse1.TargetControl = Me
         '
         'Lblwelcome
         '
         Me.Lblwelcome.AutoSize = True
         Me.Lblwelcome.Font = New System.Drawing.Font("Segoe UI Semibold", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblwelcome.Location = New System.Drawing.Point(135, 265)
+        Me.Lblwelcome.Location = New System.Drawing.Point(160, 308)
         Me.Lblwelcome.Name = "Lblwelcome"
         Me.Lblwelcome.Size = New System.Drawing.Size(130, 37)
         Me.Lblwelcome.TabIndex = 1
@@ -57,7 +57,7 @@ Partial Class Formsplash
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape2, Me.RectangleShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(400, 400)
+        Me.ShapeContainer1.Size = New System.Drawing.Size(451, 462)
         Me.ShapeContainer1.TabIndex = 2
         Me.ShapeContainer1.TabStop = False
         '
@@ -68,14 +68,14 @@ Partial Class Formsplash
         Me.RectangleShape2.CornerRadius = 2
         Me.RectangleShape2.FillColor = System.Drawing.Color.White
         Me.RectangleShape2.FillGradientColor = System.Drawing.SystemColors.Info
-        Me.RectangleShape2.Location = New System.Drawing.Point(90, 309)
+        Me.RectangleShape2.Location = New System.Drawing.Point(116, 355)
         Me.RectangleShape2.Name = "RectangleShape2"
         Me.RectangleShape2.Size = New System.Drawing.Size(4, 9)
         '
         'RectangleShape1
         '
         Me.RectangleShape1.CornerRadius = 4
-        Me.RectangleShape1.Location = New System.Drawing.Point(90, 309)
+        Me.RectangleShape1.Location = New System.Drawing.Point(116, 355)
         Me.RectangleShape1.Name = "RectangleShape1"
         Me.RectangleShape1.Size = New System.Drawing.Size(220, 9)
         '
@@ -83,7 +83,7 @@ Partial Class Formsplash
         '
         Me.Lblloading.AutoSize = True
         Me.Lblloading.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblloading.Location = New System.Drawing.Point(170, 320)
+        Me.Lblloading.Location = New System.Drawing.Point(195, 378)
         Me.Lblloading.Name = "Lblloading"
         Me.Lblloading.Size = New System.Drawing.Size(61, 17)
         Me.Lblloading.TabIndex = 3
@@ -92,9 +92,9 @@ Partial Class Formsplash
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Jamii_Sport_Club.My.Resources.Resources.Project_Logo
-        Me.PictureBox1.Location = New System.Drawing.Point(90, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(100, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(220, 229)
+        Me.PictureBox1.Size = New System.Drawing.Size(250, 271)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -108,7 +108,7 @@ Partial Class Formsplash
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.ClientSize = New System.Drawing.Size(400, 400)
+        Me.ClientSize = New System.Drawing.Size(451, 462)
         Me.Controls.Add(Me.Lblloading)
         Me.Controls.Add(Me.Lblwelcome)
         Me.Controls.Add(Me.PictureBox1)

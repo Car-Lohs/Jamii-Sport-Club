@@ -998,7 +998,6 @@ Partial Class Formhome
         'Formhome
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.AutoScroll = True
         Me.AutoSize = True
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.SystemColors.WindowFrame

@@ -49,6 +49,9 @@
     <ApplicationIcon>Logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Downloads\Compressed\Hospital-Management-System-VB.Net-master\DLL file for UI\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI">
       <HintPath>..\..\..\..\Downloads\Compressed\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
@@ -202,6 +205,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo.ico" />
+    <None Include="Resources\Asset 1.png" />
     <None Include="Resources\icons8-event-96.png" />
     <None Include="Resources\icons8-warning-100.png" />
     <None Include="Resources\icons8-leader-96.png" />
