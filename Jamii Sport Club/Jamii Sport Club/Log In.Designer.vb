@@ -124,7 +124,7 @@ Partial Class FormLogIn
         Me.Btnlogin.LineColor = System.Drawing.Color.Transparent
         Me.Btnlogin.Location = New System.Drawing.Point(147, 323)
         Me.Btnlogin.Name = "Btnlogin"
-        Me.Btnlogin.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Btnlogin.OnHoverBaseColor = System.Drawing.Color.LightCyan
         Me.Btnlogin.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
         Me.Btnlogin.OnHoverForeColor = System.Drawing.Color.Black
         Me.Btnlogin.OnHoverImage = Nothing
@@ -175,7 +175,7 @@ Partial Class FormLogIn
         Me.Btncancel.LineColor = System.Drawing.Color.Transparent
         Me.Btncancel.Location = New System.Drawing.Point(253, 323)
         Me.Btncancel.Name = "Btncancel"
-        Me.Btncancel.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Btncancel.OnHoverBaseColor = System.Drawing.Color.LightCyan
         Me.Btncancel.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
         Me.Btncancel.OnHoverForeColor = System.Drawing.Color.Black
         Me.Btncancel.OnHoverImage = Nothing
