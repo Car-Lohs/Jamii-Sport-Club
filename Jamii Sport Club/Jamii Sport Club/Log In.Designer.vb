@@ -69,10 +69,11 @@ Partial Class FormLogIn
         Me.Txtusername.BorderColor = System.Drawing.Color.Black
         Me.Txtusername.BorderSize = 0
         Me.Txtusername.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Txtusername.FocusedBaseColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Txtusername.FocusedBaseColor = System.Drawing.Color.White
         Me.Txtusername.FocusedBorderColor = System.Drawing.Color.Black
-        Me.Txtusername.FocusedForeColor = System.Drawing.Color.White
+        Me.Txtusername.FocusedForeColor = System.Drawing.Color.Black
         Me.Txtusername.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Txtusername.ForeColor = System.Drawing.Color.White
         Me.Txtusername.Location = New System.Drawing.Point(139, 214)
         Me.Txtusername.Name = "Txtusername"
         Me.Txtusername.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -88,10 +89,11 @@ Partial Class FormLogIn
         Me.Txtpassword.BorderColor = System.Drawing.Color.Black
         Me.Txtpassword.BorderSize = 0
         Me.Txtpassword.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Txtpassword.FocusedBaseColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Txtpassword.FocusedBaseColor = System.Drawing.Color.White
         Me.Txtpassword.FocusedBorderColor = System.Drawing.Color.Black
-        Me.Txtpassword.FocusedForeColor = System.Drawing.Color.White
+        Me.Txtpassword.FocusedForeColor = System.Drawing.Color.Black
         Me.Txtpassword.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Txtpassword.ForeColor = System.Drawing.Color.White
         Me.Txtpassword.Location = New System.Drawing.Point(139, 269)
         Me.Txtpassword.Name = "Txtpassword"
         Me.Txtpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -122,7 +124,7 @@ Partial Class FormLogIn
         Me.Btnlogin.LineColor = System.Drawing.Color.Transparent
         Me.Btnlogin.Location = New System.Drawing.Point(147, 323)
         Me.Btnlogin.Name = "Btnlogin"
-        Me.Btnlogin.OnHoverBaseColor = System.Drawing.Color.White
+        Me.Btnlogin.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Btnlogin.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
         Me.Btnlogin.OnHoverForeColor = System.Drawing.Color.Black
         Me.Btnlogin.OnHoverImage = Nothing
@@ -173,7 +175,7 @@ Partial Class FormLogIn
         Me.Btncancel.LineColor = System.Drawing.Color.Transparent
         Me.Btncancel.Location = New System.Drawing.Point(253, 323)
         Me.Btncancel.Name = "Btncancel"
-        Me.Btncancel.OnHoverBaseColor = System.Drawing.Color.White
+        Me.Btncancel.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Btncancel.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
         Me.Btncancel.OnHoverForeColor = System.Drawing.Color.Black
         Me.Btncancel.OnHoverImage = Nothing
