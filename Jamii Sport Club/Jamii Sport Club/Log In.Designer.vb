@@ -43,6 +43,7 @@ Partial Class FormLogIn
         Me.Lblusername.AutoSize = True
         Me.Lblusername.BackColor = System.Drawing.Color.Transparent
         Me.Lblusername.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblusername.ForeColor = System.Drawing.Color.White
         Me.Lblusername.Location = New System.Drawing.Point(29, 214)
         Me.Lblusername.Name = "Lblusername"
         Me.Lblusername.Size = New System.Drawing.Size(99, 28)
@@ -54,6 +55,7 @@ Partial Class FormLogIn
         Me.Lblpassword.AutoSize = True
         Me.Lblpassword.BackColor = System.Drawing.Color.Transparent
         Me.Lblpassword.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblpassword.ForeColor = System.Drawing.Color.White
         Me.Lblpassword.Location = New System.Drawing.Point(35, 269)
         Me.Lblpassword.Name = "Lblpassword"
         Me.Lblpassword.Size = New System.Drawing.Size(93, 28)
@@ -63,7 +65,7 @@ Partial Class FormLogIn
         'Txtusername
         '
         Me.Txtusername.BackColor = System.Drawing.Color.Transparent
-        Me.Txtusername.BaseColor = System.Drawing.Color.White
+        Me.Txtusername.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
         Me.Txtusername.BorderColor = System.Drawing.Color.Black
         Me.Txtusername.BorderSize = 0
         Me.Txtusername.Cursor = System.Windows.Forms.Cursors.IBeam
@@ -82,7 +84,7 @@ Partial Class FormLogIn
         'Txtpassword
         '
         Me.Txtpassword.BackColor = System.Drawing.Color.Transparent
-        Me.Txtpassword.BaseColor = System.Drawing.Color.White
+        Me.Txtpassword.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
         Me.Txtpassword.BorderColor = System.Drawing.Color.Black
         Me.Txtpassword.BorderSize = 0
         Me.Txtpassword.Cursor = System.Windows.Forms.Cursors.IBeam
@@ -103,7 +105,7 @@ Partial Class FormLogIn
         Me.Btnlogin.AnimationHoverSpeed = 0.07!
         Me.Btnlogin.AnimationSpeed = 0.03!
         Me.Btnlogin.BackColor = System.Drawing.Color.Transparent
-        Me.Btnlogin.BaseColor = System.Drawing.Color.DodgerBlue
+        Me.Btnlogin.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Btnlogin.BorderColor = System.Drawing.Color.Black
         Me.Btnlogin.CheckedBaseColor = System.Drawing.Color.DodgerBlue
         Me.Btnlogin.CheckedBorderColor = System.Drawing.Color.Black
@@ -114,7 +116,7 @@ Partial Class FormLogIn
         Me.Btnlogin.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Btnlogin.FocusedColor = System.Drawing.Color.Empty
         Me.Btnlogin.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.Btnlogin.ForeColor = System.Drawing.Color.Black
+        Me.Btnlogin.ForeColor = System.Drawing.Color.White
         Me.Btnlogin.Image = Nothing
         Me.Btnlogin.ImageSize = New System.Drawing.Size(20, 20)
         Me.Btnlogin.LineColor = System.Drawing.Color.Transparent
@@ -126,6 +128,7 @@ Partial Class FormLogIn
         Me.Btnlogin.OnHoverImage = Nothing
         Me.Btnlogin.OnHoverLineColor = System.Drawing.Color.Transparent
         Me.Btnlogin.OnPressedColor = System.Drawing.Color.Transparent
+        Me.Btnlogin.Radius = 10
         Me.Btnlogin.Size = New System.Drawing.Size(75, 40)
         Me.Btnlogin.TabIndex = 4
         Me.Btnlogin.Text = "Log In"
@@ -141,6 +144,7 @@ Partial Class FormLogIn
         Me.Lbllogin.AutoSize = True
         Me.Lbllogin.BackColor = System.Drawing.Color.Transparent
         Me.Lbllogin.Font = New System.Drawing.Font("Segoe UI Semibold", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lbllogin.ForeColor = System.Drawing.Color.White
         Me.Lbllogin.Location = New System.Drawing.Point(140, 148)
         Me.Lbllogin.Name = "Lbllogin"
         Me.Lbllogin.Size = New System.Drawing.Size(93, 37)
@@ -152,7 +156,7 @@ Partial Class FormLogIn
         Me.Btncancel.AnimationHoverSpeed = 0.07!
         Me.Btncancel.AnimationSpeed = 0.03!
         Me.Btncancel.BackColor = System.Drawing.Color.Transparent
-        Me.Btncancel.BaseColor = System.Drawing.Color.Red
+        Me.Btncancel.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Btncancel.BorderColor = System.Drawing.Color.Black
         Me.Btncancel.CheckedBaseColor = System.Drawing.Color.DodgerBlue
         Me.Btncancel.CheckedBorderColor = System.Drawing.Color.Black
@@ -163,7 +167,7 @@ Partial Class FormLogIn
         Me.Btncancel.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Btncancel.FocusedColor = System.Drawing.Color.Empty
         Me.Btncancel.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.Btncancel.ForeColor = System.Drawing.Color.Black
+        Me.Btncancel.ForeColor = System.Drawing.Color.White
         Me.Btncancel.Image = Nothing
         Me.Btncancel.ImageSize = New System.Drawing.Size(20, 20)
         Me.Btncancel.LineColor = System.Drawing.Color.Transparent
@@ -175,6 +179,7 @@ Partial Class FormLogIn
         Me.Btncancel.OnHoverImage = Nothing
         Me.Btncancel.OnHoverLineColor = System.Drawing.Color.Transparent
         Me.Btncancel.OnPressedColor = System.Drawing.Color.Transparent
+        Me.Btncancel.Radius = 10
         Me.Btncancel.Size = New System.Drawing.Size(75, 40)
         Me.Btncancel.TabIndex = 6
         Me.Btncancel.Text = "Cancel"
