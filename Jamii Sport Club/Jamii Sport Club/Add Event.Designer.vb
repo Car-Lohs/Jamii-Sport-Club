@@ -30,6 +30,8 @@ Partial Class Formaddevent
         Me.GunaButton2 = New Guna.UI.WinForms.GunaButton()
         Me.GunaButton3 = New Guna.UI.WinForms.GunaButton()
         Me.GunaGroupBox2 = New Guna.UI.WinForms.GunaGroupBox()
+        Me.GunaTextBox7 = New Guna.UI.WinForms.GunaTextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.GunaTextBox5 = New Guna.UI.WinForms.GunaTextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -42,16 +44,14 @@ Partial Class Formaddevent
         Me.GunaTextBox4 = New Guna.UI.WinForms.GunaTextBox()
         Me.GunaTextBox3 = New Guna.UI.WinForms.GunaTextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.GunaTextBox7 = New Guna.UI.WinForms.GunaTextBox()
         Me.GunaGroupBox1.SuspendLayout()
         Me.GunaGroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'GunaGroupBox1
         '
-        Me.GunaGroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaGroupBox1.BaseColor = System.Drawing.Color.Gray
+        Me.GunaGroupBox1.BackColor = System.Drawing.Color.White
+        Me.GunaGroupBox1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
         Me.GunaGroupBox1.BorderColor = System.Drawing.Color.White
         Me.GunaGroupBox1.BorderSize = 1
         Me.GunaGroupBox1.Controls.Add(Me.GunaTextBox11)
@@ -205,7 +205,7 @@ Partial Class Formaddevent
         'GunaGroupBox2
         '
         Me.GunaGroupBox2.BackColor = System.Drawing.Color.Transparent
-        Me.GunaGroupBox2.BaseColor = System.Drawing.Color.Gray
+        Me.GunaGroupBox2.BaseColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
         Me.GunaGroupBox2.BorderColor = System.Drawing.Color.White
         Me.GunaGroupBox2.BorderSize = 1
         Me.GunaGroupBox2.Controls.Add(Me.GunaTextBox7)
@@ -223,6 +223,7 @@ Partial Class Formaddevent
         Me.GunaGroupBox2.Controls.Add(Me.GunaTextBox3)
         Me.GunaGroupBox2.Controls.Add(Me.Label6)
         Me.GunaGroupBox2.Font = New System.Drawing.Font("Segoe UI Light", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGroupBox2.ForeColor = System.Drawing.Color.White
         Me.GunaGroupBox2.LineColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox2.LineTop = 0
         Me.GunaGroupBox2.Location = New System.Drawing.Point(12, 12)
@@ -232,6 +233,35 @@ Partial Class Formaddevent
         Me.GunaGroupBox2.TabIndex = 28
         Me.GunaGroupBox2.Text = "Add Event"
         Me.GunaGroupBox2.TextLocation = New System.Drawing.Point(10, 8)
+        '
+        'GunaTextBox7
+        '
+        Me.GunaTextBox7.BackColor = System.Drawing.Color.Transparent
+        Me.GunaTextBox7.BaseColor = System.Drawing.Color.White
+        Me.GunaTextBox7.BorderColor = System.Drawing.Color.Black
+        Me.GunaTextBox7.BorderSize = 1
+        Me.GunaTextBox7.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.GunaTextBox7.FocusedBaseColor = System.Drawing.Color.White
+        Me.GunaTextBox7.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaTextBox7.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.GunaTextBox7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaTextBox7.Location = New System.Drawing.Point(535, 93)
+        Me.GunaTextBox7.Name = "GunaTextBox7"
+        Me.GunaTextBox7.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.GunaTextBox7.Radius = 5
+        Me.GunaTextBox7.SelectedText = ""
+        Me.GunaTextBox7.Size = New System.Drawing.Size(160, 104)
+        Me.GunaTextBox7.TabIndex = 18
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(456, 93)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(73, 28)
+        Me.Label7.TabIndex = 17
+        Me.Label7.Text = "Details"
         '
         'GunaTextBox5
         '
@@ -407,40 +437,11 @@ Partial Class Formaddevent
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "Total Facilitation Fee"
         '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(456, 93)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(73, 28)
-        Me.Label7.TabIndex = 17
-        Me.Label7.Text = "Details"
-        '
-        'GunaTextBox7
-        '
-        Me.GunaTextBox7.BackColor = System.Drawing.Color.Transparent
-        Me.GunaTextBox7.BaseColor = System.Drawing.Color.White
-        Me.GunaTextBox7.BorderColor = System.Drawing.Color.Black
-        Me.GunaTextBox7.BorderSize = 1
-        Me.GunaTextBox7.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.GunaTextBox7.FocusedBaseColor = System.Drawing.Color.White
-        Me.GunaTextBox7.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GunaTextBox7.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.GunaTextBox7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.GunaTextBox7.Location = New System.Drawing.Point(535, 93)
-        Me.GunaTextBox7.Name = "GunaTextBox7"
-        Me.GunaTextBox7.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.GunaTextBox7.Radius = 5
-        Me.GunaTextBox7.SelectedText = ""
-        Me.GunaTextBox7.Size = New System.Drawing.Size(160, 104)
-        Me.GunaTextBox7.TabIndex = 18
-        '
         'Formaddevent
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(766, 442)
         Me.Controls.Add(Me.GunaGroupBox2)
         Me.Controls.Add(Me.GunaGroupBox1)
