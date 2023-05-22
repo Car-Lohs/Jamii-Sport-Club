@@ -19,3 +19,4 @@ C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formaddpatron.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formaddpurchase.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii Sport Club.vbprojResolveAssemblyReference.cache

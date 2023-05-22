@@ -44,6 +44,7 @@ Partial Class Formsplash
         '
         Me.Lblwelcome.AutoSize = True
         Me.Lblwelcome.Font = New System.Drawing.Font("Segoe UI Semibold", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblwelcome.ForeColor = System.Drawing.Color.White
         Me.Lblwelcome.Location = New System.Drawing.Point(160, 308)
         Me.Lblwelcome.Name = "Lblwelcome"
         Me.Lblwelcome.Size = New System.Drawing.Size(130, 37)
@@ -63,8 +64,9 @@ Partial Class Formsplash
         '
         'RectangleShape2
         '
-        Me.RectangleShape2.BackColor = System.Drawing.Color.DodgerBlue
+        Me.RectangleShape2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.RectangleShape2.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
+        Me.RectangleShape2.BorderColor = System.Drawing.Color.White
         Me.RectangleShape2.CornerRadius = 2
         Me.RectangleShape2.FillColor = System.Drawing.Color.White
         Me.RectangleShape2.FillGradientColor = System.Drawing.SystemColors.Info
@@ -74,6 +76,7 @@ Partial Class Formsplash
         '
         'RectangleShape1
         '
+        Me.RectangleShape1.BorderColor = System.Drawing.Color.White
         Me.RectangleShape1.CornerRadius = 4
         Me.RectangleShape1.Location = New System.Drawing.Point(116, 355)
         Me.RectangleShape1.Name = "RectangleShape1"
@@ -83,11 +86,12 @@ Partial Class Formsplash
         '
         Me.Lblloading.AutoSize = True
         Me.Lblloading.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblloading.ForeColor = System.Drawing.Color.White
         Me.Lblloading.Location = New System.Drawing.Point(195, 378)
         Me.Lblloading.Name = "Lblloading"
-        Me.Lblloading.Size = New System.Drawing.Size(61, 17)
+        Me.Lblloading.Size = New System.Drawing.Size(64, 17)
         Me.Lblloading.TabIndex = 3
-        Me.Lblloading.Text = "Loading.."
+        Me.Lblloading.Text = "Loading..."
         '
         'PictureBox1
         '
@@ -107,7 +111,7 @@ Partial Class Formsplash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(451, 462)
         Me.Controls.Add(Me.Lblloading)
         Me.Controls.Add(Me.Lblwelcome)
