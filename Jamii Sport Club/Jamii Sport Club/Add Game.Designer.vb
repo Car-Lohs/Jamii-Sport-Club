@@ -45,7 +45,7 @@ Partial Class Formaddgame
         'GunaGroupBox2
         '
         Me.GunaGroupBox2.BackColor = System.Drawing.Color.Transparent
-        Me.GunaGroupBox2.BaseColor = System.Drawing.Color.Gray
+        Me.GunaGroupBox2.BaseColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
         Me.GunaGroupBox2.BorderColor = System.Drawing.Color.White
         Me.GunaGroupBox2.BorderSize = 1
         Me.GunaGroupBox2.Controls.Add(Me.Label1)
@@ -57,6 +57,7 @@ Partial Class Formaddgame
         Me.GunaGroupBox2.Controls.Add(Me.GunaTextBox4)
         Me.GunaGroupBox2.Controls.Add(Me.GunaTextBox3)
         Me.GunaGroupBox2.Font = New System.Drawing.Font("Segoe UI Light", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaGroupBox2.ForeColor = System.Drawing.Color.White
         Me.GunaGroupBox2.LineColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox2.LineTop = 0
         Me.GunaGroupBox2.Location = New System.Drawing.Point(12, 12)
@@ -71,6 +72,7 @@ Partial Class Formaddgame
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(71, 49)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(91, 28)
@@ -81,6 +83,7 @@ Partial Class Formaddgame
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(37, 86)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(125, 28)
@@ -91,6 +94,7 @@ Partial Class Formaddgame
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(91, 125)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(71, 28)
@@ -101,6 +105,7 @@ Partial Class Formaddgame
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(82, 164)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(80, 28)
@@ -341,7 +346,7 @@ Partial Class Formaddgame
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(385, 350)
         Me.Controls.Add(Me.GunaGroupBox1)
         Me.Controls.Add(Me.GunaGroupBox2)
