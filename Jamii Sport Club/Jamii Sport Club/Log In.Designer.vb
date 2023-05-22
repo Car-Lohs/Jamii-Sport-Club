@@ -185,7 +185,7 @@ Partial Class FormLogIn
         Me.GunaTransfarantPictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.GunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black
         Me.GunaTransfarantPictureBox1.Image = Global.Jamii_Sport_Club.My.Resources.Resources.Asset_1
-        Me.GunaTransfarantPictureBox1.Location = New System.Drawing.Point(-13, -14)
+        Me.GunaTransfarantPictureBox1.Location = New System.Drawing.Point(-20, -15)
         Me.GunaTransfarantPictureBox1.Name = "GunaTransfarantPictureBox1"
         Me.GunaTransfarantPictureBox1.Size = New System.Drawing.Size(537, 576)
         Me.GunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -195,7 +195,7 @@ Partial Class FormLogIn
         'GunaGroupBox1
         '
         Me.GunaGroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaGroupBox1.BaseColor = System.Drawing.Color.Gray
+        Me.GunaGroupBox1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
         Me.GunaGroupBox1.BorderColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox1.Controls.Add(Me.Btncancel)
         Me.GunaGroupBox1.Controls.Add(Me.Lblusername)
@@ -216,7 +216,7 @@ Partial Class FormLogIn
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(865, 511)
         Me.Controls.Add(Me.GunaTransfarantPictureBox1)
