@@ -69,9 +69,9 @@ Partial Class FormLogIn
         Me.Txtusername.BorderColor = System.Drawing.Color.Black
         Me.Txtusername.BorderSize = 0
         Me.Txtusername.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Txtusername.FocusedBaseColor = System.Drawing.Color.White
+        Me.Txtusername.FocusedBaseColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Txtusername.FocusedBorderColor = System.Drawing.Color.Black
-        Me.Txtusername.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.Txtusername.FocusedForeColor = System.Drawing.Color.White
         Me.Txtusername.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Txtusername.Location = New System.Drawing.Point(139, 214)
         Me.Txtusername.Name = "Txtusername"
@@ -88,9 +88,9 @@ Partial Class FormLogIn
         Me.Txtpassword.BorderColor = System.Drawing.Color.Black
         Me.Txtpassword.BorderSize = 0
         Me.Txtpassword.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Txtpassword.FocusedBaseColor = System.Drawing.Color.White
+        Me.Txtpassword.FocusedBaseColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Txtpassword.FocusedBorderColor = System.Drawing.Color.Black
-        Me.Txtpassword.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.Txtpassword.FocusedForeColor = System.Drawing.Color.White
         Me.Txtpassword.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Txtpassword.Location = New System.Drawing.Point(139, 269)
         Me.Txtpassword.Name = "Txtpassword"
@@ -107,7 +107,7 @@ Partial Class FormLogIn
         Me.Btnlogin.BackColor = System.Drawing.Color.Transparent
         Me.Btnlogin.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Btnlogin.BorderColor = System.Drawing.Color.Black
-        Me.Btnlogin.CheckedBaseColor = System.Drawing.Color.DodgerBlue
+        Me.Btnlogin.CheckedBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Btnlogin.CheckedBorderColor = System.Drawing.Color.Black
         Me.Btnlogin.CheckedForeColor = System.Drawing.Color.White
         Me.Btnlogin.CheckedImage = Nothing
@@ -122,7 +122,7 @@ Partial Class FormLogIn
         Me.Btnlogin.LineColor = System.Drawing.Color.Transparent
         Me.Btnlogin.Location = New System.Drawing.Point(147, 323)
         Me.Btnlogin.Name = "Btnlogin"
-        Me.Btnlogin.OnHoverBaseColor = System.Drawing.Color.Silver
+        Me.Btnlogin.OnHoverBaseColor = System.Drawing.Color.White
         Me.Btnlogin.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
         Me.Btnlogin.OnHoverForeColor = System.Drawing.Color.Black
         Me.Btnlogin.OnHoverImage = Nothing
@@ -158,7 +158,7 @@ Partial Class FormLogIn
         Me.Btncancel.BackColor = System.Drawing.Color.Transparent
         Me.Btncancel.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Btncancel.BorderColor = System.Drawing.Color.Black
-        Me.Btncancel.CheckedBaseColor = System.Drawing.Color.DodgerBlue
+        Me.Btncancel.CheckedBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Btncancel.CheckedBorderColor = System.Drawing.Color.Black
         Me.Btncancel.CheckedForeColor = System.Drawing.Color.White
         Me.Btncancel.CheckedImage = Nothing
@@ -173,7 +173,7 @@ Partial Class FormLogIn
         Me.Btncancel.LineColor = System.Drawing.Color.Transparent
         Me.Btncancel.Location = New System.Drawing.Point(253, 323)
         Me.Btncancel.Name = "Btncancel"
-        Me.Btncancel.OnHoverBaseColor = System.Drawing.Color.Silver
+        Me.Btncancel.OnHoverBaseColor = System.Drawing.Color.White
         Me.Btncancel.OnHoverBorderColor = System.Drawing.Color.DodgerBlue
         Me.Btncancel.OnHoverForeColor = System.Drawing.Color.Black
         Me.Btncancel.OnHoverImage = Nothing
