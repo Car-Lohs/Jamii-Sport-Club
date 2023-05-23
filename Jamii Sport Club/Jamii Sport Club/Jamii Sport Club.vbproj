@@ -205,6 +205,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo.ico" />
+    <None Include="Resources\My project-11.png" />
+    <None Include="Resources\My project-1.png" />
     <None Include="Resources\Asset 1.png" />
     <None Include="Resources\icons8-event-96.png" />
     <None Include="Resources\icons8-warning-100.png" />

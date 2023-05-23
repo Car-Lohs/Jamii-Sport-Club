@@ -24,21 +24,16 @@ Partial Class Formsplash
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Formsplash))
-        Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.Lblwelcome = New System.Windows.Forms.Label()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.RectangleShape2 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.Lblloading = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.BunifuElipse1 = New ns1.BunifuElipse(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'GunaElipse1
-        '
-        Me.GunaElipse1.Radius = 40
-        Me.GunaElipse1.TargetControl = Me
         '
         'Lblwelcome
         '
@@ -93,19 +88,25 @@ Partial Class Formsplash
         Me.Lblloading.TabIndex = 3
         Me.Lblloading.Text = "Loading..."
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Jamii_Sport_Club.My.Resources.Resources.Project_Logo
-        Me.PictureBox1.Location = New System.Drawing.Point(100, 12)
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.Jamii_Sport_Club.My.Resources.Resources.My_project_11
+        Me.PictureBox1.Location = New System.Drawing.Point(74, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(250, 271)
+        Me.PictureBox1.Size = New System.Drawing.Size(302, 280)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'Timer1
+        'BunifuElipse1
         '
-        Me.Timer1.Enabled = True
+        Me.BunifuElipse1.ElipseRadius = 100
+        Me.BunifuElipse1.TargetControl = Me
         '
         'Formsplash
         '
@@ -119,6 +120,7 @@ Partial Class Formsplash
         Me.Controls.Add(Me.ShapeContainer1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MinimizeBox = False
         Me.Name = "Formsplash"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Splash Form"
@@ -128,12 +130,12 @@ Partial Class Formsplash
 
     End Sub
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents GunaElipse1 As Guna.UI.WinForms.GunaElipse
     Friend WithEvents Lblwelcome As System.Windows.Forms.Label
     Friend WithEvents Lblloading As System.Windows.Forms.Label
     Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
     Friend WithEvents RectangleShape2 As Microsoft.VisualBasic.PowerPacks.RectangleShape
     Friend WithEvents RectangleShape1 As Microsoft.VisualBasic.PowerPacks.RectangleShape
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents BunifuElipse1 As ns1.BunifuElipse
 
 End Class
