@@ -60,7 +60,7 @@ Partial Class Formaddmember
         '
         Me.GunaCirclePictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.GunaCirclePictureBox1.BaseColor = System.Drawing.Color.Gray
-        Me.GunaCirclePictureBox1.Location = New System.Drawing.Point(12, 9)
+        Me.GunaCirclePictureBox1.Location = New System.Drawing.Point(19, 63)
         Me.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1"
         Me.GunaCirclePictureBox1.Size = New System.Drawing.Size(225, 235)
         Me.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -75,7 +75,7 @@ Partial Class Formaddmember
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(21, 30)
+        Me.Label1.Location = New System.Drawing.Point(67, 23)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(110, 28)
         Me.Label1.TabIndex = 1
@@ -88,7 +88,7 @@ Partial Class Formaddmember
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(225, 30)
+        Me.Label2.Location = New System.Drawing.Point(335, 18)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(100, 28)
         Me.Label2.TabIndex = 2
@@ -101,7 +101,7 @@ Partial Class Formaddmember
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(21, 77)
+        Me.Label3.Location = New System.Drawing.Point(102, 68)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(76, 28)
         Me.Label3.TabIndex = 3
@@ -114,7 +114,7 @@ Partial Class Formaddmember
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(229, 77)
+        Me.Label4.Location = New System.Drawing.Point(310, 67)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(125, 28)
         Me.Label4.TabIndex = 4
@@ -127,7 +127,7 @@ Partial Class Formaddmember
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(21, 124)
+        Me.Label6.Location = New System.Drawing.Point(25, 116)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(152, 28)
         Me.Label6.TabIndex = 6
@@ -140,7 +140,7 @@ Partial Class Formaddmember
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(275, 124)
+        Me.Label7.Location = New System.Drawing.Point(385, 113)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(50, 28)
         Me.Label7.TabIndex = 7
@@ -153,7 +153,7 @@ Partial Class Formaddmember
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(225, 173)
+        Me.Label8.Location = New System.Drawing.Point(364, 161)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(71, 28)
         Me.Label8.TabIndex = 8
@@ -166,7 +166,7 @@ Partial Class Formaddmember
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(21, 171)
+        Me.Label9.Location = New System.Drawing.Point(102, 166)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(75, 28)
         Me.Label9.TabIndex = 9
@@ -184,7 +184,7 @@ Partial Class Formaddmember
         Me.GunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.GunaTextBox1.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaTextBox1.Location = New System.Drawing.Point(137, 27)
+        Me.GunaTextBox1.Location = New System.Drawing.Point(183, 14)
         Me.GunaTextBox1.Name = "GunaTextBox1"
         Me.GunaTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.GunaTextBox1.Radius = 10
@@ -204,7 +204,7 @@ Partial Class Formaddmember
         Me.GunaTextBox2.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.GunaTextBox2.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaTextBox2.Location = New System.Drawing.Point(331, 27)
+        Me.GunaTextBox2.Location = New System.Drawing.Point(441, 9)
         Me.GunaTextBox2.Name = "GunaTextBox2"
         Me.GunaTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.GunaTextBox2.Radius = 10
@@ -226,7 +226,7 @@ Partial Class Formaddmember
         Me.GunaComboBox1.ForeColor = System.Drawing.Color.Black
         Me.GunaComboBox1.FormattingEnabled = True
         Me.GunaComboBox1.Items.AddRange(New Object() {"Male", "Female"})
-        Me.GunaComboBox1.Location = New System.Drawing.Point(102, 74)
+        Me.GunaComboBox1.Location = New System.Drawing.Point(183, 61)
         Me.GunaComboBox1.Name = "GunaComboBox1"
         Me.GunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White
@@ -246,7 +246,7 @@ Partial Class Formaddmember
         Me.GunaTextBox5.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaTextBox5.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.GunaTextBox5.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaTextBox5.Location = New System.Drawing.Point(179, 120)
+        Me.GunaTextBox5.Location = New System.Drawing.Point(183, 107)
         Me.GunaTextBox5.Name = "GunaTextBox5"
         Me.GunaTextBox5.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.GunaTextBox5.Radius = 10
@@ -268,7 +268,7 @@ Partial Class Formaddmember
         Me.GunaComboBox2.ForeColor = System.Drawing.Color.Black
         Me.GunaComboBox2.FormattingEnabled = True
         Me.GunaComboBox2.Items.AddRange(New Object() {"Player", "Captain"})
-        Me.GunaComboBox2.Location = New System.Drawing.Point(331, 122)
+        Me.GunaComboBox2.Location = New System.Drawing.Point(441, 106)
         Me.GunaComboBox2.Name = "GunaComboBox2"
         Me.GunaComboBox2.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaComboBox2.OnHoverItemForeColor = System.Drawing.Color.White
@@ -288,7 +288,7 @@ Partial Class Formaddmember
         Me.GunaTextBox6.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaTextBox6.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.GunaTextBox6.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaTextBox6.Location = New System.Drawing.Point(102, 170)
+        Me.GunaTextBox6.Location = New System.Drawing.Point(183, 157)
         Me.GunaTextBox6.Name = "GunaTextBox6"
         Me.GunaTextBox6.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.GunaTextBox6.Radius = 10
@@ -308,7 +308,7 @@ Partial Class Formaddmember
         Me.GunaTextBox7.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaTextBox7.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.GunaTextBox7.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaTextBox7.Location = New System.Drawing.Point(302, 170)
+        Me.GunaTextBox7.Location = New System.Drawing.Point(441, 152)
         Me.GunaTextBox7.Name = "GunaTextBox7"
         Me.GunaTextBox7.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.GunaTextBox7.Radius = 10
@@ -340,11 +340,11 @@ Partial Class Formaddmember
         Me.GunaGroupBox1.Controls.Add(Me.GunaTextBox1)
         Me.GunaGroupBox1.LineColor = System.Drawing.Color.Gainsboro
         Me.GunaGroupBox1.LineTop = 0
-        Me.GunaGroupBox1.Location = New System.Drawing.Point(253, 9)
+        Me.GunaGroupBox1.Location = New System.Drawing.Point(260, 63)
         Me.GunaGroupBox1.Margin = New System.Windows.Forms.Padding(0)
         Me.GunaGroupBox1.Name = "GunaGroupBox1"
         Me.GunaGroupBox1.Radius = 10
-        Me.GunaGroupBox1.Size = New System.Drawing.Size(568, 235)
+        Me.GunaGroupBox1.Size = New System.Drawing.Size(679, 235)
         Me.GunaGroupBox1.TabIndex = 19
         Me.GunaGroupBox1.TextLocation = New System.Drawing.Point(10, 8)
         '
@@ -359,7 +359,7 @@ Partial Class Formaddmember
         Me.GunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaDateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.GunaDateTimePicker1.ForeColor = System.Drawing.Color.Black
-        Me.GunaDateTimePicker1.Location = New System.Drawing.Point(360, 74)
+        Me.GunaDateTimePicker1.Location = New System.Drawing.Point(441, 59)
         Me.GunaDateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Me.GunaDateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Me.GunaDateTimePicker1.Name = "GunaDateTimePicker1"
@@ -368,7 +368,7 @@ Partial Class Formaddmember
         Me.GunaDateTimePicker1.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaDateTimePicker1.OnPressedColor = System.Drawing.Color.Black
         Me.GunaDateTimePicker1.Radius = 10
-        Me.GunaDateTimePicker1.Size = New System.Drawing.Size(187, 38)
+        Me.GunaDateTimePicker1.Size = New System.Drawing.Size(213, 38)
         Me.GunaDateTimePicker1.TabIndex = 19
         Me.GunaDateTimePicker1.Text = "Wednesday, May 24, 2023"
         Me.GunaDateTimePicker1.Value = New Date(2023, 5, 24, 13, 57, 46, 698)
@@ -392,7 +392,7 @@ Partial Class Formaddmember
         Me.GunaButton1.ForeColor = System.Drawing.Color.White
         Me.GunaButton1.Image = Nothing
         Me.GunaButton1.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton1.Location = New System.Drawing.Point(94, 267)
+        Me.GunaButton1.Location = New System.Drawing.Point(124, 352)
         Me.GunaButton1.Name = "GunaButton1"
         Me.GunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaButton1.OnHoverBorderColor = System.Drawing.Color.Black
@@ -420,7 +420,7 @@ Partial Class Formaddmember
         Me.GunaButton2.ForeColor = System.Drawing.Color.White
         Me.GunaButton2.Image = Nothing
         Me.GunaButton2.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton2.Location = New System.Drawing.Point(94, 323)
+        Me.GunaButton2.Location = New System.Drawing.Point(124, 408)
         Me.GunaButton2.Name = "GunaButton2"
         Me.GunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaButton2.OnHoverBorderColor = System.Drawing.Color.Black
@@ -448,7 +448,7 @@ Partial Class Formaddmember
         Me.GunaButton3.ForeColor = System.Drawing.Color.White
         Me.GunaButton3.Image = Nothing
         Me.GunaButton3.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton3.Location = New System.Drawing.Point(180, 267)
+        Me.GunaButton3.Location = New System.Drawing.Point(210, 352)
         Me.GunaButton3.Name = "GunaButton3"
         Me.GunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaButton3.OnHoverBorderColor = System.Drawing.Color.Black
@@ -476,7 +476,7 @@ Partial Class Formaddmember
         Me.GunaButton4.ForeColor = System.Drawing.Color.White
         Me.GunaButton4.Image = Nothing
         Me.GunaButton4.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton4.Location = New System.Drawing.Point(180, 323)
+        Me.GunaButton4.Location = New System.Drawing.Point(210, 408)
         Me.GunaButton4.Name = "GunaButton4"
         Me.GunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaButton4.OnHoverBorderColor = System.Drawing.Color.Black
@@ -504,7 +504,7 @@ Partial Class Formaddmember
         Me.GunaButton5.ForeColor = System.Drawing.Color.White
         Me.GunaButton5.Image = Nothing
         Me.GunaButton5.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton5.Location = New System.Drawing.Point(268, 298)
+        Me.GunaButton5.Location = New System.Drawing.Point(298, 383)
         Me.GunaButton5.Name = "GunaButton5"
         Me.GunaButton5.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaButton5.OnHoverBorderColor = System.Drawing.Color.Black
@@ -532,7 +532,7 @@ Partial Class Formaddmember
         Me.GunaButton6.ForeColor = System.Drawing.Color.White
         Me.GunaButton6.Image = Nothing
         Me.GunaButton6.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton6.Location = New System.Drawing.Point(742, 331)
+        Me.GunaButton6.Location = New System.Drawing.Point(772, 416)
         Me.GunaButton6.Name = "GunaButton6"
         Me.GunaButton6.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaButton6.OnHoverBorderColor = System.Drawing.Color.Black
@@ -560,7 +560,7 @@ Partial Class Formaddmember
         Me.GunaButton7.ForeColor = System.Drawing.Color.White
         Me.GunaButton7.Image = Nothing
         Me.GunaButton7.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton7.Location = New System.Drawing.Point(407, 301)
+        Me.GunaButton7.Location = New System.Drawing.Point(437, 386)
         Me.GunaButton7.Name = "GunaButton7"
         Me.GunaButton7.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaButton7.OnHoverBorderColor = System.Drawing.Color.Black
@@ -588,7 +588,7 @@ Partial Class Formaddmember
         Me.GunaButton8.ForeColor = System.Drawing.Color.White
         Me.GunaButton8.Image = Nothing
         Me.GunaButton8.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton8.Location = New System.Drawing.Point(356, 301)
+        Me.GunaButton8.Location = New System.Drawing.Point(386, 386)
         Me.GunaButton8.Name = "GunaButton8"
         Me.GunaButton8.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaButton8.OnHoverBorderColor = System.Drawing.Color.Black
@@ -606,16 +606,17 @@ Partial Class Formaddmember
         '
         Me.GunaCircleButton1.AnimationHoverSpeed = 0.07!
         Me.GunaCircleButton1.AnimationSpeed = 0.03!
-        Me.GunaCircleButton1.BackColor = System.Drawing.Color.Gray
-        Me.GunaCircleButton1.BaseColor = System.Drawing.Color.LightGray
-        Me.GunaCircleButton1.BorderColor = System.Drawing.Color.Black
+        Me.GunaCircleButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.GunaCircleButton1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
+        Me.GunaCircleButton1.BorderColor = System.Drawing.Color.White
+        Me.GunaCircleButton1.BorderSize = 1
         Me.GunaCircleButton1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaCircleButton1.FocusedColor = System.Drawing.Color.Transparent
         Me.GunaCircleButton1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.GunaCircleButton1.ForeColor = System.Drawing.Color.White
         Me.GunaCircleButton1.Image = Nothing
         Me.GunaCircleButton1.ImageSize = New System.Drawing.Size(52, 52)
-        Me.GunaCircleButton1.Location = New System.Drawing.Point(180, 171)
+        Me.GunaCircleButton1.Location = New System.Drawing.Point(214, 268)
         Me.GunaCircleButton1.Name = "GunaCircleButton1"
         Me.GunaCircleButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.GunaCircleButton1.OnHoverBorderColor = System.Drawing.Color.Black
@@ -631,7 +632,7 @@ Partial Class Formaddmember
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(830, 394)
+        Me.ClientSize = New System.Drawing.Size(959, 501)
         Me.Controls.Add(Me.GunaCircleButton1)
         Me.Controls.Add(Me.GunaButton8)
         Me.Controls.Add(Me.GunaButton7)
