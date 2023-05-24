@@ -81,43 +81,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add Item.Designer.vb">
-      <DependentUpon>Add Item.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Add Item.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Add Member.Designer.vb">
       <DependentUpon>Add Member.vb</DependentUpon>
     </Compile>
     <Compile Include="Add Member.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Add Patron.Designer.vb">
-      <DependentUpon>Add Patron.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Add Patron.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Add Purchase.Designer.vb">
-      <DependentUpon>Add Purchase.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Add Purchase.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="Add Event.Designer.vb">
-      <DependentUpon>Add Event.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Add Event.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Add Game.Designer.vb">
-      <DependentUpon>Add Game.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Add Game.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Home.Designer.vb">
       <DependentUpon>Home.vb</DependentUpon>
     </Compile>
@@ -154,23 +124,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Add Item.resx">
-      <DependentUpon>Add Item.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Add Member.resx">
       <DependentUpon>Add Member.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Add Patron.resx">
-      <DependentUpon>Add Patron.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Add Event.resx">
-      <DependentUpon>Add Event.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Add Game.resx">
-      <DependentUpon>Add Game.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Add Purchase.resx">
-      <DependentUpon>Add Purchase.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
