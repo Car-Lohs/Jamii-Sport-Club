@@ -13,10 +13,5 @@ C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.FormLogIn.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formhome.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formaddmember.resources
-C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formadditem.resources
-C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formaddevent.resources
-C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formaddgame.resources
-C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formaddpatron.resources
-C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii_Sport_Club.Formaddpurchase.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\bin\Debug\Bunifu_UI_v1.52.dll
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sport Club\Jamii Sport Club\obj\Debug\Jamii Sport Club.vbprojResolveAssemblyReference.cache
