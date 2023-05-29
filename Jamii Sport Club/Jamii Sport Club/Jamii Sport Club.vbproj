@@ -179,6 +179,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Logo.ico" />
+    <None Include="Resources\lock-icon--12.png" />
     <None Include="Resources\My project-11.png" />
     <None Include="Resources\My project-1.png" />
     <None Include="Resources\Asset 1.png" />

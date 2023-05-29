@@ -24,43 +24,17 @@ Partial Class FormLogIn
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormLogIn))
-        Me.Lblusername = New System.Windows.Forms.Label()
-        Me.Lblpassword = New System.Windows.Forms.Label()
         Me.Txtusername = New Guna.UI.WinForms.GunaTextBox()
         Me.Txtpassword = New Guna.UI.WinForms.GunaTextBox()
         Me.Btnlogin = New Guna.UI.WinForms.GunaAdvenceButton()
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.Lbllogin = New Guna.UI.WinForms.GunaLabel()
         Me.Btncancel = New Guna.UI.WinForms.GunaAdvenceButton()
-        Me.GunaTransfarantPictureBox1 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.GunaGroupBox1 = New Guna.UI.WinForms.GunaGroupBox()
-        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GunaTransfarantPictureBox1 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.GunaGroupBox1.SuspendLayout()
+        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Lblusername
-        '
-        Me.Lblusername.AutoSize = True
-        Me.Lblusername.BackColor = System.Drawing.Color.Transparent
-        Me.Lblusername.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblusername.ForeColor = System.Drawing.Color.White
-        Me.Lblusername.Location = New System.Drawing.Point(29, 214)
-        Me.Lblusername.Name = "Lblusername"
-        Me.Lblusername.Size = New System.Drawing.Size(99, 28)
-        Me.Lblusername.TabIndex = 0
-        Me.Lblusername.Text = "Username"
-        '
-        'Lblpassword
-        '
-        Me.Lblpassword.AutoSize = True
-        Me.Lblpassword.BackColor = System.Drawing.Color.Transparent
-        Me.Lblpassword.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblpassword.ForeColor = System.Drawing.Color.White
-        Me.Lblpassword.Location = New System.Drawing.Point(35, 269)
-        Me.Lblpassword.Name = "Lblpassword"
-        Me.Lblpassword.Size = New System.Drawing.Size(93, 28)
-        Me.Lblpassword.TabIndex = 1
-        Me.Lblpassword.Text = "Password"
         '
         'Txtusername
         '
@@ -80,7 +54,6 @@ Partial Class FormLogIn
         Me.Txtusername.SelectedText = ""
         Me.Txtusername.Size = New System.Drawing.Size(204, 37)
         Me.Txtusername.TabIndex = 2
-        Me.Txtusername.Text = "username"
         '
         'Txtpassword
         '
@@ -100,7 +73,6 @@ Partial Class FormLogIn
         Me.Txtpassword.SelectedText = ""
         Me.Txtpassword.Size = New System.Drawing.Size(204, 36)
         Me.Txtpassword.TabIndex = 3
-        Me.Txtpassword.Text = "password"
         '
         'Btnlogin
         '
@@ -187,6 +159,24 @@ Partial Class FormLogIn
         Me.Btncancel.Text = "Cancel"
         Me.Btncancel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'GunaGroupBox1
+        '
+        Me.GunaGroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaGroupBox1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.GunaGroupBox1.BorderColor = System.Drawing.Color.Gainsboro
+        Me.GunaGroupBox1.Controls.Add(Me.Btncancel)
+        Me.GunaGroupBox1.Controls.Add(Me.Lbllogin)
+        Me.GunaGroupBox1.Controls.Add(Me.Btnlogin)
+        Me.GunaGroupBox1.Controls.Add(Me.Txtusername)
+        Me.GunaGroupBox1.Controls.Add(Me.Txtpassword)
+        Me.GunaGroupBox1.LineColor = System.Drawing.Color.Gainsboro
+        Me.GunaGroupBox1.LineTop = 0
+        Me.GunaGroupBox1.Location = New System.Drawing.Point(494, -1)
+        Me.GunaGroupBox1.Name = "GunaGroupBox1"
+        Me.GunaGroupBox1.Size = New System.Drawing.Size(373, 513)
+        Me.GunaGroupBox1.TabIndex = 7
+        Me.GunaGroupBox1.TextLocation = New System.Drawing.Point(10, 8)
+        '
         'GunaTransfarantPictureBox1
         '
         Me.GunaTransfarantPictureBox1.BackColor = System.Drawing.Color.Transparent
@@ -198,26 +188,6 @@ Partial Class FormLogIn
         Me.GunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.GunaTransfarantPictureBox1.TabIndex = 8
         Me.GunaTransfarantPictureBox1.TabStop = False
-        '
-        'GunaGroupBox1
-        '
-        Me.GunaGroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaGroupBox1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.GunaGroupBox1.BorderColor = System.Drawing.Color.Gainsboro
-        Me.GunaGroupBox1.Controls.Add(Me.Btncancel)
-        Me.GunaGroupBox1.Controls.Add(Me.Lblusername)
-        Me.GunaGroupBox1.Controls.Add(Me.Lbllogin)
-        Me.GunaGroupBox1.Controls.Add(Me.Lblpassword)
-        Me.GunaGroupBox1.Controls.Add(Me.Btnlogin)
-        Me.GunaGroupBox1.Controls.Add(Me.Txtusername)
-        Me.GunaGroupBox1.Controls.Add(Me.Txtpassword)
-        Me.GunaGroupBox1.LineColor = System.Drawing.Color.Gainsboro
-        Me.GunaGroupBox1.LineTop = 0
-        Me.GunaGroupBox1.Location = New System.Drawing.Point(494, -1)
-        Me.GunaGroupBox1.Name = "GunaGroupBox1"
-        Me.GunaGroupBox1.Size = New System.Drawing.Size(373, 513)
-        Me.GunaGroupBox1.TabIndex = 7
-        Me.GunaGroupBox1.TextLocation = New System.Drawing.Point(10, 8)
         '
         'FormLogIn
         '
@@ -234,14 +204,12 @@ Partial Class FormLogIn
         Me.Name = "FormLogIn"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Log In"
-        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GunaGroupBox1.ResumeLayout(False)
         Me.GunaGroupBox1.PerformLayout()
+        CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Lblusername As System.Windows.Forms.Label
-    Friend WithEvents Lblpassword As System.Windows.Forms.Label
     Friend WithEvents Txtusername As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents Txtpassword As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents Btnlogin As Guna.UI.WinForms.GunaAdvenceButton
