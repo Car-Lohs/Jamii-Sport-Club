@@ -1,19 +1,14 @@
-﻿Public Class Log_In
+﻿Public Class Dashboard
+
     Private Sub GunaCircleButton1_Click(sender As Object, e As EventArgs) Handles GunaCircleButton1.Click
         Me.Close()
-        splashScreen.Timer1.Start()
-    End Sub
-
-    Private Sub Log_In_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
     End Sub
 
     Private Sub GunaCircleButton2_Click(sender As Object, e As EventArgs) Handles GunaCircleButton2.Click
         Me.WindowState = FormWindowState.Minimized
     End Sub
 
-    Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
-        Dashboard.Show()
-        Me.Close()
+    Private Sub GunaCircleButton3_Click(sender As Object, e As EventArgs) Handles GunaCircleButton3.Click
+        Me.WindowState = FormWindowState.Maximized
     End Sub
 End Class
