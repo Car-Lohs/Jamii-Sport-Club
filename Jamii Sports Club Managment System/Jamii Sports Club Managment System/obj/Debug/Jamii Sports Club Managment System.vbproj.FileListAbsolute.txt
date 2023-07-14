@@ -1,0 +1,24 @@
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.exe.config
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.exe
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.pdb
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.xml
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\bin\Debug\Guna.UI.dll
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Resources.resources
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\obj\Debug\Jamii Sports Club Managment System.vbproj.GenerateResource.Cache
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\obj\Debug\Jamii Sports Club Managment System.exe
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\obj\Debug\Jamii Sports Club Managment System.xml
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\obj\Debug\Jamii Sports Club Managment System.pdb
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Log_In.resources
+C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.splashScreen.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.exe.config
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii Sports Club Managment System.exe
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii Sports Club Managment System.xml
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii Sports Club Managment System.pdb
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.exe
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.pdb
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.xml
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\bin\Debug\Guna.UI.dll
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Log_In.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.splashScreen.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Resources.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii Sports Club Managment System.vbproj.GenerateResource.Cache
