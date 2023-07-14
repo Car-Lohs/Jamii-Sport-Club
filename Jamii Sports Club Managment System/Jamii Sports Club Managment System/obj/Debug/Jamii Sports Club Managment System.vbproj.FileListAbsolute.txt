@@ -1,2 +1,0 @@
-C:\Users\macca\AppData\Local\Temporary Projects\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.exe.config
-C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club Managment System.exe.config
