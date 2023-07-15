@@ -11,4 +11,8 @@
     Private Sub GunaCircleButton3_Click(sender As Object, e As EventArgs) Handles GunaCircleButton3.Click
         Me.WindowState = FormWindowState.Maximized
     End Sub
+
+    Private Sub GunaLabel1_Click(sender As Object, e As EventArgs) Handles GunaLabel1.Click
+
+    End Sub
 End Class
