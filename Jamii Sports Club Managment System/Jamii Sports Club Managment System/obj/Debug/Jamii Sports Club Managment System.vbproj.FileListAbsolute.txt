@@ -25,3 +25,5 @@ C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jam
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\bin\Debug\Bunifu_UI_v1.52.dll
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii Sports Club Managment System.vbprojResolveAssemblyReference.cache
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Dashboard.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Add_Member.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Members.resources

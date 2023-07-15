@@ -82,10 +82,22 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add Member.Designer.vb">
+      <DependentUpon>Add Member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Member.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard.Designer.vb">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Members.Designer.vb">
+      <DependentUpon>Members.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Members.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Splash Screen.vb">
@@ -118,11 +130,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Add Member.resx">
+      <DependentUpon>Add Member.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log In.resx">
       <DependentUpon>Log In.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Members.resx">
+      <DependentUpon>Members.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash Screen.resx">
       <DependentUpon>Splash Screen.vb</DependentUpon>
