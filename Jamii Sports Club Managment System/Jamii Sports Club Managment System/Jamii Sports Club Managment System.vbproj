@@ -124,6 +124,12 @@
     <Compile Include="Events.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Facilitation.Designer.vb">
+      <DependentUpon>Facilitation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facilitation.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Members.Designer.vb">
       <DependentUpon>Members.vb</DependentUpon>
     </Compile>
@@ -176,6 +182,18 @@
     <Compile Include="Sports.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Store.Designer.vb">
+      <DependentUpon>Store.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Store.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Surcharges.Designer.vb">
+      <DependentUpon>Surcharges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Surcharges.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Add Events.resx">
@@ -198,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Events.resx">
       <DependentUpon>Events.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facilitation.resx">
+      <DependentUpon>Facilitation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log In.resx">
       <DependentUpon>Log In.vb</DependentUpon>
@@ -222,6 +243,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sports.resx">
       <DependentUpon>Sports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store.resx">
+      <DependentUpon>Store.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Surcharges.resx">
+      <DependentUpon>Surcharges.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
