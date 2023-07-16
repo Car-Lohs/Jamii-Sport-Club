@@ -67,8 +67,8 @@ Partial Class Members
         Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
+        Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.GunaElipsePanel1.SuspendLayout()
         CType(Me.GunaDataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -756,6 +756,11 @@ Partial Class Members
         Me.Column9.HeaderText = "Sport"
         Me.Column9.Name = "Column9"
         '
+        'GunaElipse1
+        '
+        Me.GunaElipse1.Radius = 50
+        Me.GunaElipse1.TargetControl = Me
+        '
         'GunaCirclePictureBox1
         '
         Me.GunaCirclePictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
@@ -767,11 +772,6 @@ Partial Class Members
         Me.GunaCirclePictureBox1.TabIndex = 35
         Me.GunaCirclePictureBox1.TabStop = False
         Me.GunaCirclePictureBox1.UseTransfarantBackground = False
-        '
-        'GunaElipse1
-        '
-        Me.GunaElipse1.Radius = 50
-        Me.GunaElipse1.TargetControl = Me
         '
         'Members
         '
