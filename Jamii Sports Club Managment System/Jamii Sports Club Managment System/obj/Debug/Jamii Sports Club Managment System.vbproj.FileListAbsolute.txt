@@ -29,3 +29,5 @@ C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jam
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Members.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Add_Sport.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Sports.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Add_Events.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Events.resources

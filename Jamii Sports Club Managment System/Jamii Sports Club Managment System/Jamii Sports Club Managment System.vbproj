@@ -82,6 +82,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add Events.Designer.vb">
+      <DependentUpon>Add Events.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Events.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Add Member.Designer.vb">
       <DependentUpon>Add Member.vb</DependentUpon>
     </Compile>
@@ -98,6 +104,12 @@
       <DependentUpon>Dashboard.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Events.Designer.vb">
+      <DependentUpon>Events.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Events.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Members.Designer.vb">
@@ -142,6 +154,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Add Events.resx">
+      <DependentUpon>Add Events.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add Member.resx">
       <DependentUpon>Add Member.vb</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Events.resx">
+      <DependentUpon>Events.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log In.resx">
       <DependentUpon>Log In.vb</DependentUpon>
