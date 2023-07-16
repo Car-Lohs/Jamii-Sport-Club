@@ -94,6 +94,12 @@
     <Compile Include="Add Member.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Add Patron.Designer.vb">
+      <DependentUpon>Add Patron.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Patron.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Add Sport.Designer.vb">
       <DependentUpon>Add Sport.vb</DependentUpon>
     </Compile>
@@ -116,6 +122,12 @@
       <DependentUpon>Members.vb</DependentUpon>
     </Compile>
     <Compile Include="Members.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patrons.Designer.vb">
+      <DependentUpon>Patrons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patrons.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Splash Screen.vb">
@@ -160,6 +172,9 @@
     <EmbeddedResource Include="Add Member.resx">
       <DependentUpon>Add Member.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Add Patron.resx">
+      <DependentUpon>Add Patron.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add Sport.resx">
       <DependentUpon>Add Sport.vb</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Members.resx">
       <DependentUpon>Members.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patrons.resx">
+      <DependentUpon>Patrons.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash Screen.resx">
       <DependentUpon>Splash Screen.vb</DependentUpon>
