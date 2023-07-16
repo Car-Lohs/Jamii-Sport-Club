@@ -7,4 +7,9 @@
     Private Sub Add_Member_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub btnBrowse_Click(sender As Object, e As EventArgs) Handles btnBrowse.Click
+        Members.Show()
+        Me.Close()
+    End Sub
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Events
+Partial Class SportEvents
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -26,7 +26,7 @@ Partial Class Events
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Events))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SportEvents))
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.GunaCircleButton3 = New Guna.UI.WinForms.GunaCircleButton()
         Me.GunaCircleButton2 = New Guna.UI.WinForms.GunaCircleButton()
@@ -36,7 +36,6 @@ Partial Class Events
         Me.GunaDateTimePicker1 = New Guna.UI.WinForms.GunaDateTimePicker()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.lblLogin = New System.Windows.Forms.Label()
         Me.txtCaptain = New Guna.UI.WinForms.GunaTextBox()
         Me.txtPatron = New Guna.UI.WinForms.GunaTextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -49,6 +48,7 @@ Partial Class Events
         Me.btnClear = New Guna.UI.WinForms.GunaButton()
         Me.btnSave = New Guna.UI.WinForms.GunaButton()
         Me.btnAdd = New Guna.UI.WinForms.GunaButton()
+        Me.lblLogin = New System.Windows.Forms.Label()
         Me.GunaDataGridView1 = New Guna.UI.WinForms.GunaDataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -228,17 +228,6 @@ Partial Class Events
         Me.Label5.Size = New System.Drawing.Size(53, 28)
         Me.Label5.TabIndex = 77
         Me.Label5.Text = "Date"
-        '
-        'lblLogin
-        '
-        Me.lblLogin.AutoSize = True
-        Me.lblLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLogin.ForeColor = System.Drawing.Color.White
-        Me.lblLogin.Location = New System.Drawing.Point(378, 9)
-        Me.lblLogin.Name = "lblLogin"
-        Me.lblLogin.Size = New System.Drawing.Size(110, 29)
-        Me.lblLogin.TabIndex = 76
-        Me.lblLogin.Text = "EVENTS"
         '
         'txtCaptain
         '
@@ -468,6 +457,17 @@ Partial Class Events
         Me.btnAdd.Text = "Add"
         Me.btnAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'lblLogin
+        '
+        Me.lblLogin.AutoSize = True
+        Me.lblLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLogin.ForeColor = System.Drawing.Color.White
+        Me.lblLogin.Location = New System.Drawing.Point(378, 9)
+        Me.lblLogin.Name = "lblLogin"
+        Me.lblLogin.Size = New System.Drawing.Size(110, 29)
+        Me.lblLogin.TabIndex = 76
+        Me.lblLogin.Text = "EVENTS"
+        '
         'GunaDataGridView1
         '
         Me.GunaDataGridView1.AllowUserToAddRows = False
@@ -560,7 +560,7 @@ Partial Class Events
         Me.Column6.HeaderText = "Facilitation Fee"
         Me.Column6.Name = "Column6"
         '
-        'Events
+        'SportEvents
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -574,7 +574,7 @@ Partial Class Events
         Me.Controls.Add(Me.lblLogin)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Events"
+        Me.Name = "SportEvents"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Events"
         Me.GunaElipsePanel1.ResumeLayout(False)
