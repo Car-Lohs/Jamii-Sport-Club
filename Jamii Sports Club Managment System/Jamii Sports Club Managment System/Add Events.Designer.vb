@@ -25,24 +25,24 @@ Partial Class Add_Events
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Add_Events))
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
-        Me.lblLogin = New System.Windows.Forms.Label()
+        Me.lblAddevent = New System.Windows.Forms.Label()
         Me.txtCaptain = New Guna.UI.WinForms.GunaTextBox()
         Me.txtPatron = New Guna.UI.WinForms.GunaTextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtgamename = New Guna.UI.WinForms.GunaTextBox()
-        Me.txtgameid = New Guna.UI.WinForms.GunaTextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.GunaCircleButton1 = New Guna.UI.WinForms.GunaCircleButton()
+        Me.lblCaptain = New System.Windows.Forms.Label()
+        Me.lblPatron = New System.Windows.Forms.Label()
+        Me.txtgame = New Guna.UI.WinForms.GunaTextBox()
+        Me.txtEventid = New Guna.UI.WinForms.GunaTextBox()
+        Me.lblGame = New System.Windows.Forms.Label()
+        Me.lblEventid = New System.Windows.Forms.Label()
+        Me.btnExit = New Guna.UI.WinForms.GunaCircleButton()
         Me.btnBrowse = New Guna.UI.WinForms.GunaButton()
         Me.btnClear = New Guna.UI.WinForms.GunaButton()
         Me.btnSave = New Guna.UI.WinForms.GunaButton()
         Me.btnAdd = New Guna.UI.WinForms.GunaButton()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.GunaDateTimePicker1 = New Guna.UI.WinForms.GunaDateTimePicker()
-        Me.GunaTextBox1 = New Guna.UI.WinForms.GunaTextBox()
+        Me.lblDate = New System.Windows.Forms.Label()
+        Me.lblFacilitationee = New System.Windows.Forms.Label()
+        Me.txtDate = New Guna.UI.WinForms.GunaDateTimePicker()
+        Me.txtFacilitationfee = New Guna.UI.WinForms.GunaTextBox()
         Me.SuspendLayout()
         '
         'GunaElipse1
@@ -50,16 +50,16 @@ Partial Class Add_Events
         Me.GunaElipse1.Radius = 50
         Me.GunaElipse1.TargetControl = Me
         '
-        'lblLogin
+        'lblAddevent
         '
-        Me.lblLogin.AutoSize = True
-        Me.lblLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLogin.ForeColor = System.Drawing.Color.White
-        Me.lblLogin.Location = New System.Drawing.Point(252, 9)
-        Me.lblLogin.Name = "lblLogin"
-        Me.lblLogin.Size = New System.Drawing.Size(165, 29)
-        Me.lblLogin.TabIndex = 59
-        Me.lblLogin.Text = "ADD EVENTS"
+        Me.lblAddevent.AutoSize = True
+        Me.lblAddevent.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAddevent.ForeColor = System.Drawing.Color.White
+        Me.lblAddevent.Location = New System.Drawing.Point(252, 9)
+        Me.lblAddevent.Name = "lblAddevent"
+        Me.lblAddevent.Size = New System.Drawing.Size(165, 29)
+        Me.lblAddevent.TabIndex = 59
+        Me.lblAddevent.Text = "ADD EVENTS"
         '
         'txtCaptain
         '
@@ -99,111 +99,111 @@ Partial Class Add_Events
         Me.txtPatron.Size = New System.Drawing.Size(239, 34)
         Me.txtPatron.TabIndex = 57
         '
-        'Label4
+        'lblCaptain
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(306, 199)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(79, 28)
-        Me.Label4.TabIndex = 56
-        Me.Label4.Text = "Captain"
+        Me.lblCaptain.AutoSize = True
+        Me.lblCaptain.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCaptain.ForeColor = System.Drawing.Color.White
+        Me.lblCaptain.Location = New System.Drawing.Point(306, 199)
+        Me.lblCaptain.Name = "lblCaptain"
+        Me.lblCaptain.Size = New System.Drawing.Size(79, 28)
+        Me.lblCaptain.TabIndex = 56
+        Me.lblCaptain.Text = "Captain"
         '
-        'Label3
+        'lblPatron
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(316, 159)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(69, 28)
-        Me.Label3.TabIndex = 55
-        Me.Label3.Text = "Patron"
+        Me.lblPatron.AutoSize = True
+        Me.lblPatron.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPatron.ForeColor = System.Drawing.Color.White
+        Me.lblPatron.Location = New System.Drawing.Point(316, 159)
+        Me.lblPatron.Name = "lblPatron"
+        Me.lblPatron.Size = New System.Drawing.Size(69, 28)
+        Me.lblPatron.TabIndex = 55
+        Me.lblPatron.Text = "Patron"
         '
-        'txtgamename
+        'txtgame
         '
-        Me.txtgamename.BackColor = System.Drawing.Color.Transparent
-        Me.txtgamename.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.txtgamename.BorderColor = System.Drawing.Color.White
-        Me.txtgamename.BorderSize = 1
-        Me.txtgamename.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtgamename.FocusedBaseColor = System.Drawing.Color.White
-        Me.txtgamename.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
-        Me.txtgamename.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.txtgamename.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.txtgamename.Location = New System.Drawing.Point(385, 113)
-        Me.txtgamename.Name = "txtgamename"
-        Me.txtgamename.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.txtgamename.Radius = 10
-        Me.txtgamename.SelectedText = ""
-        Me.txtgamename.Size = New System.Drawing.Size(239, 34)
-        Me.txtgamename.TabIndex = 54
+        Me.txtgame.BackColor = System.Drawing.Color.Transparent
+        Me.txtgame.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.txtgame.BorderColor = System.Drawing.Color.White
+        Me.txtgame.BorderSize = 1
+        Me.txtgame.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtgame.FocusedBaseColor = System.Drawing.Color.White
+        Me.txtgame.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.txtgame.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.txtgame.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.txtgame.Location = New System.Drawing.Point(385, 113)
+        Me.txtgame.Name = "txtgame"
+        Me.txtgame.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtgame.Radius = 10
+        Me.txtgame.SelectedText = ""
+        Me.txtgame.Size = New System.Drawing.Size(239, 34)
+        Me.txtgame.TabIndex = 54
         '
-        'txtgameid
+        'txtEventid
         '
-        Me.txtgameid.BackColor = System.Drawing.Color.Transparent
-        Me.txtgameid.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.txtgameid.BorderColor = System.Drawing.Color.White
-        Me.txtgameid.BorderSize = 1
-        Me.txtgameid.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtgameid.FocusedBaseColor = System.Drawing.Color.White
-        Me.txtgameid.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
-        Me.txtgameid.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.txtgameid.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.txtgameid.Location = New System.Drawing.Point(385, 73)
-        Me.txtgameid.Name = "txtgameid"
-        Me.txtgameid.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.txtgameid.Radius = 10
-        Me.txtgameid.SelectedText = ""
-        Me.txtgameid.Size = New System.Drawing.Size(239, 34)
-        Me.txtgameid.TabIndex = 53
+        Me.txtEventid.BackColor = System.Drawing.Color.Transparent
+        Me.txtEventid.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.txtEventid.BorderColor = System.Drawing.Color.White
+        Me.txtEventid.BorderSize = 1
+        Me.txtEventid.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtEventid.FocusedBaseColor = System.Drawing.Color.White
+        Me.txtEventid.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.txtEventid.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.txtEventid.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.txtEventid.Location = New System.Drawing.Point(385, 73)
+        Me.txtEventid.Name = "txtEventid"
+        Me.txtEventid.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtEventid.Radius = 10
+        Me.txtEventid.SelectedText = ""
+        Me.txtEventid.Size = New System.Drawing.Size(239, 34)
+        Me.txtEventid.TabIndex = 53
         '
-        'Label2
+        'lblGame
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(322, 119)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(63, 28)
-        Me.Label2.TabIndex = 52
-        Me.Label2.Text = "Game"
+        Me.lblGame.AutoSize = True
+        Me.lblGame.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGame.ForeColor = System.Drawing.Color.White
+        Me.lblGame.Location = New System.Drawing.Point(322, 119)
+        Me.lblGame.Name = "lblGame"
+        Me.lblGame.Size = New System.Drawing.Size(63, 28)
+        Me.lblGame.TabIndex = 52
+        Me.lblGame.Text = "Game"
         '
-        'Label1
+        'lblEventid
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(301, 79)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(84, 28)
-        Me.Label1.TabIndex = 51
-        Me.Label1.Text = "Event ID"
+        Me.lblEventid.AutoSize = True
+        Me.lblEventid.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblEventid.ForeColor = System.Drawing.Color.White
+        Me.lblEventid.Location = New System.Drawing.Point(301, 79)
+        Me.lblEventid.Name = "lblEventid"
+        Me.lblEventid.Size = New System.Drawing.Size(84, 28)
+        Me.lblEventid.TabIndex = 51
+        Me.lblEventid.Text = "Event ID"
         '
-        'GunaCircleButton1
+        'btnExit
         '
-        Me.GunaCircleButton1.AnimationHoverSpeed = 0.07!
-        Me.GunaCircleButton1.AnimationSpeed = 0.03!
-        Me.GunaCircleButton1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.GunaCircleButton1.BorderColor = System.Drawing.Color.White
-        Me.GunaCircleButton1.BorderSize = 1
-        Me.GunaCircleButton1.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaCircleButton1.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaCircleButton1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.GunaCircleButton1.ForeColor = System.Drawing.Color.White
-        Me.GunaCircleButton1.Image = Nothing
-        Me.GunaCircleButton1.ImageSize = New System.Drawing.Size(52, 52)
-        Me.GunaCircleButton1.Location = New System.Drawing.Point(624, 24)
-        Me.GunaCircleButton1.Name = "GunaCircleButton1"
-        Me.GunaCircleButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.GunaCircleButton1.OnHoverBorderColor = System.Drawing.Color.White
-        Me.GunaCircleButton1.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GunaCircleButton1.OnHoverImage = Nothing
-        Me.GunaCircleButton1.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.GunaCircleButton1.Size = New System.Drawing.Size(20, 20)
-        Me.GunaCircleButton1.TabIndex = 50
-        Me.GunaCircleButton1.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias
+        Me.btnExit.AnimationHoverSpeed = 0.07!
+        Me.btnExit.AnimationSpeed = 0.03!
+        Me.btnExit.BaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.btnExit.BorderColor = System.Drawing.Color.White
+        Me.btnExit.BorderSize = 1
+        Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnExit.FocusedColor = System.Drawing.Color.Empty
+        Me.btnExit.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.btnExit.ForeColor = System.Drawing.Color.White
+        Me.btnExit.Image = Nothing
+        Me.btnExit.ImageSize = New System.Drawing.Size(52, 52)
+        Me.btnExit.Location = New System.Drawing.Point(624, 24)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.btnExit.OnHoverBorderColor = System.Drawing.Color.White
+        Me.btnExit.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnExit.OnHoverImage = Nothing
+        Me.btnExit.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.btnExit.Size = New System.Drawing.Size(20, 20)
+        Me.btnExit.TabIndex = 50
+        Me.btnExit.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias
         '
         'btnBrowse
         '
@@ -313,71 +313,71 @@ Partial Class Add_Events
         Me.btnAdd.Text = "Add"
         Me.btnAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label5
+        'lblDate
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(332, 235)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(53, 28)
-        Me.Label5.TabIndex = 60
-        Me.Label5.Text = "Date"
+        Me.lblDate.AutoSize = True
+        Me.lblDate.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDate.ForeColor = System.Drawing.Color.White
+        Me.lblDate.Location = New System.Drawing.Point(332, 235)
+        Me.lblDate.Name = "lblDate"
+        Me.lblDate.Size = New System.Drawing.Size(53, 28)
+        Me.lblDate.TabIndex = 60
+        Me.lblDate.Text = "Date"
         '
-        'Label6
+        'lblFacilitationee
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(243, 275)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(142, 28)
-        Me.Label6.TabIndex = 61
-        Me.Label6.Text = "Facilitation Fee"
+        Me.lblFacilitationee.AutoSize = True
+        Me.lblFacilitationee.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFacilitationee.ForeColor = System.Drawing.Color.White
+        Me.lblFacilitationee.Location = New System.Drawing.Point(243, 275)
+        Me.lblFacilitationee.Name = "lblFacilitationee"
+        Me.lblFacilitationee.Size = New System.Drawing.Size(142, 28)
+        Me.lblFacilitationee.TabIndex = 61
+        Me.lblFacilitationee.Text = "Facilitation Fee"
         '
-        'GunaDateTimePicker1
+        'txtDate
         '
-        Me.GunaDateTimePicker1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaDateTimePicker1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.GunaDateTimePicker1.BorderColor = System.Drawing.Color.White
-        Me.GunaDateTimePicker1.BorderSize = 1
-        Me.GunaDateTimePicker1.CustomFormat = Nothing
-        Me.GunaDateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
-        Me.GunaDateTimePicker1.FocusedColor = System.Drawing.Color.White
-        Me.GunaDateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.GunaDateTimePicker1.ForeColor = System.Drawing.Color.Black
-        Me.GunaDateTimePicker1.Location = New System.Drawing.Point(386, 233)
-        Me.GunaDateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        Me.GunaDateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
-        Me.GunaDateTimePicker1.Name = "GunaDateTimePicker1"
-        Me.GunaDateTimePicker1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.GunaDateTimePicker1.OnHoverBorderColor = System.Drawing.Color.White
-        Me.GunaDateTimePicker1.OnHoverForeColor = System.Drawing.Color.Black
-        Me.GunaDateTimePicker1.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.GunaDateTimePicker1.Radius = 10
-        Me.GunaDateTimePicker1.Size = New System.Drawing.Size(239, 30)
-        Me.GunaDateTimePicker1.TabIndex = 62
-        Me.GunaDateTimePicker1.Text = "Saturday, July 15, 2023"
-        Me.GunaDateTimePicker1.Value = New Date(2023, 7, 15, 19, 23, 48, 573)
+        Me.txtDate.BackColor = System.Drawing.Color.Transparent
+        Me.txtDate.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.txtDate.BorderColor = System.Drawing.Color.White
+        Me.txtDate.BorderSize = 1
+        Me.txtDate.CustomFormat = Nothing
+        Me.txtDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.txtDate.FocusedColor = System.Drawing.Color.White
+        Me.txtDate.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.txtDate.ForeColor = System.Drawing.Color.Black
+        Me.txtDate.Location = New System.Drawing.Point(386, 233)
+        Me.txtDate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.txtDate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.txtDate.Name = "txtDate"
+        Me.txtDate.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.txtDate.OnHoverBorderColor = System.Drawing.Color.White
+        Me.txtDate.OnHoverForeColor = System.Drawing.Color.Black
+        Me.txtDate.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.txtDate.Radius = 10
+        Me.txtDate.Size = New System.Drawing.Size(239, 30)
+        Me.txtDate.TabIndex = 62
+        Me.txtDate.Text = "Saturday, July 15, 2023"
+        Me.txtDate.Value = New Date(2023, 7, 15, 19, 23, 48, 573)
         '
-        'GunaTextBox1
+        'txtFacilitationfee
         '
-        Me.GunaTextBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaTextBox1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.GunaTextBox1.BorderColor = System.Drawing.Color.White
-        Me.GunaTextBox1.BorderSize = 1
-        Me.GunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.GunaTextBox1.FocusedBaseColor = System.Drawing.Color.White
-        Me.GunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
-        Me.GunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.GunaTextBox1.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.GunaTextBox1.Location = New System.Drawing.Point(386, 269)
-        Me.GunaTextBox1.Name = "GunaTextBox1"
-        Me.GunaTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.GunaTextBox1.Radius = 10
-        Me.GunaTextBox1.SelectedText = ""
-        Me.GunaTextBox1.Size = New System.Drawing.Size(239, 34)
-        Me.GunaTextBox1.TabIndex = 63
+        Me.txtFacilitationfee.BackColor = System.Drawing.Color.Transparent
+        Me.txtFacilitationfee.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.txtFacilitationfee.BorderColor = System.Drawing.Color.White
+        Me.txtFacilitationfee.BorderSize = 1
+        Me.txtFacilitationfee.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtFacilitationfee.FocusedBaseColor = System.Drawing.Color.White
+        Me.txtFacilitationfee.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.txtFacilitationfee.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.txtFacilitationfee.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.txtFacilitationfee.Location = New System.Drawing.Point(386, 269)
+        Me.txtFacilitationfee.Name = "txtFacilitationfee"
+        Me.txtFacilitationfee.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtFacilitationfee.Radius = 10
+        Me.txtFacilitationfee.SelectedText = ""
+        Me.txtFacilitationfee.Size = New System.Drawing.Size(239, 34)
+        Me.txtFacilitationfee.TabIndex = 63
         '
         'Add_Events
         '
@@ -385,20 +385,20 @@ Partial Class Add_Events
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(668, 338)
-        Me.Controls.Add(Me.GunaTextBox1)
-        Me.Controls.Add(Me.GunaDateTimePicker1)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.lblLogin)
+        Me.Controls.Add(Me.txtFacilitationfee)
+        Me.Controls.Add(Me.txtDate)
+        Me.Controls.Add(Me.lblFacilitationee)
+        Me.Controls.Add(Me.lblDate)
+        Me.Controls.Add(Me.lblAddevent)
         Me.Controls.Add(Me.txtCaptain)
         Me.Controls.Add(Me.txtPatron)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.txtgamename)
-        Me.Controls.Add(Me.txtgameid)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.GunaCircleButton1)
+        Me.Controls.Add(Me.lblCaptain)
+        Me.Controls.Add(Me.lblPatron)
+        Me.Controls.Add(Me.txtgame)
+        Me.Controls.Add(Me.txtEventid)
+        Me.Controls.Add(Me.lblGame)
+        Me.Controls.Add(Me.lblEventid)
+        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnBrowse)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnSave)
@@ -413,22 +413,22 @@ Partial Class Add_Events
 
     End Sub
     Friend WithEvents GunaElipse1 As Guna.UI.WinForms.GunaElipse
-    Friend WithEvents lblLogin As System.Windows.Forms.Label
+    Friend WithEvents lblAddevent As System.Windows.Forms.Label
     Friend WithEvents txtCaptain As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents txtPatron As Guna.UI.WinForms.GunaTextBox
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents txtgamename As Guna.UI.WinForms.GunaTextBox
-    Friend WithEvents txtgameid As Guna.UI.WinForms.GunaTextBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents GunaCircleButton1 As Guna.UI.WinForms.GunaCircleButton
+    Friend WithEvents lblCaptain As System.Windows.Forms.Label
+    Friend WithEvents lblPatron As System.Windows.Forms.Label
+    Friend WithEvents txtgame As Guna.UI.WinForms.GunaTextBox
+    Friend WithEvents txtEventid As Guna.UI.WinForms.GunaTextBox
+    Friend WithEvents lblGame As System.Windows.Forms.Label
+    Friend WithEvents lblEventid As System.Windows.Forms.Label
+    Friend WithEvents btnExit As Guna.UI.WinForms.GunaCircleButton
     Friend WithEvents btnBrowse As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnClear As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnSave As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnAdd As Guna.UI.WinForms.GunaButton
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents GunaTextBox1 As Guna.UI.WinForms.GunaTextBox
-    Friend WithEvents GunaDateTimePicker1 As Guna.UI.WinForms.GunaDateTimePicker
+    Friend WithEvents lblFacilitationee As System.Windows.Forms.Label
+    Friend WithEvents lblDate As System.Windows.Forms.Label
+    Friend WithEvents txtFacilitationfee As Guna.UI.WinForms.GunaTextBox
+    Friend WithEvents txtDate As Guna.UI.WinForms.GunaDateTimePicker
 End Class

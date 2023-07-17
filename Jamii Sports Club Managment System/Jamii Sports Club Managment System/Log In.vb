@@ -1,5 +1,5 @@
 ﻿Public Class Log_In
-    Private Sub GunaCircleButton1_Click(sender As Object, e As EventArgs) Handles GunaCircleButton1.Click
+    Private Sub GunaCircleButton1_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
         splashScreen.Timer1.Start()
     End Sub
@@ -8,7 +8,7 @@
 
     End Sub
 
-    Private Sub GunaCircleButton2_Click(sender As Object, e As EventArgs) Handles GunaCircleButton2.Click
+    Private Sub GunaCircleButton2_Click(sender As Object, e As EventArgs) Handles btnMinimize.Click
         Me.WindowState = FormWindowState.Minimized
     End Sub
 

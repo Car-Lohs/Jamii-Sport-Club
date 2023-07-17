@@ -25,24 +25,24 @@ Partial Class Add_Member
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Add_Member))
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
-        Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.GunaCircleButton1 = New Guna.UI.WinForms.GunaCircleButton()
-        Me.GunaCircleButton2 = New Guna.UI.WinForms.GunaCircleButton()
-        Me.lblLogin = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.profilepicbox = New Guna.UI.WinForms.GunaCirclePictureBox()
+        Me.btnExit = New Guna.UI.WinForms.GunaCircleButton()
+        Me.btnaddpic = New Guna.UI.WinForms.GunaCircleButton()
+        Me.lblAddmember = New System.Windows.Forms.Label()
+        Me.lblMemberid = New System.Windows.Forms.Label()
+        Me.lblFullname = New System.Windows.Forms.Label()
+        Me.lblGender = New System.Windows.Forms.Label()
+        Me.lblDob = New System.Windows.Forms.Label()
+        Me.lblRegfee = New System.Windows.Forms.Label()
+        Me.lblRole = New System.Windows.Forms.Label()
+        Me.lblWeight = New System.Windows.Forms.Label()
+        Me.lblHeight = New System.Windows.Forms.Label()
         Me.txtmemberid = New Guna.UI.WinForms.GunaTextBox()
         Me.txtfullname = New Guna.UI.WinForms.GunaTextBox()
         Me.txtRegfee = New Guna.UI.WinForms.GunaTextBox()
         Me.txtWeight = New Guna.UI.WinForms.GunaTextBox()
         Me.txtHeight = New Guna.UI.WinForms.GunaTextBox()
-        Me.GunaDateTimePicker1 = New Guna.UI.WinForms.GunaDateTimePicker()
+        Me.txtDatepick = New Guna.UI.WinForms.GunaDateTimePicker()
         Me.drpRole = New ns1.BunifuDropdown()
         Me.drpGender = New ns1.BunifuDropdown()
         Me.btnAdd = New Guna.UI.WinForms.GunaButton()
@@ -50,8 +50,8 @@ Partial Class Add_Member
         Me.btnClear = New Guna.UI.WinForms.GunaButton()
         Me.btnBrowse = New Guna.UI.WinForms.GunaButton()
         Me.drpSports = New ns1.BunifuDropdown()
-        Me.Label9 = New System.Windows.Forms.Label()
-        CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.lblSports = New System.Windows.Forms.Label()
+        CType(Me.profilepicbox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GunaElipse1
@@ -59,164 +59,164 @@ Partial Class Add_Member
         Me.GunaElipse1.Radius = 50
         Me.GunaElipse1.TargetControl = Me
         '
-        'GunaCirclePictureBox1
+        'profilepicbox
         '
-        Me.GunaCirclePictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GunaCirclePictureBox1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.GunaCirclePictureBox1.Location = New System.Drawing.Point(46, 61)
-        Me.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1"
-        Me.GunaCirclePictureBox1.Size = New System.Drawing.Size(150, 150)
-        Me.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaCirclePictureBox1.TabIndex = 0
-        Me.GunaCirclePictureBox1.TabStop = False
-        Me.GunaCirclePictureBox1.UseTransfarantBackground = False
+        Me.profilepicbox.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.profilepicbox.BaseColor = System.Drawing.Color.FromArgb(CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.profilepicbox.Location = New System.Drawing.Point(46, 61)
+        Me.profilepicbox.Name = "profilepicbox"
+        Me.profilepicbox.Size = New System.Drawing.Size(150, 150)
+        Me.profilepicbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.profilepicbox.TabIndex = 0
+        Me.profilepicbox.TabStop = False
+        Me.profilepicbox.UseTransfarantBackground = False
         '
-        'GunaCircleButton1
+        'btnExit
         '
-        Me.GunaCircleButton1.AnimationHoverSpeed = 0.07!
-        Me.GunaCircleButton1.AnimationSpeed = 0.03!
-        Me.GunaCircleButton1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.GunaCircleButton1.BorderColor = System.Drawing.Color.White
-        Me.GunaCircleButton1.BorderSize = 1
-        Me.GunaCircleButton1.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaCircleButton1.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaCircleButton1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.GunaCircleButton1.ForeColor = System.Drawing.Color.White
-        Me.GunaCircleButton1.Image = Nothing
-        Me.GunaCircleButton1.ImageSize = New System.Drawing.Size(52, 52)
-        Me.GunaCircleButton1.Location = New System.Drawing.Point(634, 12)
-        Me.GunaCircleButton1.Name = "GunaCircleButton1"
-        Me.GunaCircleButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.GunaCircleButton1.OnHoverBorderColor = System.Drawing.Color.White
-        Me.GunaCircleButton1.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GunaCircleButton1.OnHoverImage = Nothing
-        Me.GunaCircleButton1.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.GunaCircleButton1.Size = New System.Drawing.Size(20, 20)
-        Me.GunaCircleButton1.TabIndex = 7
+        Me.btnExit.AnimationHoverSpeed = 0.07!
+        Me.btnExit.AnimationSpeed = 0.03!
+        Me.btnExit.BaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.btnExit.BorderColor = System.Drawing.Color.White
+        Me.btnExit.BorderSize = 1
+        Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnExit.FocusedColor = System.Drawing.Color.Empty
+        Me.btnExit.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.btnExit.ForeColor = System.Drawing.Color.White
+        Me.btnExit.Image = Nothing
+        Me.btnExit.ImageSize = New System.Drawing.Size(52, 52)
+        Me.btnExit.Location = New System.Drawing.Point(634, 12)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.btnExit.OnHoverBorderColor = System.Drawing.Color.White
+        Me.btnExit.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnExit.OnHoverImage = Nothing
+        Me.btnExit.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.btnExit.Size = New System.Drawing.Size(20, 20)
+        Me.btnExit.TabIndex = 7
         '
-        'GunaCircleButton2
+        'btnaddpic
         '
-        Me.GunaCircleButton2.AnimationHoverSpeed = 0.07!
-        Me.GunaCircleButton2.AnimationSpeed = 0.03!
-        Me.GunaCircleButton2.BackColor = System.Drawing.Color.Transparent
-        Me.GunaCircleButton2.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GunaCircleButton2.BorderColor = System.Drawing.Color.White
-        Me.GunaCircleButton2.BorderSize = 1
-        Me.GunaCircleButton2.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaCircleButton2.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaCircleButton2.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Bold)
-        Me.GunaCircleButton2.ForeColor = System.Drawing.Color.White
-        Me.GunaCircleButton2.Image = Nothing
-        Me.GunaCircleButton2.ImageSize = New System.Drawing.Size(52, 52)
-        Me.GunaCircleButton2.Location = New System.Drawing.Point(176, 191)
-        Me.GunaCircleButton2.Name = "GunaCircleButton2"
-        Me.GunaCircleButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GunaCircleButton2.OnHoverBorderColor = System.Drawing.Color.White
-        Me.GunaCircleButton2.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaCircleButton2.OnHoverImage = Nothing
-        Me.GunaCircleButton2.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GunaCircleButton2.Size = New System.Drawing.Size(20, 20)
-        Me.GunaCircleButton2.TabIndex = 8
-        Me.GunaCircleButton2.Text = "+"
+        Me.btnaddpic.AnimationHoverSpeed = 0.07!
+        Me.btnaddpic.AnimationSpeed = 0.03!
+        Me.btnaddpic.BackColor = System.Drawing.Color.Transparent
+        Me.btnaddpic.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnaddpic.BorderColor = System.Drawing.Color.White
+        Me.btnaddpic.BorderSize = 1
+        Me.btnaddpic.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnaddpic.FocusedColor = System.Drawing.Color.Empty
+        Me.btnaddpic.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Bold)
+        Me.btnaddpic.ForeColor = System.Drawing.Color.White
+        Me.btnaddpic.Image = Nothing
+        Me.btnaddpic.ImageSize = New System.Drawing.Size(52, 52)
+        Me.btnaddpic.Location = New System.Drawing.Point(176, 191)
+        Me.btnaddpic.Name = "btnaddpic"
+        Me.btnaddpic.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnaddpic.OnHoverBorderColor = System.Drawing.Color.White
+        Me.btnaddpic.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnaddpic.OnHoverImage = Nothing
+        Me.btnaddpic.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnaddpic.Size = New System.Drawing.Size(20, 20)
+        Me.btnaddpic.TabIndex = 8
+        Me.btnaddpic.Text = "+"
         '
-        'lblLogin
+        'lblAddmember
         '
-        Me.lblLogin.AutoSize = True
-        Me.lblLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLogin.ForeColor = System.Drawing.Color.White
-        Me.lblLogin.Location = New System.Drawing.Point(256, 12)
-        Me.lblLogin.Name = "lblLogin"
-        Me.lblLogin.Size = New System.Drawing.Size(173, 29)
-        Me.lblLogin.TabIndex = 9
-        Me.lblLogin.Text = "ADD MEMBER"
+        Me.lblAddmember.AutoSize = True
+        Me.lblAddmember.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAddmember.ForeColor = System.Drawing.Color.White
+        Me.lblAddmember.Location = New System.Drawing.Point(256, 12)
+        Me.lblAddmember.Name = "lblAddmember"
+        Me.lblAddmember.Size = New System.Drawing.Size(173, 29)
+        Me.lblAddmember.TabIndex = 9
+        Me.lblAddmember.Text = "ADD MEMBER"
         '
-        'Label1
+        'lblMemberid
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(274, 61)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(110, 28)
-        Me.Label1.TabIndex = 10
-        Me.Label1.Text = "Member ID"
+        Me.lblMemberid.AutoSize = True
+        Me.lblMemberid.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMemberid.ForeColor = System.Drawing.Color.White
+        Me.lblMemberid.Location = New System.Drawing.Point(274, 61)
+        Me.lblMemberid.Name = "lblMemberid"
+        Me.lblMemberid.Size = New System.Drawing.Size(110, 28)
+        Me.lblMemberid.TabIndex = 10
+        Me.lblMemberid.Text = "Member ID"
         '
-        'Label2
+        'lblFullname
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(284, 98)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(100, 28)
-        Me.Label2.TabIndex = 11
-        Me.Label2.Text = "Full Name"
+        Me.lblFullname.AutoSize = True
+        Me.lblFullname.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFullname.ForeColor = System.Drawing.Color.White
+        Me.lblFullname.Location = New System.Drawing.Point(284, 98)
+        Me.lblFullname.Name = "lblFullname"
+        Me.lblFullname.Size = New System.Drawing.Size(100, 28)
+        Me.lblFullname.TabIndex = 11
+        Me.lblFullname.Text = "Full Name"
         '
-        'Label3
+        'lblGender
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(308, 135)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 28)
-        Me.Label3.TabIndex = 12
-        Me.Label3.Text = "Gender"
+        Me.lblGender.AutoSize = True
+        Me.lblGender.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGender.ForeColor = System.Drawing.Color.White
+        Me.lblGender.Location = New System.Drawing.Point(308, 135)
+        Me.lblGender.Name = "lblGender"
+        Me.lblGender.Size = New System.Drawing.Size(76, 28)
+        Me.lblGender.TabIndex = 12
+        Me.lblGender.Text = "Gender"
         '
-        'Label4
+        'lblDob
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(259, 172)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(125, 28)
-        Me.Label4.TabIndex = 13
-        Me.Label4.Text = "Date Of Birth"
+        Me.lblDob.AutoSize = True
+        Me.lblDob.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDob.ForeColor = System.Drawing.Color.White
+        Me.lblDob.Location = New System.Drawing.Point(259, 172)
+        Me.lblDob.Name = "lblDob"
+        Me.lblDob.Size = New System.Drawing.Size(125, 28)
+        Me.lblDob.TabIndex = 13
+        Me.lblDob.Text = "Date Of Birth"
         '
-        'Label5
+        'lblRegfee
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(232, 209)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(152, 28)
-        Me.Label5.TabIndex = 14
-        Me.Label5.Text = "Registration Fee"
+        Me.lblRegfee.AutoSize = True
+        Me.lblRegfee.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRegfee.ForeColor = System.Drawing.Color.White
+        Me.lblRegfee.Location = New System.Drawing.Point(232, 209)
+        Me.lblRegfee.Name = "lblRegfee"
+        Me.lblRegfee.Size = New System.Drawing.Size(152, 28)
+        Me.lblRegfee.TabIndex = 14
+        Me.lblRegfee.Text = "Registration Fee"
         '
-        'Label6
+        'lblRole
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(334, 246)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(50, 28)
-        Me.Label6.TabIndex = 15
-        Me.Label6.Text = "Role"
+        Me.lblRole.AutoSize = True
+        Me.lblRole.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRole.ForeColor = System.Drawing.Color.White
+        Me.lblRole.Location = New System.Drawing.Point(334, 246)
+        Me.lblRole.Name = "lblRole"
+        Me.lblRole.Size = New System.Drawing.Size(50, 28)
+        Me.lblRole.TabIndex = 15
+        Me.lblRole.Text = "Role"
         '
-        'Label7
+        'lblWeight
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(309, 283)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(75, 28)
-        Me.Label7.TabIndex = 16
-        Me.Label7.Text = "Weight"
+        Me.lblWeight.AutoSize = True
+        Me.lblWeight.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblWeight.ForeColor = System.Drawing.Color.White
+        Me.lblWeight.Location = New System.Drawing.Point(309, 283)
+        Me.lblWeight.Name = "lblWeight"
+        Me.lblWeight.Size = New System.Drawing.Size(75, 28)
+        Me.lblWeight.TabIndex = 16
+        Me.lblWeight.Text = "Weight"
         '
-        'Label8
+        'lblHeight
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(313, 320)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(71, 28)
-        Me.Label8.TabIndex = 17
-        Me.Label8.Text = "Height"
+        Me.lblHeight.AutoSize = True
+        Me.lblHeight.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHeight.ForeColor = System.Drawing.Color.White
+        Me.lblHeight.Location = New System.Drawing.Point(313, 320)
+        Me.lblHeight.Name = "lblHeight"
+        Me.lblHeight.Size = New System.Drawing.Size(71, 28)
+        Me.lblHeight.TabIndex = 17
+        Me.lblHeight.Text = "Height"
         '
         'txtmemberid
         '
@@ -313,30 +313,30 @@ Partial Class Add_Member
         Me.txtHeight.Size = New System.Drawing.Size(239, 34)
         Me.txtHeight.TabIndex = 23
         '
-        'GunaDateTimePicker1
+        'txtDatepick
         '
-        Me.GunaDateTimePicker1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaDateTimePicker1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.GunaDateTimePicker1.BorderColor = System.Drawing.Color.White
-        Me.GunaDateTimePicker1.BorderSize = 1
-        Me.GunaDateTimePicker1.CustomFormat = Nothing
-        Me.GunaDateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
-        Me.GunaDateTimePicker1.FocusedColor = System.Drawing.Color.White
-        Me.GunaDateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.GunaDateTimePicker1.ForeColor = System.Drawing.Color.Black
-        Me.GunaDateTimePicker1.Location = New System.Drawing.Point(390, 172)
-        Me.GunaDateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        Me.GunaDateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
-        Me.GunaDateTimePicker1.Name = "GunaDateTimePicker1"
-        Me.GunaDateTimePicker1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.GunaDateTimePicker1.OnHoverBorderColor = System.Drawing.Color.White
-        Me.GunaDateTimePicker1.OnHoverForeColor = System.Drawing.Color.Black
-        Me.GunaDateTimePicker1.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.GunaDateTimePicker1.Radius = 10
-        Me.GunaDateTimePicker1.Size = New System.Drawing.Size(239, 30)
-        Me.GunaDateTimePicker1.TabIndex = 25
-        Me.GunaDateTimePicker1.Text = "Saturday, July 15, 2023"
-        Me.GunaDateTimePicker1.Value = New Date(2023, 7, 15, 19, 23, 48, 573)
+        Me.txtDatepick.BackColor = System.Drawing.Color.Transparent
+        Me.txtDatepick.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.txtDatepick.BorderColor = System.Drawing.Color.White
+        Me.txtDatepick.BorderSize = 1
+        Me.txtDatepick.CustomFormat = Nothing
+        Me.txtDatepick.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.txtDatepick.FocusedColor = System.Drawing.Color.White
+        Me.txtDatepick.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.txtDatepick.ForeColor = System.Drawing.Color.Black
+        Me.txtDatepick.Location = New System.Drawing.Point(390, 172)
+        Me.txtDatepick.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.txtDatepick.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.txtDatepick.Name = "txtDatepick"
+        Me.txtDatepick.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.txtDatepick.OnHoverBorderColor = System.Drawing.Color.White
+        Me.txtDatepick.OnHoverForeColor = System.Drawing.Color.Black
+        Me.txtDatepick.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.txtDatepick.Radius = 10
+        Me.txtDatepick.Size = New System.Drawing.Size(239, 30)
+        Me.txtDatepick.TabIndex = 25
+        Me.txtDatepick.Text = "Saturday, July 15, 2023"
+        Me.txtDatepick.Value = New Date(2023, 7, 15, 19, 23, 48, 573)
         '
         'drpRole
         '
@@ -494,16 +494,16 @@ Partial Class Add_Member
         Me.drpSports.Size = New System.Drawing.Size(239, 34)
         Me.drpSports.TabIndex = 33
         '
-        'Label9
+        'lblSports
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(303, 358)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(81, 28)
-        Me.Label9.TabIndex = 34
-        Me.Label9.Text = "Sport(s)"
+        Me.lblSports.AutoSize = True
+        Me.lblSports.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSports.ForeColor = System.Drawing.Color.White
+        Me.lblSports.Location = New System.Drawing.Point(303, 358)
+        Me.lblSports.Name = "lblSports"
+        Me.lblSports.Size = New System.Drawing.Size(81, 28)
+        Me.lblSports.TabIndex = 34
+        Me.lblSports.Text = "Sport(s)"
         '
         'Add_Member
         '
@@ -511,7 +511,7 @@ Partial Class Add_Member
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(684, 422)
-        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.lblSports)
         Me.Controls.Add(Me.drpSports)
         Me.Controls.Add(Me.btnBrowse)
         Me.Controls.Add(Me.btnClear)
@@ -519,48 +519,48 @@ Partial Class Add_Member
         Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.drpGender)
         Me.Controls.Add(Me.drpRole)
-        Me.Controls.Add(Me.GunaDateTimePicker1)
+        Me.Controls.Add(Me.txtDatepick)
         Me.Controls.Add(Me.txtHeight)
         Me.Controls.Add(Me.txtWeight)
         Me.Controls.Add(Me.txtRegfee)
         Me.Controls.Add(Me.txtfullname)
         Me.Controls.Add(Me.txtmemberid)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.lblLogin)
-        Me.Controls.Add(Me.GunaCircleButton2)
-        Me.Controls.Add(Me.GunaCircleButton1)
-        Me.Controls.Add(Me.GunaCirclePictureBox1)
+        Me.Controls.Add(Me.lblHeight)
+        Me.Controls.Add(Me.lblWeight)
+        Me.Controls.Add(Me.lblRole)
+        Me.Controls.Add(Me.lblRegfee)
+        Me.Controls.Add(Me.lblDob)
+        Me.Controls.Add(Me.lblGender)
+        Me.Controls.Add(Me.lblFullname)
+        Me.Controls.Add(Me.lblMemberid)
+        Me.Controls.Add(Me.lblAddmember)
+        Me.Controls.Add(Me.btnaddpic)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.profilepicbox)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Add_Member"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Add_Member"
-        CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.profilepicbox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents GunaElipse1 As Guna.UI.WinForms.GunaElipse
-    Friend WithEvents GunaCirclePictureBox1 As Guna.UI.WinForms.GunaCirclePictureBox
-    Friend WithEvents GunaCircleButton1 As Guna.UI.WinForms.GunaCircleButton
-    Friend WithEvents GunaCircleButton2 As Guna.UI.WinForms.GunaCircleButton
-    Friend WithEvents lblLogin As System.Windows.Forms.Label
-    Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents GunaDateTimePicker1 As Guna.UI.WinForms.GunaDateTimePicker
+    Friend WithEvents profilepicbox As Guna.UI.WinForms.GunaCirclePictureBox
+    Friend WithEvents btnExit As Guna.UI.WinForms.GunaCircleButton
+    Friend WithEvents btnaddpic As Guna.UI.WinForms.GunaCircleButton
+    Friend WithEvents lblAddmember As System.Windows.Forms.Label
+    Friend WithEvents lblHeight As System.Windows.Forms.Label
+    Friend WithEvents lblWeight As System.Windows.Forms.Label
+    Friend WithEvents lblRole As System.Windows.Forms.Label
+    Friend WithEvents lblRegfee As System.Windows.Forms.Label
+    Friend WithEvents lblDob As System.Windows.Forms.Label
+    Friend WithEvents lblGender As System.Windows.Forms.Label
+    Friend WithEvents lblFullname As System.Windows.Forms.Label
+    Friend WithEvents lblMemberid As System.Windows.Forms.Label
+    Friend WithEvents txtDatepick As Guna.UI.WinForms.GunaDateTimePicker
     Friend WithEvents txtHeight As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents txtWeight As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents txtRegfee As Guna.UI.WinForms.GunaTextBox
@@ -572,6 +572,6 @@ Partial Class Add_Member
     Friend WithEvents btnClear As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnSave As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnAdd As Guna.UI.WinForms.GunaButton
-    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents lblSports As System.Windows.Forms.Label
     Friend WithEvents drpSports As ns1.BunifuDropdown
 End Class

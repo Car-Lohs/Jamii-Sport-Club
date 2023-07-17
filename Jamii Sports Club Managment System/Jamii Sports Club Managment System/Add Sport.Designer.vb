@@ -29,7 +29,7 @@ Partial Class Add_Sport
         Me.btnClear = New Guna.UI.WinForms.GunaButton()
         Me.btnSave = New Guna.UI.WinForms.GunaButton()
         Me.btnAdd = New Guna.UI.WinForms.GunaButton()
-        Me.GunaCircleButton1 = New Guna.UI.WinForms.GunaCircleButton()
+        Me.lblExit = New Guna.UI.WinForms.GunaCircleButton()
         Me.txtgamename = New Guna.UI.WinForms.GunaTextBox()
         Me.txtgameid = New Guna.UI.WinForms.GunaTextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -38,7 +38,7 @@ Partial Class Add_Sport
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtPatron = New Guna.UI.WinForms.GunaTextBox()
         Me.txtCaptain = New Guna.UI.WinForms.GunaTextBox()
-        Me.lblLogin = New System.Windows.Forms.Label()
+        Me.lblAddsport = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'GunaElipse1
@@ -154,29 +154,29 @@ Partial Class Add_Sport
         Me.btnAdd.Text = "Add"
         Me.btnAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'GunaCircleButton1
+        'lblExit
         '
-        Me.GunaCircleButton1.AnimationHoverSpeed = 0.07!
-        Me.GunaCircleButton1.AnimationSpeed = 0.03!
-        Me.GunaCircleButton1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.GunaCircleButton1.BorderColor = System.Drawing.Color.White
-        Me.GunaCircleButton1.BorderSize = 1
-        Me.GunaCircleButton1.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaCircleButton1.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaCircleButton1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.GunaCircleButton1.ForeColor = System.Drawing.Color.White
-        Me.GunaCircleButton1.Image = Nothing
-        Me.GunaCircleButton1.ImageSize = New System.Drawing.Size(52, 52)
-        Me.GunaCircleButton1.Location = New System.Drawing.Point(636, 12)
-        Me.GunaCircleButton1.Name = "GunaCircleButton1"
-        Me.GunaCircleButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.GunaCircleButton1.OnHoverBorderColor = System.Drawing.Color.White
-        Me.GunaCircleButton1.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GunaCircleButton1.OnHoverImage = Nothing
-        Me.GunaCircleButton1.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.GunaCircleButton1.Size = New System.Drawing.Size(20, 20)
-        Me.GunaCircleButton1.TabIndex = 36
-        Me.GunaCircleButton1.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias
+        Me.lblExit.AnimationHoverSpeed = 0.07!
+        Me.lblExit.AnimationSpeed = 0.03!
+        Me.lblExit.BaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.lblExit.BorderColor = System.Drawing.Color.White
+        Me.lblExit.BorderSize = 1
+        Me.lblExit.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.lblExit.FocusedColor = System.Drawing.Color.Empty
+        Me.lblExit.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.lblExit.ForeColor = System.Drawing.Color.White
+        Me.lblExit.Image = Nothing
+        Me.lblExit.ImageSize = New System.Drawing.Size(52, 52)
+        Me.lblExit.Location = New System.Drawing.Point(636, 12)
+        Me.lblExit.Name = "lblExit"
+        Me.lblExit.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.lblExit.OnHoverBorderColor = System.Drawing.Color.White
+        Me.lblExit.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblExit.OnHoverImage = Nothing
+        Me.lblExit.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.lblExit.Size = New System.Drawing.Size(20, 20)
+        Me.lblExit.TabIndex = 36
+        Me.lblExit.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias
         '
         'txtgamename
         '
@@ -298,16 +298,16 @@ Partial Class Add_Sport
         Me.txtCaptain.Size = New System.Drawing.Size(239, 34)
         Me.txtCaptain.TabIndex = 44
         '
-        'lblLogin
+        'lblAddsport
         '
-        Me.lblLogin.AutoSize = True
-        Me.lblLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLogin.ForeColor = System.Drawing.Color.White
-        Me.lblLogin.Location = New System.Drawing.Point(256, 12)
-        Me.lblLogin.Name = "lblLogin"
-        Me.lblLogin.Size = New System.Drawing.Size(152, 29)
-        Me.lblLogin.TabIndex = 45
-        Me.lblLogin.Text = "ADD SPORT"
+        Me.lblAddsport.AutoSize = True
+        Me.lblAddsport.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAddsport.ForeColor = System.Drawing.Color.White
+        Me.lblAddsport.Location = New System.Drawing.Point(256, 12)
+        Me.lblAddsport.Name = "lblAddsport"
+        Me.lblAddsport.Size = New System.Drawing.Size(152, 29)
+        Me.lblAddsport.TabIndex = 45
+        Me.lblAddsport.Text = "ADD SPORT"
         '
         'Add_Sport
         '
@@ -315,7 +315,7 @@ Partial Class Add_Sport
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(684, 255)
-        Me.Controls.Add(Me.lblLogin)
+        Me.Controls.Add(Me.lblAddsport)
         Me.Controls.Add(Me.txtCaptain)
         Me.Controls.Add(Me.txtPatron)
         Me.Controls.Add(Me.Label4)
@@ -324,7 +324,7 @@ Partial Class Add_Sport
         Me.Controls.Add(Me.txtgameid)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.GunaCircleButton1)
+        Me.Controls.Add(Me.lblExit)
         Me.Controls.Add(Me.btnBrowse)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnSave)
@@ -343,7 +343,7 @@ Partial Class Add_Sport
     Friend WithEvents btnClear As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnSave As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnAdd As Guna.UI.WinForms.GunaButton
-    Friend WithEvents GunaCircleButton1 As Guna.UI.WinForms.GunaCircleButton
+    Friend WithEvents lblExit As Guna.UI.WinForms.GunaCircleButton
     Friend WithEvents txtCaptain As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents txtPatron As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
@@ -352,5 +352,5 @@ Partial Class Add_Sport
     Friend WithEvents txtgameid As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents lblLogin As System.Windows.Forms.Label
+    Friend WithEvents lblAddsport As System.Windows.Forms.Label
 End Class

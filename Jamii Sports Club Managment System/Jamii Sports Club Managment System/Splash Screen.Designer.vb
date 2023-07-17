@@ -37,15 +37,15 @@ Partial Class splashScreen
         '
         'GunaElipse1
         '
-        Me.GunaElipse1.Radius = 20
+        Me.GunaElipse1.Radius = 50
         Me.GunaElipse1.TargetControl = Me
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(61, 27)
+        Me.PictureBox1.Location = New System.Drawing.Point(60, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(363, 288)
+        Me.PictureBox1.Size = New System.Drawing.Size(292, 234)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -56,7 +56,7 @@ Partial Class splashScreen
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape2, Me.RectangleShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(484, 461)
+        Me.ShapeContainer1.Size = New System.Drawing.Size(412, 380)
         Me.ShapeContainer1.TabIndex = 1
         Me.ShapeContainer1.TabStop = False
         '
@@ -67,7 +67,7 @@ Partial Class splashScreen
         Me.RectangleShape2.BorderColor = System.Drawing.Color.White
         Me.RectangleShape2.CornerRadius = 3
         Me.RectangleShape2.FillColor = System.Drawing.SystemColors.WindowText
-        Me.RectangleShape2.Location = New System.Drawing.Point(57, 380)
+        Me.RectangleShape2.Location = New System.Drawing.Point(69, 317)
         Me.RectangleShape2.Name = "RectangleShape2"
         Me.RectangleShape2.Size = New System.Drawing.Size(6, 7)
         '
@@ -77,9 +77,9 @@ Partial Class splashScreen
         Me.RectangleShape1.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
         Me.RectangleShape1.BorderColor = System.Drawing.Color.White
         Me.RectangleShape1.CornerRadius = 3
-        Me.RectangleShape1.Location = New System.Drawing.Point(57, 380)
+        Me.RectangleShape1.Location = New System.Drawing.Point(69, 317)
         Me.RectangleShape1.Name = "RectangleShape1"
-        Me.RectangleShape1.Size = New System.Drawing.Size(370, 7)
+        Me.RectangleShape1.Size = New System.Drawing.Size(275, 7)
         '
         'Label1
         '
@@ -87,7 +87,7 @@ Partial Class splashScreen
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(185, 340)
+        Me.Label1.Location = New System.Drawing.Point(149, 274)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(115, 29)
         Me.Label1.TabIndex = 2
@@ -99,7 +99,7 @@ Partial Class splashScreen
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(215, 401)
+        Me.Label2.Location = New System.Drawing.Point(179, 333)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(54, 13)
         Me.Label2.TabIndex = 3
@@ -114,7 +114,7 @@ Partial Class splashScreen
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(484, 461)
+        Me.ClientSize = New System.Drawing.Size(412, 380)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)

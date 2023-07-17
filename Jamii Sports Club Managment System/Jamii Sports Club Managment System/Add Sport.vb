@@ -1,6 +1,6 @@
 ﻿Public Class Add_Sport
 
-    Private Sub GunaCircleButton1_Click(sender As Object, e As EventArgs) Handles GunaCircleButton1.Click
+    Private Sub GunaCircleButton1_Click(sender As Object, e As EventArgs) Handles lblExit.Click
         Me.Close()
     End Sub
 
