@@ -5,7 +5,8 @@
     End Sub
 
     Private Sub btnBrowse_Click(sender As Object, e As EventArgs) Handles btnBrowse.Click
-        SportEvents.Show()
+        SportEvents.ShowDialog()
         Me.Close()
     End Sub
+
 End Class

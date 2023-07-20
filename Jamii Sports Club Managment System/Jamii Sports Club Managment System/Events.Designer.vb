@@ -32,8 +32,11 @@ Partial Class SportEvents
         Me.btnMaximize = New Guna.UI.WinForms.GunaCircleButton()
         Me.btnExit = New Guna.UI.WinForms.GunaCircleButton()
         Me.GunaElipsePanel1 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.btnPrevious = New Guna.UI.WinForms.GunaButton()
         Me.txtfacilitationfee = New Guna.UI.WinForms.GunaTextBox()
+        Me.btnNext = New Guna.UI.WinForms.GunaButton()
         Me.txtDatepic = New Guna.UI.WinForms.GunaDateTimePicker()
+        Me.btnDelete = New Guna.UI.WinForms.GunaButton()
         Me.lblFacilitationfee = New System.Windows.Forms.Label()
         Me.lblDate = New System.Windows.Forms.Label()
         Me.txtCaptain = New Guna.UI.WinForms.GunaTextBox()
@@ -41,7 +44,7 @@ Partial Class SportEvents
         Me.lblCaptain = New System.Windows.Forms.Label()
         Me.lblPatron = New System.Windows.Forms.Label()
         Me.txtgame = New Guna.UI.WinForms.GunaTextBox()
-        Me.txtEventid = New Guna.UI.WinForms.GunaTextBox()
+        Me.EventidTextbox = New Guna.UI.WinForms.GunaTextBox()
         Me.lblGame = New System.Windows.Forms.Label()
         Me.lblEventid = New System.Windows.Forms.Label()
         Me.btnClear = New Guna.UI.WinForms.GunaButton()
@@ -49,17 +52,20 @@ Partial Class SportEvents
         Me.btnAdd = New Guna.UI.WinForms.GunaButton()
         Me.lblEvents = New System.Windows.Forms.Label()
         Me.GunaDataGridView1 = New Guna.UI.WinForms.GunaDataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.btnPrevious = New Guna.UI.WinForms.GunaButton()
-        Me.btnNext = New Guna.UI.WinForms.GunaButton()
-        Me.btnDelete = New Guna.UI.WinForms.GunaButton()
+        Me.Jamii_Sports_ClubDataSet = New Jamii_Sports_Club_Managment_System.Jamii_Sports_ClubDataSet()
+        Me.EventsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.EventsTableAdapter = New Jamii_Sports_Club_Managment_System.Jamii_Sports_ClubDataSetTableAdapters.EventsTableAdapter()
+        Me.EventIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.GameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PatronDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CaptainDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TotalFacilitationFeeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GunaElipsePanel1.SuspendLayout()
         CType(Me.GunaDataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Jamii_Sports_ClubDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Jamii_Sports_ClubDataSet.Eevents, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EventsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GunaElipse1
@@ -155,7 +161,7 @@ Partial Class SportEvents
         Me.GunaElipsePanel1.Controls.Add(Me.lblCaptain)
         Me.GunaElipsePanel1.Controls.Add(Me.lblPatron)
         Me.GunaElipsePanel1.Controls.Add(Me.txtgame)
-        Me.GunaElipsePanel1.Controls.Add(Me.txtEventid)
+        Me.GunaElipsePanel1.Controls.Add(Me.EventidTextbox)
         Me.GunaElipsePanel1.Controls.Add(Me.lblGame)
         Me.GunaElipsePanel1.Controls.Add(Me.lblEventid)
         Me.GunaElipsePanel1.Controls.Add(Me.btnClear)
@@ -166,6 +172,33 @@ Partial Class SportEvents
         Me.GunaElipsePanel1.Radius = 20
         Me.GunaElipsePanel1.Size = New System.Drawing.Size(668, 281)
         Me.GunaElipsePanel1.TabIndex = 17
+        '
+        'btnPrevious
+        '
+        Me.btnPrevious.AnimationHoverSpeed = 0.07!
+        Me.btnPrevious.AnimationSpeed = 0.03!
+        Me.btnPrevious.BackColor = System.Drawing.Color.Transparent
+        Me.btnPrevious.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnPrevious.BorderColor = System.Drawing.Color.White
+        Me.btnPrevious.BorderSize = 1
+        Me.btnPrevious.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnPrevious.FocusedColor = System.Drawing.Color.Empty
+        Me.btnPrevious.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.btnPrevious.ForeColor = System.Drawing.Color.White
+        Me.btnPrevious.Image = Nothing
+        Me.btnPrevious.ImageSize = New System.Drawing.Size(20, 20)
+        Me.btnPrevious.Location = New System.Drawing.Point(143, 146)
+        Me.btnPrevious.Name = "btnPrevious"
+        Me.btnPrevious.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnPrevious.OnHoverBorderColor = System.Drawing.Color.White
+        Me.btnPrevious.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnPrevious.OnHoverImage = Nothing
+        Me.btnPrevious.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnPrevious.Radius = 10
+        Me.btnPrevious.Size = New System.Drawing.Size(105, 30)
+        Me.btnPrevious.TabIndex = 92
+        Me.btnPrevious.Text = "Previous"
+        Me.btnPrevious.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtfacilitationfee
         '
@@ -185,6 +218,33 @@ Partial Class SportEvents
         Me.txtfacilitationfee.SelectedText = ""
         Me.txtfacilitationfee.Size = New System.Drawing.Size(239, 34)
         Me.txtfacilitationfee.TabIndex = 80
+        '
+        'btnNext
+        '
+        Me.btnNext.AnimationHoverSpeed = 0.07!
+        Me.btnNext.AnimationSpeed = 0.03!
+        Me.btnNext.BackColor = System.Drawing.Color.Transparent
+        Me.btnNext.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnNext.BorderColor = System.Drawing.Color.White
+        Me.btnNext.BorderSize = 1
+        Me.btnNext.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnNext.FocusedColor = System.Drawing.Color.Empty
+        Me.btnNext.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.btnNext.ForeColor = System.Drawing.Color.White
+        Me.btnNext.Image = Nothing
+        Me.btnNext.ImageSize = New System.Drawing.Size(20, 20)
+        Me.btnNext.Location = New System.Drawing.Point(32, 146)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnNext.OnHoverBorderColor = System.Drawing.Color.White
+        Me.btnNext.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnNext.OnHoverImage = Nothing
+        Me.btnNext.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnNext.Radius = 10
+        Me.btnNext.Size = New System.Drawing.Size(105, 30)
+        Me.btnNext.TabIndex = 91
+        Me.btnNext.Text = "Next"
+        Me.btnNext.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtDatepic
         '
@@ -210,6 +270,33 @@ Partial Class SportEvents
         Me.txtDatepic.TabIndex = 79
         Me.txtDatepic.Text = "Saturday, July 15, 2023"
         Me.txtDatepic.Value = New Date(2023, 7, 15, 19, 23, 48, 573)
+        '
+        'btnDelete
+        '
+        Me.btnDelete.AnimationHoverSpeed = 0.07!
+        Me.btnDelete.AnimationSpeed = 0.03!
+        Me.btnDelete.BackColor = System.Drawing.Color.Transparent
+        Me.btnDelete.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnDelete.BorderColor = System.Drawing.Color.White
+        Me.btnDelete.BorderSize = 1
+        Me.btnDelete.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnDelete.FocusedColor = System.Drawing.Color.Empty
+        Me.btnDelete.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.btnDelete.ForeColor = System.Drawing.Color.White
+        Me.btnDelete.Image = Nothing
+        Me.btnDelete.ImageSize = New System.Drawing.Size(20, 20)
+        Me.btnDelete.Location = New System.Drawing.Point(143, 110)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnDelete.OnHoverBorderColor = System.Drawing.Color.White
+        Me.btnDelete.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnDelete.OnHoverImage = Nothing
+        Me.btnDelete.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnDelete.Radius = 10
+        Me.btnDelete.Size = New System.Drawing.Size(105, 30)
+        Me.btnDelete.TabIndex = 90
+        Me.btnDelete.Text = "Delete"
+        Me.btnDelete.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'lblFacilitationfee
         '
@@ -312,24 +399,24 @@ Partial Class SportEvents
         Me.txtgame.Size = New System.Drawing.Size(239, 34)
         Me.txtgame.TabIndex = 71
         '
-        'txtEventid
+        'EventidTextbox
         '
-        Me.txtEventid.BackColor = System.Drawing.Color.Transparent
-        Me.txtEventid.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
-        Me.txtEventid.BorderColor = System.Drawing.Color.White
-        Me.txtEventid.BorderSize = 1
-        Me.txtEventid.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtEventid.FocusedBaseColor = System.Drawing.Color.White
-        Me.txtEventid.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
-        Me.txtEventid.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.txtEventid.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.txtEventid.Location = New System.Drawing.Point(388, 20)
-        Me.txtEventid.Name = "txtEventid"
-        Me.txtEventid.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.txtEventid.Radius = 10
-        Me.txtEventid.SelectedText = ""
-        Me.txtEventid.Size = New System.Drawing.Size(239, 34)
-        Me.txtEventid.TabIndex = 70
+        Me.EventidTextbox.BackColor = System.Drawing.Color.Transparent
+        Me.EventidTextbox.BaseColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
+        Me.EventidTextbox.BorderColor = System.Drawing.Color.White
+        Me.EventidTextbox.BorderSize = 1
+        Me.EventidTextbox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.EventidTextbox.FocusedBaseColor = System.Drawing.Color.White
+        Me.EventidTextbox.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.EventidTextbox.FocusedForeColor = System.Drawing.SystemColors.ControlText
+        Me.EventidTextbox.Font = New System.Drawing.Font("Segoe UI", 13.0!)
+        Me.EventidTextbox.Location = New System.Drawing.Point(388, 20)
+        Me.EventidTextbox.Name = "EventidTextbox"
+        Me.EventidTextbox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.EventidTextbox.Radius = 10
+        Me.EventidTextbox.SelectedText = ""
+        Me.EventidTextbox.Size = New System.Drawing.Size(239, 34)
+        Me.EventidTextbox.TabIndex = 70
         '
         'lblGame
         '
@@ -447,10 +534,9 @@ Partial Class SportEvents
         '
         'GunaDataGridView1
         '
-        Me.GunaDataGridView1.AllowUserToAddRows = False
-        Me.GunaDataGridView1.AllowUserToDeleteRows = False
         DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(241, Byte), Integer))
         Me.GunaDataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.GunaDataGridView1.AutoGenerateColumns = False
         Me.GunaDataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.GunaDataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(158, Byte), Integer))
         Me.GunaDataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -464,7 +550,8 @@ Partial Class SportEvents
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.GunaDataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.GunaDataGridView1.ColumnHeadersHeight = 40
-        Me.GunaDataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
+        Me.GunaDataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.EventIDDataGridViewTextBoxColumn, Me.GameDataGridViewTextBoxColumn, Me.PatronDataGridViewTextBoxColumn, Me.CaptainDataGridViewTextBoxColumn, Me.DateDataGridViewTextBoxColumn, Me.TotalFacilitationFeeDataGridViewTextBoxColumn})
+        Me.GunaDataGridView1.DataSource = Me.EventsBindingSource
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(245, Byte), Integer))
         DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 10.5!)
@@ -507,116 +594,60 @@ Partial Class SportEvents
         Me.GunaDataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(183, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(225, Byte), Integer))
         Me.GunaDataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black
         '
-        'Column1
+        'Jamii_Sports_ClubDataSet
         '
-        Me.Column1.HeaderText = "Event ID"
-        Me.Column1.Name = "Column1"
+        Me.Jamii_Sports_ClubDataSet.DataSetName = "Jamii_Sports_ClubDataSet"
         '
-        'Column2
         '
-        Me.Column2.HeaderText = "Game"
-        Me.Column2.Name = "Column2"
         '
-        'Column3
+        Me.Jamii_Sports_ClubDataSet.Eevents.Constraints.AddRange(New System.Data.Constraint() {New System.Data.UniqueConstraint("Constraint1", New String() {"Event ID"}, True)})
+        Me.Jamii_Sports_ClubDataSet.Eevents.TableName = "Events"
+        Me.Jamii_Sports_ClubDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
-        Me.Column3.HeaderText = "Patron"
-        Me.Column3.Name = "Column3"
+        'EventsBindingSource
         '
-        'Column4
+        Me.EventsBindingSource.DataMember = "Events"
+        Me.EventsBindingSource.DataSource = Me.Jamii_Sports_ClubDataSet
         '
-        Me.Column4.HeaderText = "Captain"
-        Me.Column4.Name = "Column4"
+        'EventsTableAdapter
         '
-        'Column5
+        Me.EventsTableAdapter.ClearBeforeFill = True
         '
-        Me.Column5.HeaderText = "Date"
-        Me.Column5.Name = "Column5"
+        'EventIDDataGridViewTextBoxColumn
         '
-        'Column6
+        Me.EventIDDataGridViewTextBoxColumn.DataPropertyName = "Event ID"
+        Me.EventIDDataGridViewTextBoxColumn.HeaderText = "Event ID"
+        Me.EventIDDataGridViewTextBoxColumn.Name = "EventIDDataGridViewTextBoxColumn"
         '
-        Me.Column6.HeaderText = "Facilitation Fee"
-        Me.Column6.Name = "Column6"
+        'GameDataGridViewTextBoxColumn
         '
-        'btnPrevious
+        Me.GameDataGridViewTextBoxColumn.DataPropertyName = "Game"
+        Me.GameDataGridViewTextBoxColumn.HeaderText = "Game"
+        Me.GameDataGridViewTextBoxColumn.Name = "GameDataGridViewTextBoxColumn"
         '
-        Me.btnPrevious.AnimationHoverSpeed = 0.07!
-        Me.btnPrevious.AnimationSpeed = 0.03!
-        Me.btnPrevious.BackColor = System.Drawing.Color.Transparent
-        Me.btnPrevious.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnPrevious.BorderColor = System.Drawing.Color.White
-        Me.btnPrevious.BorderSize = 1
-        Me.btnPrevious.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnPrevious.FocusedColor = System.Drawing.Color.Empty
-        Me.btnPrevious.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.btnPrevious.ForeColor = System.Drawing.Color.White
-        Me.btnPrevious.Image = Nothing
-        Me.btnPrevious.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnPrevious.Location = New System.Drawing.Point(143, 146)
-        Me.btnPrevious.Name = "btnPrevious"
-        Me.btnPrevious.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnPrevious.OnHoverBorderColor = System.Drawing.Color.White
-        Me.btnPrevious.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnPrevious.OnHoverImage = Nothing
-        Me.btnPrevious.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnPrevious.Radius = 10
-        Me.btnPrevious.Size = New System.Drawing.Size(105, 30)
-        Me.btnPrevious.TabIndex = 92
-        Me.btnPrevious.Text = "Previous"
-        Me.btnPrevious.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        'PatronDataGridViewTextBoxColumn
         '
-        'btnNext
+        Me.PatronDataGridViewTextBoxColumn.DataPropertyName = "Patron"
+        Me.PatronDataGridViewTextBoxColumn.HeaderText = "Patron"
+        Me.PatronDataGridViewTextBoxColumn.Name = "PatronDataGridViewTextBoxColumn"
         '
-        Me.btnNext.AnimationHoverSpeed = 0.07!
-        Me.btnNext.AnimationSpeed = 0.03!
-        Me.btnNext.BackColor = System.Drawing.Color.Transparent
-        Me.btnNext.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnNext.BorderColor = System.Drawing.Color.White
-        Me.btnNext.BorderSize = 1
-        Me.btnNext.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnNext.FocusedColor = System.Drawing.Color.Empty
-        Me.btnNext.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.btnNext.ForeColor = System.Drawing.Color.White
-        Me.btnNext.Image = Nothing
-        Me.btnNext.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnNext.Location = New System.Drawing.Point(32, 146)
-        Me.btnNext.Name = "btnNext"
-        Me.btnNext.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnNext.OnHoverBorderColor = System.Drawing.Color.White
-        Me.btnNext.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnNext.OnHoverImage = Nothing
-        Me.btnNext.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnNext.Radius = 10
-        Me.btnNext.Size = New System.Drawing.Size(105, 30)
-        Me.btnNext.TabIndex = 91
-        Me.btnNext.Text = "Next"
-        Me.btnNext.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        'CaptainDataGridViewTextBoxColumn
         '
-        'btnDelete
+        Me.CaptainDataGridViewTextBoxColumn.DataPropertyName = "Captain"
+        Me.CaptainDataGridViewTextBoxColumn.HeaderText = "Captain"
+        Me.CaptainDataGridViewTextBoxColumn.Name = "CaptainDataGridViewTextBoxColumn"
         '
-        Me.btnDelete.AnimationHoverSpeed = 0.07!
-        Me.btnDelete.AnimationSpeed = 0.03!
-        Me.btnDelete.BackColor = System.Drawing.Color.Transparent
-        Me.btnDelete.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnDelete.BorderColor = System.Drawing.Color.White
-        Me.btnDelete.BorderSize = 1
-        Me.btnDelete.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnDelete.FocusedColor = System.Drawing.Color.Empty
-        Me.btnDelete.Font = New System.Drawing.Font("Segoe UI", 13.0!)
-        Me.btnDelete.ForeColor = System.Drawing.Color.White
-        Me.btnDelete.Image = Nothing
-        Me.btnDelete.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnDelete.Location = New System.Drawing.Point(143, 110)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(111, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnDelete.OnHoverBorderColor = System.Drawing.Color.White
-        Me.btnDelete.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnDelete.OnHoverImage = Nothing
-        Me.btnDelete.OnPressedColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.btnDelete.Radius = 10
-        Me.btnDelete.Size = New System.Drawing.Size(105, 30)
-        Me.btnDelete.TabIndex = 90
-        Me.btnDelete.Text = "Delete"
-        Me.btnDelete.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        'DateDataGridViewTextBoxColumn
+        '
+        Me.DateDataGridViewTextBoxColumn.DataPropertyName = "Date"
+        Me.DateDataGridViewTextBoxColumn.HeaderText = "Date"
+        Me.DateDataGridViewTextBoxColumn.Name = "DateDataGridViewTextBoxColumn"
+        '
+        'TotalFacilitationFeeDataGridViewTextBoxColumn
+        '
+        Me.TotalFacilitationFeeDataGridViewTextBoxColumn.DataPropertyName = "Total Facilitation Fee"
+        Me.TotalFacilitationFeeDataGridViewTextBoxColumn.HeaderText = "Total Facilitation Fee"
+        Me.TotalFacilitationFeeDataGridViewTextBoxColumn.Name = "TotalFacilitationFeeDataGridViewTextBoxColumn"
         '
         'SportEvents
         '
@@ -638,6 +669,9 @@ Partial Class SportEvents
         Me.GunaElipsePanel1.ResumeLayout(False)
         Me.GunaElipsePanel1.PerformLayout()
         CType(Me.GunaDataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Jamii_Sports_ClubDataSet.Eevents, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Jamii_Sports_ClubDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EventsBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -656,7 +690,7 @@ Partial Class SportEvents
     Friend WithEvents lblCaptain As System.Windows.Forms.Label
     Friend WithEvents lblPatron As System.Windows.Forms.Label
     Friend WithEvents txtgame As Guna.UI.WinForms.GunaTextBox
-    Friend WithEvents txtEventid As Guna.UI.WinForms.GunaTextBox
+    Friend WithEvents EventidTextbox As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents lblGame As System.Windows.Forms.Label
     Friend WithEvents lblEventid As System.Windows.Forms.Label
     Friend WithEvents btnClear As Guna.UI.WinForms.GunaButton
@@ -664,13 +698,16 @@ Partial Class SportEvents
     Friend WithEvents btnAdd As Guna.UI.WinForms.GunaButton
     Friend WithEvents lblEvents As System.Windows.Forms.Label
     Friend WithEvents GunaDataGridView1 As Guna.UI.WinForms.GunaDataGridView
-    Friend WithEvents Column1 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents btnPrevious As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnNext As Guna.UI.WinForms.GunaButton
     Friend WithEvents btnDelete As Guna.UI.WinForms.GunaButton
+    Friend WithEvents Jamii_Sports_ClubDataSet As Jamii_Sports_Club_Managment_System.Jamii_Sports_ClubDataSet
+    Friend WithEvents EventsBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents EventsTableAdapter As Jamii_Sports_Club_Managment_System.Jamii_Sports_ClubDataSetTableAdapters.EventsTableAdapter
+    Friend WithEvents EventIDDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents GameDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents PatronDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents CaptainDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DateDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TotalFacilitationFeeDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

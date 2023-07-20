@@ -38,3 +38,4 @@ C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jam
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Surcharges.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.SportEvents.resources
 C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\obj\Debug\Jamii_Sports_Club_Managment_System.Facilitation.resources
+C:\Users\macca\Documents\Jamii-Sport-Club\Jamii Sports Club Managment System\Jamii Sports Club Managment System\bin\Debug\Jamii Sports Club.mdb

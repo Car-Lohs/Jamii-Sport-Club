@@ -9,7 +9,7 @@
     End Sub
 
     Private Sub btnBrowse_Click(sender As Object, e As EventArgs) Handles btnBrowse.Click
-        Members.Show()
+        Members.ShowDialog()
         Me.Close()
     End Sub
 End Class

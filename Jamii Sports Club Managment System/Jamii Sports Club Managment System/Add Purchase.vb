@@ -5,7 +5,11 @@
     End Sub
 
     Private Sub btnBrowse_Click(sender As Object, e As EventArgs) Handles btnBrowse.Click
-        Purchases.Show()
+        Purchases.ShowDialog()
         Me.Close()
+    End Sub
+
+    Private Sub Add_Purchase_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

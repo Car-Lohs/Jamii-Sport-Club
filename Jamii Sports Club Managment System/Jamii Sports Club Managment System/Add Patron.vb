@@ -8,4 +8,8 @@
         Patrons.Show()
         Me.Close()
     End Sub
+
+    Private Sub Add_Patron_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

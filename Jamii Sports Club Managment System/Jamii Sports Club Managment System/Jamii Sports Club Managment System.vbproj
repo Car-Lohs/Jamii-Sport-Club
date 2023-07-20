@@ -130,6 +130,11 @@
     <Compile Include="Facilitation.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Jamii_Sports_ClubDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Jamii_Sports_ClubDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Members.Designer.vb">
       <DependentUpon>Members.vb</DependentUpon>
     </Compile>
@@ -252,6 +257,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Jamii_Sports_ClubDataSet.xsc">
+      <DependentUpon>Jamii_Sports_ClubDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Jamii_Sports_ClubDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Jamii_Sports_ClubDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Jamii_Sports_ClubDataSet.xss">
+      <DependentUpon>Jamii_Sports_ClubDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -267,6 +283,9 @@
     <None Include="Resources\Asset 1.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Jamii Sports Club.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

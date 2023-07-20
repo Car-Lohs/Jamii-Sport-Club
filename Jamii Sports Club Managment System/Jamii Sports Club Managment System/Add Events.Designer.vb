@@ -331,9 +331,9 @@ Partial Class Add_Events
         Me.lblFacilitationee.ForeColor = System.Drawing.Color.White
         Me.lblFacilitationee.Location = New System.Drawing.Point(243, 275)
         Me.lblFacilitationee.Name = "lblFacilitationee"
-        Me.lblFacilitationee.Size = New System.Drawing.Size(142, 28)
+        Me.lblFacilitationee.Size = New System.Drawing.Size(189, 28)
         Me.lblFacilitationee.TabIndex = 61
-        Me.lblFacilitationee.Text = "Facilitation Fee"
+        Me.lblFacilitationee.Text = "Total Facilitation Fee"
         '
         'txtDate
         '
